@@ -1,0 +1,28 @@
+{% extends 'report_base.html' %}
+{% block styles %}
+    span{
+    font-size: 24px;
+    text-decoration: underline;
+    }
+    li{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    margin: 8px;
+    }
+{% endblock %}
+{% block body %}
+    <span>Table of Content</span>
+    <br />
+    <ol>
+        {% if data.summary_of_project_cost %}<li>Summary of Project Cost</li>{% endif %}
+        {% if data.abstract_of_cost %}<li>Abstract of Cost</li>{% endif %}
+        {% if data.detailed_quantity_calculation %}<li>Detailed Quantity Calculation</li>{% endif %}
+        {% if data.summary_of_rates %}<li>Summary of Rates</li>{% endif %}
+        {% if data.district_rate %}<li>District Rates</li>{% endif %}
+        {% if data.transportation_of_material %}<li>Transport of Material</li>{% endif %}
+        {% if data.rate_including_transportation %}<li>District Rate Including Transport Rate</li>{% endif %}
+        {% if data.rate_analysis_of_general_work %}<li>Rate Analysis of General Works</li>{% endif %}
+    </ol>
+{% endblock body %}

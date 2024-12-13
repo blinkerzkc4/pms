@@ -1,0 +1,47 @@
+
+{% extends 'base.html' %}
+
+{% block title%}
+
+
+{% endblock %}
+{% block body %}
+    {% load get_field_by_name %}
+    <div class="header">
+        <div class="company-name">{{ company_name }}</div>
+        <div class="company-info">
+            {{ company_address}}<br>
+            Phone: {{ phone }}<br>
+            Email: {{ email}}
+        </div>
+    </div>
+
+    <div class="report-content">
+        <div class="report-header">
+            <div class="title">District Rate</div>
+            <div class="date-section">मिति: {{ date }}</div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>S No.</th>
+                    {% for head in headers %}
+                    <th> {{ head }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+            {% for data in data %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    {% for head in actual_heads %}
+                    <td>{{ data|get_val:head }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+
+    {% endblock %}

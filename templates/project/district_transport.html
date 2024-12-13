@@ -1,0 +1,28 @@
+{% extends "report_base.html" %}
+
+{% block body %}
+    <table style="width: 100%; border: 1px solid #ddd; text-align: left; border-collapse: collapse;">
+
+        <tr>
+            <th class="table_header">S No</th>
+            <th class="table_header2">Item</th>
+            <th class="table_header">Unit</th>
+            <th class="table_header">Basic Rate</th>
+            <th class="table_header">Transportation</th>
+            <th class="table_header">Adopted Rate Inc. Transportation</th>
+            <th class="table_header">Remark</th>
+        </tr>
+
+        {% for row in data.data %}
+        <tr>
+            <td class="table_row">{{ forloop.counter }}</td>
+            <td class="table_row">{{ row.rate }}</td>
+            <td class="table_row">{{ row.unit|default_if_none:"" }}</td>
+            <td class="table_row">{{ row.amount|floatformat:-2 }}</td>
+            <td class="table_row">{{ row.transportation_rate|floatformat:-2 }}</td>
+            <td class="table_row">{{ row.total_rate|floatformat:-2 }}</td>
+            <td class="table_row">{{ row.remarks }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

@@ -1,0 +1,1682 @@
+[
+    {
+        "subgroup_key": "logentry",
+        "subgroup_name": "Logentry",
+        "permissions": [
+            "add_logentry",
+            "change_logentry",
+            "delete_logentry",
+            "view_logentry"
+        ]
+    },
+    {
+        "subgroup_key": "group",
+        "subgroup_name": "Group",
+        "permissions": [
+            "add_group",
+            "change_group",
+            "delete_group",
+            "view_group"
+        ]
+    },
+    {
+        "subgroup_key": "permission",
+        "subgroup_name": "Permission",
+        "permissions": [
+            "add_permission",
+            "change_permission",
+            "delete_permission",
+            "view_permission"
+        ]
+    },
+    {
+        "subgroup_key": "address",
+        "subgroup_name": "Address",
+        "permissions": [
+            "add_address",
+            "change_address",
+            "delete_address",
+            "view_address"
+        ]
+    },
+    {
+        "subgroup_key": "contactdetail",
+        "subgroup_name": "Contactdetail",
+        "permissions": [
+            "add_contactdetail",
+            "change_contactdetail",
+            "delete_contactdetail",
+            "view_contactdetail"
+        ]
+    },
+    {
+        "subgroup_key": "contactperson",
+        "subgroup_name": "Contactperson",
+        "permissions": [
+            "add_contactperson",
+            "change_contactperson",
+            "delete_contactperson",
+            "view_contactperson"
+        ]
+    },
+    {
+        "subgroup_key": "documenttype",
+        "subgroup_name": "Documenttype",
+        "permissions": [
+            "add_documenttype",
+            "change_documenttype",
+            "delete_documenttype",
+            "view_documenttype"
+        ]
+    },
+    {
+        "subgroup_key": "gender",
+        "subgroup_name": "Gender",
+        "permissions": [
+            "add_gender",
+            "change_gender",
+            "delete_gender",
+            "view_gender"
+        ]
+    },
+    {
+        "subgroup_key": "approveprocess",
+        "subgroup_name": "Approveprocess",
+        "permissions": [
+            "add_approveprocess",
+            "change_approveprocess",
+            "delete_approveprocess",
+            "view_approveprocess"
+        ]
+    },
+    {
+        "subgroup_key": "budgetammendment",
+        "subgroup_name": "Budgetammendment",
+        "permissions": [
+            "add_budgetammendment",
+            "change_budgetammendment",
+            "delete_budgetammendment",
+            "view_budgetammendment"
+        ]
+    },
+    {
+        "subgroup_key": "budgetexpensemanagement",
+        "subgroup_name": "Budgetexpensemanagement",
+        "permissions": [
+            "add_budgetexpensemanagement",
+            "change_budgetexpensemanagement",
+            "delete_budgetexpensemanagement",
+            "view_budgetexpensemanagement"
+        ]
+    },
+    {
+        "subgroup_key": "budgetmanagement",
+        "subgroup_name": "Budgetmanagement",
+        "permissions": [
+            "add_budgetmanagement",
+            "change_budgetmanagement",
+            "delete_budgetmanagement",
+            "view_budgetmanagement"
+        ]
+    },
+    {
+        "subgroup_key": "budgettransfer",
+        "subgroup_name": "Budgettransfer",
+        "permissions": [
+            "add_budgettransfer",
+            "change_budgettransfer",
+            "delete_budgettransfer",
+            "view_budgettransfer"
+        ]
+    },
+    {
+        "subgroup_key": "estimatefinancialarrangements",
+        "subgroup_name": "Estimatefinancialarrangements",
+        "permissions": [
+            "add_estimatefinancialarrangements",
+            "change_estimatefinancialarrangements",
+            "delete_estimatefinancialarrangements",
+            "view_estimatefinancialarrangements"
+        ]
+    },
+    {
+        "subgroup_key": "expensebudgetrangedetermine",
+        "subgroup_name": "Expensebudgetrangedetermine",
+        "permissions": [
+            "add_expensebudgetrangedetermine",
+            "change_expensebudgetrangedetermine",
+            "delete_expensebudgetrangedetermine",
+            "view_expensebudgetrangedetermine"
+        ]
+    },
+    {
+        "subgroup_key": "incomebudgetrangedetermine",
+        "subgroup_name": "Incomebudgetrangedetermine",
+        "permissions": [
+            "add_incomebudgetrangedetermine",
+            "change_incomebudgetrangedetermine",
+            "delete_incomebudgetrangedetermine",
+            "view_incomebudgetrangedetermine"
+        ]
+    },
+    {
+        "subgroup_key": "source",
+        "subgroup_name": "Source",
+        "permissions": [
+            "add_source",
+            "change_source",
+            "delete_source",
+            "view_source"
+        ]
+    },
+    {
+        "subgroup_key": "contenttype",
+        "subgroup_name": "Contenttype",
+        "permissions": [
+            "add_contenttype",
+            "change_contenttype",
+            "delete_contenttype",
+            "view_contenttype"
+        ]
+    },
+    {
+        "subgroup_key": "country",
+        "subgroup_name": "Country",
+        "permissions": [
+            "add_country",
+            "change_country",
+            "delete_country",
+            "view_country"
+        ]
+    },
+    {
+        "subgroup_key": "cumulativedetail",
+        "subgroup_name": "Cumulativedetail",
+        "permissions": [
+            "add_cumulativedetail",
+            "change_cumulativedetail",
+            "delete_cumulativedetail",
+            "view_cumulativedetail"
+        ]
+    },
+    {
+        "subgroup_key": "currentworkingdetail",
+        "subgroup_name": "Currentworkingdetail",
+        "permissions": [
+            "add_currentworkingdetail",
+            "change_currentworkingdetail",
+            "delete_currentworkingdetail",
+            "view_currentworkingdetail"
+        ]
+    },
+    {
+        "subgroup_key": "department",
+        "subgroup_name": "Department",
+        "permissions": [
+            "add_department",
+            "change_department",
+            "delete_department",
+            "view_department"
+        ]
+    },
+    {
+        "subgroup_key": "departmentbranch",
+        "subgroup_name": "Departmentbranch",
+        "permissions": [
+            "add_departmentbranch",
+            "change_departmentbranch",
+            "delete_departmentbranch",
+            "view_departmentbranch"
+        ]
+    },
+    {
+        "subgroup_key": "employee",
+        "subgroup_name": "Employee",
+        "permissions": [
+            "add_employee",
+            "change_employee",
+            "delete_employee",
+            "view_employee"
+        ]
+    },
+    {
+        "subgroup_key": "employeesector",
+        "subgroup_name": "Employeesector",
+        "permissions": [
+            "add_employeesector",
+            "change_employeesector",
+            "delete_employeesector",
+            "view_employeesector"
+        ]
+    },
+    {
+        "subgroup_key": "employeetype",
+        "subgroup_name": "Employeetype",
+        "permissions": [
+            "add_employeetype",
+            "change_employeetype",
+            "delete_employeetype",
+            "view_employeetype"
+        ]
+    },
+    {
+        "subgroup_key": "enrollmentdetail",
+        "subgroup_name": "Enrollmentdetail",
+        "permissions": [
+            "add_enrollmentdetail",
+            "change_enrollmentdetail",
+            "delete_enrollmentdetail",
+            "view_enrollmentdetail"
+        ]
+    },
+    {
+        "subgroup_key": "familydetail",
+        "subgroup_name": "Familydetail",
+        "permissions": [
+            "add_familydetail",
+            "change_familydetail",
+            "delete_familydetail",
+            "view_familydetail"
+        ]
+    },
+    {
+        "subgroup_key": "language",
+        "subgroup_name": "Language",
+        "permissions": [
+            "add_language",
+            "change_language",
+            "delete_language",
+            "view_language"
+        ]
+    },
+    {
+        "subgroup_key": "maritalstatus",
+        "subgroup_name": "Maritalstatus",
+        "permissions": [
+            "add_maritalstatus",
+            "change_maritalstatus",
+            "delete_maritalstatus",
+            "view_maritalstatus"
+        ]
+    },
+    {
+        "subgroup_key": "nationality",
+        "subgroup_name": "Nationality",
+        "permissions": [
+            "add_nationality",
+            "change_nationality",
+            "delete_nationality",
+            "view_nationality"
+        ]
+    },
+    {
+        "subgroup_key": "position",
+        "subgroup_name": "Position",
+        "permissions": [
+            "add_position",
+            "change_position",
+            "delete_position",
+            "view_position"
+        ]
+    },
+    {
+        "subgroup_key": "positionlevel",
+        "subgroup_name": "Positionlevel",
+        "permissions": [
+            "add_positionlevel",
+            "change_positionlevel",
+            "delete_positionlevel",
+            "view_positionlevel"
+        ]
+    },
+    {
+        "subgroup_key": "publicrepresentativedetail",
+        "subgroup_name": "Publicrepresentativedetail",
+        "permissions": [
+            "add_publicrepresentativedetail",
+            "change_publicrepresentativedetail",
+            "delete_publicrepresentativedetail",
+            "view_publicrepresentativedetail"
+        ]
+    },
+    {
+        "subgroup_key": "publicrepresentativeposition",
+        "subgroup_name": "Publicrepresentativeposition",
+        "permissions": [
+            "add_publicrepresentativeposition",
+            "change_publicrepresentativeposition",
+            "delete_publicrepresentativeposition",
+            "view_publicrepresentativeposition"
+        ]
+    },
+    {
+        "subgroup_key": "religion",
+        "subgroup_name": "Religion",
+        "permissions": [
+            "add_religion",
+            "change_religion",
+            "delete_religion",
+            "view_religion"
+        ]
+    },
+    {
+        "subgroup_key": "servicegroup",
+        "subgroup_name": "Servicegroup",
+        "permissions": [
+            "add_servicegroup",
+            "change_servicegroup",
+            "delete_servicegroup",
+            "view_servicegroup"
+        ]
+    },
+    {
+        "subgroup_key": "taxpayer",
+        "subgroup_name": "Taxpayer",
+        "permissions": [
+            "add_taxpayer",
+            "change_taxpayer",
+            "delete_taxpayer",
+            "view_taxpayer"
+        ]
+    },
+    {
+        "subgroup_key": "budgetassurance",
+        "subgroup_name": "Budgetassurance",
+        "permissions": [
+            "add_budgetassurance",
+            "change_budgetassurance",
+            "delete_budgetassurance",
+            "view_budgetassurance"
+        ]
+    },
+    {
+        "subgroup_key": "projectdocument",
+        "subgroup_name": "Projectdocument",
+        "permissions": [
+            "add_projectdocument",
+            "change_projectdocument",
+            "delete_projectdocument",
+            "view_projectdocument"
+        ]
+    },
+    {
+        "subgroup_key": "projectworktype",
+        "subgroup_name": "Projectworktype",
+        "permissions": [
+            "add_projectworktype",
+            "change_projectworktype",
+            "delete_projectworktype",
+            "view_projectworktype"
+        ]
+    },
+    {
+        "subgroup_key": "workclass",
+        "subgroup_name": "Workclass",
+        "permissions": [
+            "add_workclass",
+            "change_workclass",
+            "delete_workclass",
+            "view_workclass"
+        ]
+    },
+    {
+        "subgroup_key": "workproject",
+        "subgroup_name": "Workproject",
+        "permissions": [
+            "add_workproject",
+            "change_workproject",
+            "delete_workproject",
+            "view_workproject"
+        ]
+    },
+    {
+        "subgroup_key": "accesslog",
+        "subgroup_name": "Accesslog",
+        "permissions": [
+            "add_accesslog",
+            "change_accesslog",
+            "delete_accesslog",
+            "view_accesslog"
+        ]
+    },
+    {
+        "subgroup_key": "activitytype",
+        "subgroup_name": "Activitytype",
+        "permissions": [
+            "add_activitytype",
+            "change_activitytype",
+            "delete_activitytype",
+            "view_activitytype"
+        ]
+    },
+    {
+        "subgroup_key": "norm",
+        "subgroup_name": "Norm",
+        "permissions": [
+            "add_norm",
+            "change_norm",
+            "delete_norm",
+            "view_norm"
+        ]
+    },
+    {
+        "subgroup_key": "normactivity",
+        "subgroup_name": "Normactivity",
+        "permissions": [
+            "add_normactivity",
+            "change_normactivity",
+            "delete_normactivity",
+            "view_normactivity"
+        ]
+    },
+    {
+        "subgroup_key": "normcomponent",
+        "subgroup_name": "Normcomponent",
+        "permissions": [
+            "add_normcomponent",
+            "change_normcomponent",
+            "delete_normcomponent",
+            "view_normcomponent"
+        ]
+    },
+    {
+        "subgroup_key": "normextracost",
+        "subgroup_name": "Normextracost",
+        "permissions": [
+            "add_normextracost",
+            "change_normextracost",
+            "delete_normextracost",
+            "view_normextracost"
+        ]
+    },
+    {
+        "subgroup_key": "notification",
+        "subgroup_name": "Notification",
+        "permissions": [
+            "add_notification",
+            "change_notification",
+            "delete_notification",
+            "view_notification"
+        ]
+    },
+    {
+        "subgroup_key": "accountingtopic",
+        "subgroup_name": "Accountingtopic",
+        "permissions": [
+            "add_accountingtopic",
+            "change_accountingtopic",
+            "delete_accountingtopic",
+            "view_accountingtopic"
+        ]
+    },
+    {
+        "subgroup_key": "bailtype",
+        "subgroup_name": "Bailtype",
+        "permissions": [
+            "add_bailtype",
+            "change_bailtype",
+            "delete_bailtype",
+            "view_bailtype"
+        ]
+    },
+    {
+        "subgroup_key": "benefiteddetail",
+        "subgroup_name": "Benefiteddetail",
+        "permissions": [
+            "add_benefiteddetail",
+            "change_benefiteddetail",
+            "delete_benefiteddetail",
+            "view_benefiteddetail"
+        ]
+    },
+    {
+        "subgroup_key": "budgetallocationdetail",
+        "subgroup_name": "Budgetallocationdetail",
+        "permissions": [
+            "add_budgetallocationdetail",
+            "change_budgetallocationdetail",
+            "delete_budgetallocationdetail",
+            "view_budgetallocationdetail"
+        ]
+    },
+    {
+        "subgroup_key": "buildingmaterialdetail",
+        "subgroup_name": "Buildingmaterialdetail",
+        "permissions": [
+            "add_buildingmaterialdetail",
+            "change_buildingmaterialdetail",
+            "delete_buildingmaterialdetail",
+            "view_buildingmaterialdetail"
+        ]
+    },
+    {
+        "subgroup_key": "consumerformulation",
+        "subgroup_name": "Consumerformulation",
+        "permissions": [
+            "add_consumerformulation",
+            "change_consumerformulation",
+            "delete_consumerformulation",
+            "view_consumerformulation"
+        ]
+    },
+    {
+        "subgroup_key": "depositmandate",
+        "subgroup_name": "Depositmandate",
+        "permissions": [
+            "add_depositmandate",
+            "change_depositmandate",
+            "delete_depositmandate",
+            "view_depositmandate"
+        ]
+    },
+    {
+        "subgroup_key": "estimationsubmitacceptance",
+        "subgroup_name": "Estimationsubmitacceptance",
+        "permissions": [
+            "add_estimationsubmitacceptance",
+            "change_estimationsubmitacceptance",
+            "delete_estimationsubmitacceptance",
+            "view_estimationsubmitacceptance"
+        ]
+    },
+    {
+        "subgroup_key": "expensetypedetail",
+        "subgroup_name": "Expensetypedetail",
+        "permissions": [
+            "add_expensetypedetail",
+            "change_expensetypedetail",
+            "delete_expensetypedetail",
+            "view_expensetypedetail"
+        ]
+    },
+    {
+        "subgroup_key": "installment",
+        "subgroup_name": "Installment",
+        "permissions": [
+            "add_installment",
+            "change_installment",
+            "delete_installment",
+            "view_installment"
+        ]
+    },
+    {
+        "subgroup_key": "installmentdetail",
+        "subgroup_name": "Installmentdetail",
+        "permissions": [
+            "add_installmentdetail",
+            "change_installmentdetail",
+            "delete_installmentdetail",
+            "view_installmentdetail"
+        ]
+    },
+    {
+        "subgroup_key": "institutionalcollaborationmandate",
+        "subgroup_name": "Institutionalcollaborationmandate",
+        "permissions": [
+            "add_institutionalcollaborationmandate",
+            "change_institutionalcollaborationmandate",
+            "delete_institutionalcollaborationmandate",
+            "view_institutionalcollaborationmandate"
+        ]
+    },
+    {
+        "subgroup_key": "institutionalcollaborationnominatedstaff",
+        "subgroup_name": "Institutionalcollaborationnominatedstaff",
+        "permissions": [
+            "add_institutionalcollaborationnominatedstaff",
+            "change_institutionalcollaborationnominatedstaff",
+            "delete_institutionalcollaborationnominatedstaff",
+            "view_institutionalcollaborationnominatedstaff"
+        ]
+    },
+    {
+        "subgroup_key": "maintenancearrangement",
+        "subgroup_name": "Maintenancearrangement",
+        "permissions": [
+            "add_maintenancearrangement",
+            "change_maintenancearrangement",
+            "delete_maintenancearrangement",
+            "view_maintenancearrangement"
+        ]
+    },
+    {
+        "subgroup_key": "measuringbook",
+        "subgroup_name": "Measuringbook",
+        "permissions": [
+            "add_measuringbook",
+            "change_measuringbook",
+            "delete_measuringbook",
+            "view_measuringbook"
+        ]
+    },
+    {
+        "subgroup_key": "monitoringcommitteedetail",
+        "subgroup_name": "Monitoringcommitteedetail",
+        "permissions": [
+            "add_monitoringcommitteedetail",
+            "change_monitoringcommitteedetail",
+            "delete_monitoringcommitteedetail",
+            "view_monitoringcommitteedetail"
+        ]
+    },
+    {
+        "subgroup_key": "officialprocess",
+        "subgroup_name": "Officialprocess",
+        "permissions": [
+            "add_officialprocess",
+            "change_officialprocess",
+            "delete_officialprocess",
+            "view_officialprocess"
+        ]
+    },
+    {
+        "subgroup_key": "openingcontractaccount",
+        "subgroup_name": "Openingcontractaccount",
+        "permissions": [
+            "add_openingcontractaccount",
+            "change_openingcontractaccount",
+            "delete_openingcontractaccount",
+            "view_openingcontractaccount"
+        ]
+    },
+    {
+        "subgroup_key": "paymentexitbill",
+        "subgroup_name": "Paymentexitbill",
+        "permissions": [
+            "add_paymentexitbill",
+            "change_paymentexitbill",
+            "delete_paymentexitbill",
+            "view_paymentexitbill"
+        ]
+    },
+    {
+        "subgroup_key": "planstartdecision",
+        "subgroup_name": "Planstartdecision",
+        "permissions": [
+            "add_planstartdecision",
+            "change_planstartdecision",
+            "delete_planstartdecision",
+            "view_planstartdecision"
+        ]
+    },
+    {
+        "subgroup_key": "probabilitystudyapprove",
+        "subgroup_name": "Probabilitystudyapprove",
+        "permissions": [
+            "add_probabilitystudyapprove",
+            "change_probabilitystudyapprove",
+            "delete_probabilitystudyapprove",
+            "view_probabilitystudyapprove"
+        ]
+    },
+    {
+        "subgroup_key": "projectagreement",
+        "subgroup_name": "Projectagreement",
+        "permissions": [
+            "add_projectagreement",
+            "change_projectagreement",
+            "delete_projectagreement",
+            "view_projectagreement"
+        ]
+    },
+    {
+        "subgroup_key": "projectbidcollection",
+        "subgroup_name": "Projectbidcollection",
+        "permissions": [
+            "add_projectbidcollection",
+            "change_projectbidcollection",
+            "delete_projectbidcollection",
+            "view_projectbidcollection"
+        ]
+    },
+    {
+        "subgroup_key": "projectdarbhaubid",
+        "subgroup_name": "Projectdarbhaubid",
+        "permissions": [
+            "add_projectdarbhaubid",
+            "change_projectdarbhaubid",
+            "delete_projectdarbhaubid",
+            "view_projectdarbhaubid"
+        ]
+    },
+    {
+        "subgroup_key": "projectdeadline",
+        "subgroup_name": "Projectdeadline",
+        "permissions": [
+            "add_projectdeadline",
+            "change_projectdeadline",
+            "delete_projectdeadline",
+            "view_projectdeadline"
+        ]
+    },
+    {
+        "subgroup_key": "projectexecution",
+        "subgroup_name": "Projectexecution",
+        "permissions": [
+            "add_projectexecution",
+            "change_projectexecution",
+            "delete_projectexecution",
+            "view_projectexecution"
+        ]
+    },
+    {
+        "subgroup_key": "projectexecutiondocument",
+        "subgroup_name": "Projectexecutiondocument",
+        "permissions": [
+            "add_projectexecutiondocument",
+            "change_projectexecutiondocument",
+            "delete_projectexecutiondocument",
+            "view_projectexecutiondocument"
+        ]
+    },
+    {
+        "subgroup_key": "projectfinishedbailreturn",
+        "subgroup_name": "Projectfinishedbailreturn",
+        "permissions": [
+            "add_projectfinishedbailreturn",
+            "change_projectfinishedbailreturn",
+            "delete_projectfinishedbailreturn",
+            "view_projectfinishedbailreturn"
+        ]
+    },
+    {
+        "subgroup_key": "projectmobilization",
+        "subgroup_name": "Projectmobilization",
+        "permissions": [
+            "add_projectmobilization",
+            "change_projectmobilization",
+            "delete_projectmobilization",
+            "view_projectmobilization"
+        ]
+    },
+    {
+        "subgroup_key": "projectphysicaldescription",
+        "subgroup_name": "Projectphysicaldescription",
+        "permissions": [
+            "add_projectphysicaldescription",
+            "change_projectphysicaldescription",
+            "delete_projectphysicaldescription",
+            "view_projectphysicaldescription"
+        ]
+    },
+    {
+        "subgroup_key": "projectreportfinishedandupdate",
+        "subgroup_name": "Projectreportfinishedandupdate",
+        "permissions": [
+            "add_projectreportfinishedandupdate",
+            "change_projectreportfinishedandupdate",
+            "delete_projectreportfinishedandupdate",
+            "view_projectreportfinishedandupdate"
+        ]
+    },
+    {
+        "subgroup_key": "projectrevision",
+        "subgroup_name": "Projectrevision",
+        "permissions": [
+            "add_projectrevision",
+            "change_projectrevision",
+            "delete_projectrevision",
+            "view_projectrevision"
+        ]
+    },
+    {
+        "subgroup_key": "projecttask",
+        "subgroup_name": "Projecttask",
+        "permissions": [
+            "add_projecttask",
+            "change_projecttask",
+            "delete_projecttask",
+            "view_projecttask"
+        ]
+    },
+    {
+        "subgroup_key": "projecttender",
+        "subgroup_name": "Projecttender",
+        "permissions": [
+            "add_projecttender",
+            "change_projecttender",
+            "delete_projecttender",
+            "view_projecttender"
+        ]
+    },
+    {
+        "subgroup_key": "projectunitdetail",
+        "subgroup_name": "Projectunitdetail",
+        "permissions": [
+            "add_projectunitdetail",
+            "change_projectunitdetail",
+            "delete_projectunitdetail",
+            "view_projectunitdetail"
+        ]
+    },
+    {
+        "subgroup_key": "startpmsprocess",
+        "subgroup_name": "Startpmsprocess",
+        "permissions": [
+            "add_startpmsprocess",
+            "change_startpmsprocess",
+            "delete_startpmsprocess",
+            "view_startpmsprocess"
+        ]
+    },
+    {
+        "subgroup_key": "tenderpurchasebranch",
+        "subgroup_name": "Tenderpurchasebranch",
+        "permissions": [
+            "add_tenderpurchasebranch",
+            "change_tenderpurchasebranch",
+            "delete_tenderpurchasebranch",
+            "view_tenderpurchasebranch"
+        ]
+    },
+    {
+        "subgroup_key": "usercommitteedocuments",
+        "subgroup_name": "Usercommitteedocuments",
+        "permissions": [
+            "add_usercommitteedocuments",
+            "change_usercommitteedocuments",
+            "delete_usercommitteedocuments",
+            "view_usercommitteedocuments"
+        ]
+    },
+    {
+        "subgroup_key": "usercommitteemonitoring",
+        "subgroup_name": "Usercommitteemonitoring",
+        "permissions": [
+            "add_usercommitteemonitoring",
+            "change_usercommitteemonitoring",
+            "delete_usercommitteemonitoring",
+            "view_usercommitteemonitoring"
+        ]
+    },
+    {
+        "subgroup_key": "usercommitteeprojectworkcomplete",
+        "subgroup_name": "Usercommitteeprojectworkcomplete",
+        "permissions": [
+            "add_usercommitteeprojectworkcomplete",
+            "change_usercommitteeprojectworkcomplete",
+            "delete_usercommitteeprojectworkcomplete",
+            "view_usercommitteeprojectworkcomplete"
+        ]
+    },
+    {
+        "subgroup_key": "district",
+        "subgroup_name": "District",
+        "permissions": [
+            "add_district",
+            "change_district",
+            "delete_district",
+            "view_district"
+        ]
+    },
+    {
+        "subgroup_key": "districtratefiles",
+        "subgroup_name": "Districtratefiles",
+        "permissions": [
+            "add_districtratefiles",
+            "change_districtratefiles",
+            "delete_districtratefiles",
+            "view_districtratefiles"
+        ]
+    },
+    {
+        "subgroup_key": "estimate",
+        "subgroup_name": "Estimate",
+        "permissions": [
+            "add_estimate",
+            "change_estimate",
+            "delete_estimate",
+            "view_estimate"
+        ]
+    },
+    {
+        "subgroup_key": "estimationrate",
+        "subgroup_name": "Estimationrate",
+        "permissions": [
+            "add_estimationrate",
+            "change_estimationrate",
+            "delete_estimationrate",
+            "view_estimationrate"
+        ]
+    },
+    {
+        "subgroup_key": "financialyear",
+        "subgroup_name": "Financialyear",
+        "permissions": [
+            "add_financialyear",
+            "change_financialyear",
+            "delete_financialyear",
+            "view_financialyear"
+        ]
+    },
+    {
+        "subgroup_key": "jdcomment",
+        "subgroup_name": "Jdcomment",
+        "permissions": [
+            "add_jdcomment",
+            "change_jdcomment",
+            "delete_jdcomment",
+            "view_jdcomment"
+        ]
+    },
+    {
+        "subgroup_key": "jobdescription",
+        "subgroup_name": "Jobdescription",
+        "permissions": [
+            "add_jobdescription",
+            "change_jobdescription",
+            "delete_jobdescription",
+            "view_jobdescription"
+        ]
+    },
+    {
+        "subgroup_key": "jobdescriptionfile",
+        "subgroup_name": "Jobdescriptionfile",
+        "permissions": [
+            "add_jobdescriptionfile",
+            "change_jobdescriptionfile",
+            "delete_jobdescriptionfile",
+            "view_jobdescriptionfile"
+        ]
+    },
+    {
+        "subgroup_key": "municipality",
+        "subgroup_name": "Municipality",
+        "permissions": [
+            "add_municipality",
+            "change_municipality",
+            "delete_municipality",
+            "view_municipality"
+        ]
+    },
+    {
+        "subgroup_key": "project",
+        "subgroup_name": "Project",
+        "permissions": [
+            "add_project",
+            "change_project",
+            "delete_project",
+            "view_project"
+        ]
+    },
+    {
+        "subgroup_key": "projectcategory",
+        "subgroup_name": "Projectcategory",
+        "permissions": [
+            "add_projectcategory",
+            "change_projectcategory",
+            "delete_projectcategory",
+            "view_projectcategory"
+        ]
+    },
+    {
+        "subgroup_key": "province",
+        "subgroup_name": "Province",
+        "permissions": [
+            "add_province",
+            "change_province",
+            "delete_province",
+            "view_province"
+        ]
+    },
+    {
+        "subgroup_key": "quantity",
+        "subgroup_name": "Quantity",
+        "permissions": [
+            "add_quantity",
+            "change_quantity",
+            "delete_quantity",
+            "view_quantity"
+        ]
+    },
+    {
+        "subgroup_key": "rate",
+        "subgroup_name": "Rate",
+        "permissions": [
+            "add_rate",
+            "change_rate",
+            "delete_rate",
+            "view_rate"
+        ]
+    },
+    {
+        "subgroup_key": "ratearea",
+        "subgroup_name": "Ratearea",
+        "permissions": [
+            "add_ratearea",
+            "change_ratearea",
+            "delete_ratearea",
+            "view_ratearea"
+        ]
+    },
+    {
+        "subgroup_key": "ratecategory",
+        "subgroup_name": "Ratecategory",
+        "permissions": [
+            "add_ratecategory",
+            "change_ratecategory",
+            "delete_ratecategory",
+            "view_ratecategory"
+        ]
+    },
+    {
+        "subgroup_key": "ratesource",
+        "subgroup_name": "Ratesource",
+        "permissions": [
+            "add_ratesource",
+            "change_ratesource",
+            "delete_ratesource",
+            "view_ratesource"
+        ]
+    },
+    {
+        "subgroup_key": "summaryextra",
+        "subgroup_name": "Summaryextra",
+        "permissions": [
+            "add_summaryextra",
+            "change_summaryextra",
+            "delete_summaryextra",
+            "view_summaryextra"
+        ]
+    },
+    {
+        "subgroup_key": "topic",
+        "subgroup_name": "Topic",
+        "permissions": [
+            "add_topic",
+            "change_topic",
+            "delete_topic",
+            "view_topic"
+        ]
+    },
+    {
+        "subgroup_key": "unit",
+        "subgroup_name": "Unit",
+        "permissions": [
+            "add_unit",
+            "change_unit",
+            "delete_unit",
+            "view_unit"
+        ]
+    },
+    {
+        "subgroup_key": "ward",
+        "subgroup_name": "Ward",
+        "permissions": [
+            "add_ward",
+            "change_ward",
+            "delete_ward",
+            "view_ward"
+        ]
+    },
+    {
+        "subgroup_key": "accounttitlemanagement",
+        "subgroup_name": "Accounttitlemanagement",
+        "permissions": [
+            "add_accounttitlemanagement",
+            "change_accounttitlemanagement",
+            "delete_accounttitlemanagement",
+            "view_accounttitlemanagement"
+        ]
+    },
+    {
+        "subgroup_key": "bankaccount",
+        "subgroup_name": "Bankaccount",
+        "permissions": [
+            "add_bankaccount",
+            "change_bankaccount",
+            "delete_bankaccount",
+            "view_bankaccount"
+        ]
+    },
+    {
+        "subgroup_key": "banktype",
+        "subgroup_name": "Banktype",
+        "permissions": [
+            "add_banktype",
+            "change_banktype",
+            "delete_banktype",
+            "view_banktype"
+        ]
+    },
+    {
+        "subgroup_key": "bfi",
+        "subgroup_name": "Bfi",
+        "permissions": [
+            "add_bfi",
+            "change_bfi",
+            "delete_bfi",
+            "view_bfi"
+        ]
+    },
+    {
+        "subgroup_key": "budgetsource",
+        "subgroup_name": "Budgetsource",
+        "permissions": [
+            "add_budgetsource",
+            "change_budgetsource",
+            "delete_budgetsource",
+            "view_budgetsource"
+        ]
+    },
+    {
+        "subgroup_key": "budgetsubtitle",
+        "subgroup_name": "Budgetsubtitle",
+        "permissions": [
+            "add_budgetsubtitle",
+            "change_budgetsubtitle",
+            "delete_budgetsubtitle",
+            "view_budgetsubtitle"
+        ]
+    },
+    {
+        "subgroup_key": "chequeformat",
+        "subgroup_name": "Chequeformat",
+        "permissions": [
+            "add_chequeformat",
+            "change_chequeformat",
+            "delete_chequeformat",
+            "view_chequeformat"
+        ]
+    },
+    {
+        "subgroup_key": "collectpayment",
+        "subgroup_name": "Collectpayment",
+        "permissions": [
+            "add_collectpayment",
+            "change_collectpayment",
+            "delete_collectpayment",
+            "view_collectpayment"
+        ]
+    },
+    {
+        "subgroup_key": "constructionmaterialdescription",
+        "subgroup_name": "Constructionmaterialdescription",
+        "permissions": [
+            "add_constructionmaterialdescription",
+            "change_constructionmaterialdescription",
+            "delete_constructionmaterialdescription",
+            "view_constructionmaterialdescription"
+        ]
+    },
+    {
+        "subgroup_key": "consumercommittee",
+        "subgroup_name": "Consumercommittee",
+        "permissions": [
+            "add_consumercommittee",
+            "change_consumercommittee",
+            "delete_consumercommittee",
+            "view_consumercommittee"
+        ]
+    },
+    {
+        "subgroup_key": "contractortype",
+        "subgroup_name": "Contractortype",
+        "permissions": [
+            "add_contractortype",
+            "change_contractortype",
+            "delete_contractortype",
+            "view_contractortype"
+        ]
+    },
+    {
+        "subgroup_key": "currency",
+        "subgroup_name": "Currency",
+        "permissions": [
+            "add_currency",
+            "change_currency",
+            "delete_currency",
+            "view_currency"
+        ]
+    },
+    {
+        "subgroup_key": "drainagetype",
+        "subgroup_name": "Drainagetype",
+        "permissions": [
+            "add_drainagetype",
+            "change_drainagetype",
+            "delete_drainagetype",
+            "view_drainagetype"
+        ]
+    },
+    {
+        "subgroup_key": "executiveagency",
+        "subgroup_name": "Executiveagency",
+        "permissions": [
+            "add_executiveagency",
+            "change_executiveagency",
+            "delete_executiveagency",
+            "view_executiveagency"
+        ]
+    },
+    {
+        "subgroup_key": "expansetype",
+        "subgroup_name": "Expansetype",
+        "permissions": [
+            "add_expansetype",
+            "change_expansetype",
+            "delete_expansetype",
+            "view_expansetype"
+        ]
+    },
+    {
+        "subgroup_key": "membertype",
+        "subgroup_name": "Membertype",
+        "permissions": [
+            "add_membertype",
+            "change_membertype",
+            "delete_membertype",
+            "view_membertype"
+        ]
+    },
+    {
+        "subgroup_key": "module",
+        "subgroup_name": "Module",
+        "permissions": [
+            "add_module",
+            "change_module",
+            "delete_module",
+            "view_module"
+        ]
+    },
+    {
+        "subgroup_key": "newspaper",
+        "subgroup_name": "Newspaper",
+        "permissions": [
+            "add_newspaper",
+            "change_newspaper",
+            "delete_newspaper",
+            "view_newspaper"
+        ]
+    },
+    {
+        "subgroup_key": "office",
+        "subgroup_name": "Office",
+        "permissions": [
+            "add_office",
+            "change_office",
+            "delete_office",
+            "view_office"
+        ]
+    },
+    {
+        "subgroup_key": "organization",
+        "subgroup_name": "Organization",
+        "permissions": [
+            "add_organization",
+            "change_organization",
+            "delete_organization",
+            "view_organization"
+        ]
+    },
+    {
+        "subgroup_key": "organizationtype",
+        "subgroup_name": "Organizationtype",
+        "permissions": [
+            "add_organizationtype",
+            "change_organizationtype",
+            "delete_organizationtype",
+            "view_organizationtype"
+        ]
+    },
+    {
+        "subgroup_key": "paymentmedium",
+        "subgroup_name": "Paymentmedium",
+        "permissions": [
+            "add_paymentmedium",
+            "change_paymentmedium",
+            "delete_paymentmedium",
+            "view_paymentmedium"
+        ]
+    },
+    {
+        "subgroup_key": "paymentmethod",
+        "subgroup_name": "Paymentmethod",
+        "permissions": [
+            "add_paymentmethod",
+            "change_paymentmethod",
+            "delete_paymentmethod",
+            "view_paymentmethod"
+        ]
+    },
+    {
+        "subgroup_key": "prioritytype",
+        "subgroup_name": "Prioritytype",
+        "permissions": [
+            "add_prioritytype",
+            "change_prioritytype",
+            "delete_prioritytype",
+            "view_prioritytype"
+        ]
+    },
+    {
+        "subgroup_key": "program",
+        "subgroup_name": "Program",
+        "permissions": [
+            "add_program",
+            "change_program",
+            "delete_program",
+            "view_program"
+        ]
+    },
+    {
+        "subgroup_key": "projectactivity",
+        "subgroup_name": "Projectactivity",
+        "permissions": [
+            "add_projectactivity",
+            "change_projectactivity",
+            "delete_projectactivity",
+            "view_projectactivity"
+        ]
+    },
+    {
+        "subgroup_key": "projectlevel",
+        "subgroup_name": "Projectlevel",
+        "permissions": [
+            "add_projectlevel",
+            "change_projectlevel",
+            "delete_projectlevel",
+            "view_projectlevel"
+        ]
+    },
+    {
+        "subgroup_key": "projectnature",
+        "subgroup_name": "Projectnature",
+        "permissions": [
+            "add_projectnature",
+            "change_projectnature",
+            "delete_projectnature",
+            "view_projectnature"
+        ]
+    },
+    {
+        "subgroup_key": "projectprocess",
+        "subgroup_name": "Projectprocess",
+        "permissions": [
+            "add_projectprocess",
+            "change_projectprocess",
+            "delete_projectprocess",
+            "view_projectprocess"
+        ]
+    },
+    {
+        "subgroup_key": "projectproposedtype",
+        "subgroup_name": "Projectproposedtype",
+        "permissions": [
+            "add_projectproposedtype",
+            "change_projectproposedtype",
+            "delete_projectproposedtype",
+            "view_projectproposedtype"
+        ]
+    },
+    {
+        "subgroup_key": "projectstartdecision",
+        "subgroup_name": "Projectstartdecision",
+        "permissions": [
+            "add_projectstartdecision",
+            "change_projectstartdecision",
+            "delete_projectstartdecision",
+            "view_projectstartdecision"
+        ]
+    },
+    {
+        "subgroup_key": "projectstatus",
+        "subgroup_name": "Projectstatus",
+        "permissions": [
+            "add_projectstatus",
+            "change_projectstatus",
+            "delete_projectstatus",
+            "view_projectstatus"
+        ]
+    },
+    {
+        "subgroup_key": "projecttype",
+        "subgroup_name": "Projecttype",
+        "permissions": [
+            "add_projecttype",
+            "change_projecttype",
+            "delete_projecttype",
+            "view_projecttype"
+        ]
+    },
+    {
+        "subgroup_key": "purchasetype",
+        "subgroup_name": "Purchasetype",
+        "permissions": [
+            "add_purchasetype",
+            "change_purchasetype",
+            "delete_purchasetype",
+            "view_purchasetype"
+        ]
+    },
+    {
+        "subgroup_key": "purposeplan",
+        "subgroup_name": "Purposeplan",
+        "permissions": [
+            "add_purposeplan",
+            "change_purposeplan",
+            "delete_purposeplan",
+            "view_purposeplan"
+        ]
+    },
+    {
+        "subgroup_key": "road",
+        "subgroup_name": "Road",
+        "permissions": [
+            "add_road",
+            "change_road",
+            "delete_road",
+            "view_road"
+        ]
+    },
+    {
+        "subgroup_key": "roadstatus",
+        "subgroup_name": "Roadstatus",
+        "permissions": [
+            "add_roadstatus",
+            "change_roadstatus",
+            "delete_roadstatus",
+            "view_roadstatus"
+        ]
+    },
+    {
+        "subgroup_key": "roadtype",
+        "subgroup_name": "Roadtype",
+        "permissions": [
+            "add_roadtype",
+            "change_roadtype",
+            "delete_roadtype",
+            "view_roadtype"
+        ]
+    },
+    {
+        "subgroup_key": "selectionfeasibility",
+        "subgroup_name": "Selectionfeasibility",
+        "permissions": [
+            "add_selectionfeasibility",
+            "change_selectionfeasibility",
+            "delete_selectionfeasibility",
+            "view_selectionfeasibility"
+        ]
+    },
+    {
+        "subgroup_key": "sourcebearerentity",
+        "subgroup_name": "Sourcebearerentity",
+        "permissions": [
+            "add_sourcebearerentity",
+            "change_sourcebearerentity",
+            "delete_sourcebearerentity",
+            "view_sourcebearerentity"
+        ]
+    },
+    {
+        "subgroup_key": "sourcebearerentitytype",
+        "subgroup_name": "Sourcebearerentitytype",
+        "permissions": [
+            "add_sourcebearerentitytype",
+            "change_sourcebearerentitytype",
+            "delete_sourcebearerentitytype",
+            "view_sourcebearerentitytype"
+        ]
+    },
+    {
+        "subgroup_key": "sourcereceipt",
+        "subgroup_name": "Sourcereceipt",
+        "permissions": [
+            "add_sourcereceipt",
+            "change_sourcereceipt",
+            "delete_sourcereceipt",
+            "view_sourcereceipt"
+        ]
+    },
+    {
+        "subgroup_key": "standinglist",
+        "subgroup_name": "Standinglist",
+        "permissions": [
+            "add_standinglist",
+            "change_standinglist",
+            "delete_standinglist",
+            "view_standinglist"
+        ]
+    },
+    {
+        "subgroup_key": "standinglisttype",
+        "subgroup_name": "Standinglisttype",
+        "permissions": [
+            "add_standinglisttype",
+            "change_standinglisttype",
+            "delete_standinglisttype",
+            "view_standinglisttype"
+        ]
+    },
+    {
+        "subgroup_key": "strategicsign",
+        "subgroup_name": "Strategicsign",
+        "permissions": [
+            "add_strategicsign",
+            "change_strategicsign",
+            "delete_strategicsign",
+            "view_strategicsign"
+        ]
+    },
+    {
+        "subgroup_key": "subjectarea",
+        "subgroup_name": "Subjectarea",
+        "permissions": [
+            "add_subjectarea",
+            "change_subjectarea",
+            "delete_subjectarea",
+            "view_subjectarea"
+        ]
+    },
+    {
+        "subgroup_key": "subledger",
+        "subgroup_name": "Subledger",
+        "permissions": [
+            "add_subledger",
+            "change_subledger",
+            "delete_subledger",
+            "view_subledger"
+        ]
+    },
+    {
+        "subgroup_key": "submodule",
+        "subgroup_name": "Submodule",
+        "permissions": [
+            "add_submodule",
+            "change_submodule",
+            "delete_submodule",
+            "view_submodule"
+        ]
+    },
+    {
+        "subgroup_key": "targetgroup",
+        "subgroup_name": "Targetgroup",
+        "permissions": [
+            "add_targetgroup",
+            "change_targetgroup",
+            "delete_targetgroup",
+            "view_targetgroup"
+        ]
+    },
+    {
+        "subgroup_key": "targetgroupcategory",
+        "subgroup_name": "Targetgroupcategory",
+        "permissions": [
+            "add_targetgroupcategory",
+            "change_targetgroupcategory",
+            "delete_targetgroupcategory",
+            "view_targetgroupcategory"
+        ]
+    },
+    {
+        "subgroup_key": "customreporttemplate",
+        "subgroup_name": "Customreporttemplate",
+        "permissions": [
+            "add_customreporttemplate",
+            "change_customreporttemplate",
+            "delete_customreporttemplate",
+            "view_customreporttemplate"
+        ]
+    },
+    {
+        "subgroup_key": "reporttype",
+        "subgroup_name": "Reporttype",
+        "permissions": [
+            "add_reporttype",
+            "change_reporttype",
+            "delete_reporttype",
+            "view_reporttype"
+        ]
+    },
+    {
+        "subgroup_key": "templatefieldmapping",
+        "subgroup_name": "Templatefieldmapping",
+        "permissions": [
+            "add_templatefieldmapping",
+            "change_templatefieldmapping",
+            "delete_templatefieldmapping",
+            "view_templatefieldmapping"
+        ]
+    },
+    {
+        "subgroup_key": "session",
+        "subgroup_name": "Session",
+        "permissions": [
+            "add_session",
+            "change_session",
+            "delete_session",
+            "view_session"
+        ]
+    },
+    {
+        "subgroup_key": "client",
+        "subgroup_name": "Client",
+        "permissions": [
+            "add_client",
+            "change_client",
+            "delete_client",
+            "view_client"
+        ]
+    },
+    {
+        "subgroup_key": "user",
+        "subgroup_name": "User",
+        "permissions": [
+            "add_user",
+            "change_user",
+            "delete_user",
+            "view_user"
+        ]
+    },
+    {
+        "subgroup_key": "userrole",
+        "subgroup_name": "Userrole",
+        "permissions": [
+            "add_userrole",
+            "change_userrole",
+            "delete_userrole",
+            "view_userrole"
+        ]
+    }
+]

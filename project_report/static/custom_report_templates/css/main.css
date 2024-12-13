@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "ranjana";
+	src: local("Ranjana"),
+		url("/static/custom_report_templates/fonts/ranjana.ttf")
+			format("truetype");
+}
+
+.newari {
+	font-family: "ranjana";
+}
+
+.letter-head {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.data-table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+.data-table tr th,
+.data-table tr td {
+	border: 1px solid black;
+}

@@ -1,0 +1,23 @@
+{% extends 'report_base.html' %}
+
+{% block body %}
+<table style="width: 100%; border: 1px solid #ddd; text-align: left; border-collapse: collapse;">
+
+        <tr>
+        <th class="table_header">S No</th>
+        <th class="table_header2">
+            Item</th>
+        <th class="table_header">Unit</th>
+        <th class="table_header">Quantity</th>
+        </tr>
+
+    {% for row in data %}
+    <tr>
+        <td class="table_row">{{ forloop.counter }}</td>
+        <td class="table_row">{{ row.title}}</td>
+        <td class="table_row">{{ row.unit|default_if_none:"" }}</td>
+        <td class="table_row">{{row.quantity}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock body %}

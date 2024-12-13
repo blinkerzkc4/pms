@@ -1,0 +1,28 @@
+code,name,name nepali
+measuring_book.measuring_no,Measuring Numver,नापी.नं
+measuring_book.activity.name,Measuring Activity,क्रियाकलाप
+measuring_book.activity.name_eng,Measuring Activity Name,Activities
+measuring_book.page_no,Page No,पाना.नं
+measuring_book.measuring_date,Measuring Date BS,नापी लिएको मिति बि.स.
+measuring_book.measuring_date_eng,Measuring Date BS,नापी लिएको मिति बि.स.
+measuring_book.total_amount,Total Amount,जम्मा परिमाण
+measuring_book.previous_measuring_book_amount,Previous Measuring Book Amount ,अघिल्लो न.पी.कि.मा चढेको परिमाण
+measuring_book.this_measuring_book_amount,This Measuring Book Amount,यस नापीबाट कायम भएको परिमाण
+measuring_book.result_obtained_so_far,Result Obtained,हालसम्म अध्यावधिक कायम भएको परिमाण
+measuring_book.rate_in_list,Inlist Book Rate,परिमाण सुचिमा उल्लेखित दर
+measuring_book.length,Length,लम्वाई
+measuring_book.breath,Bredth,चाैडाई
+measuring_book.height,Height,उचाई
+measuring_book.contractor.full_name,Contractor Name ,निर्माण व्यवसायी
+measuring_book.contractor.full_name_eng,Contractor Name,निर्माण व्यवसायी अंग्रेजी 
+measuring_book.contractor_position.name,Contractor Position,निर्माण व्यवसायी पद/ओहदा
+measuring_book.contractor_position.name_eng,Contractor Position Eng,निर्माण व्यवसायी पद/ओहदा अंग्रेजी 
+measuring_book.measured_by.full_name,Book Measured By Name ,नापी लिनेको
+measuring_book.measured_by_position.name,Book Measured By Position,नापी लिनेको पद/ओहदा
+measuring_book.measured_by_position.name_eng,Book Measured By Position Eng,नापी लिनेको पद/ओहदा अंग्रेजी 
+measuring_book.checked_by.full_name,Checked By Name,जाच गर्ने
+measuring_book.checked_by_position.name,Checked By Name Position,जाच गर्ने पद/ओहदा
+measuring_book.checked_by_position.name_eng,Checked By Name Position eng,जाच गर्ने पद/ओहदा अंग्रेजी 
+measuring_book.approved_by.full_name,Approved By Name,प्रमाणित गर्ने 
+measuring_book.approved_by_position.name,Approved By Position,प्रमाणित गर्ने पद/ओहदा
+measuring_book.approved_by_position.name_eng,Approved By Position Eng,प्रमाणित गर्ने पद/ओहदा अंग्रेजी 

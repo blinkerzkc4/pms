@@ -1,0 +1,30 @@
+[
+	{
+		"value_type": "image",
+		"code": "logo_for_report_background",
+		"name": "रिपोर्टको पृष्ठभूमिमा राखे लोगो",
+		"name_eng": "Logo for Report Background",
+		"use_in_report": true
+	},
+	{
+		"value_type": "image",
+		"code": "government_logo",
+		"name": "सरकारको लोगो",
+		"name_eng": "Government Logo",
+		"use_in_report": true
+	},
+	{
+		"value_type": "image",
+		"code": "municipality_logo",
+		"name": "नगरपालिकाको लोगो",
+		"name_eng": "Municipality Logo",
+		"use_in_report": true
+	},
+	{
+		"value_type": "boolean",
+		"code": "place_logo_in_report_background",
+		"name": "रिपोर्टको पृष्ठभूमिमा लोगो राखे हो?",
+		"name_eng": "Place Logo in Report Background?",
+		"use_in_report": true
+	}
+]

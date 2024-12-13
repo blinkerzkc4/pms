@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cost Estimate Data</title>
+        <style>
+            body {
+                font-family: Calibri;
+                width: 100vw;
+            }
+
+            table {
+                width: 100%;
+                margin: 10px 0 !important;
+                border-spacing: 0;
+            }
+
+            table,
+            table tr th,
+            table tr td {
+                border: 1px solid black;
+            }
+
+            table tr th,
+            table tr td {
+                margin: 0;
+                padding: 2px 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">S.No</th>
+                    <th rowspan="2">Description</th>
+                    <th rowspan="2">Units</th>
+                    <th rowspan="2">Quantity</th>
+                    <th colspan="2">Municipality Offical Estimate</th>
+                    {% for firm in quot_spec.specification_firm_details.all %}<th colspan="2">{{ firm.firm_name }}</th>{% endfor %}
+                    <th rowspan="2">Remarks</th>
+                </tr>
+                <tr>
+                    <th>Rate</th>
+                    <th>Amount</th>
+                    {% for firm in quot_spec.specification_firm_details.all %}
+                        <th>Rate</th>
+                        <th>Amount</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for ced in quot_spec.cost_estimate_data.all %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ ced.description|default_if_none:"&nbsp;" }}</td>
+                        <td>{{ ced.unit|default_if_none:"&nbsp;" }}</td>
+                        <td>{{ ced.quantity|default_if_none:"&nbsp;" }}</td>
+                        <td>{{ ced.rate|default_if_none:"&nbsp;" }}</td>
+                        <td>{{ ced.amount|default_if_none:"&nbsp;" }}</td>
+                        {% for firm_quoted_ced in ced.firm_quoted_cost_estimate.all %}
+                            <td>{{ firm_quoted_ced.rate|default_if_none:"N/A" }}</td>
+                            <td>{{ firm_quoted_ced.amount|default_if_none:"N/A" }}</td>
+                        {% endfor %}
+                        <td>{{ ced.remarks|default_if_none:"&nbsp;" }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>Sub Total</td>
+                    <td>&nbsp;</td>
+                    <td>{{ quot_spec.cost_estimate_subtotal|floatformat:2 }}</td>
+                    {% for firm in quot_spec.specification_firm_details.all %}
+                        <td>&nbsp;</td>
+                        <td>{{ firm.cost_estimate_subtotal|floatformat:2 }}</td>
+                    {% endfor %}
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="3">VAT 13%</td>
+                    <td>&nbsp;</td>
+                    <td>{{ quot_spec.vat_amount|floatformat:2 }}</td>
+                    {% for firm in quot_spec.specification_firm_details.all %}
+                        <td>&nbsp;</td>
+                        <td>{{ firm.vat_amount|floatformat:2 }}</td>
+                    {% endfor %}
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="3">1.5% Contingencies</td>
+                    <td>&nbsp;</td>
+                    <td>{{ quot_spec.contingency_amount|floatformat:2 }}</td>
+                    {% for firm in quot_spec.specification_firm_details.all %}
+                        <td>&nbsp;</td>
+                        <td>{{ firm.contingency_amount|floatformat:2 }}</td>
+                    {% endfor %}
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="3">Total Amount</td>
+                    <td>&nbsp;</td>
+                    <td>{{ quot_spec.total_amount|floatformat:2 }}</td>
+                    {% for firm in quot_spec.specification_firm_details.all %}
+                        <td>&nbsp;</td>
+                        <td>{{ firm.total_amount|floatformat:2 }}</td>
+                    {% endfor %}
+                    <td>&nbsp;</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

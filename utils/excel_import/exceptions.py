@@ -1,0 +1,2 @@
+class SNoNotFoundException(Exception):
+    pass

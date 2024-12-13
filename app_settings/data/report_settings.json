@@ -1,0 +1,461 @@
+[
+	{
+		"value_type": "text",
+		"setting_function": "DB_value",
+		"code": "municipality_name",
+		"name": "नगरपालिकाको नाम (नेपाली)",
+		"name_eng": "Municipality Name (Nep.)",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "name",
+		"in_app_municipality_id_field": "id"
+	},
+	{
+		"value_type": "text",
+		"setting_function": "DB_value",
+		"code": "municipality_name_eng",
+		"name": "नगरपालिकाको नाम (अंग्रेजी)",
+		"name_eng": "Municipality Name (Eng.)",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "name_eng",
+		"in_app_municipality_id_field": "id"
+	},
+	{
+		"value_type": "integer",
+		"setting_function": "DB_value",
+		"code": "municipality_number_of_wards",
+		"name_eng": "Number of Wards in Municipality",
+		"name": "नगरपालिकामा वडाको संख्या",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "number_of_wards",
+		"in_app_municipality_id_field": "id"
+	},
+
+	{
+		"value_type": "text",
+		"setting_function": "DB_value",
+		"code": "municipality_office_name",
+		"name": "नगरपालिकाको कार्यालयको नाम",
+		"name_eng": "Municipality Office Name",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "office_name",
+		"in_app_municipality_id_field": "id"
+	},
+	{
+		"value_type": "text",
+		"setting_function": "DB_value",
+		"code": "municipality_sub_name",
+		"name": "नगरपालिकाको उपनाम",
+		"name_eng": "Municipality Sub Name",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "sub_name",
+		"in_app_municipality_id_field": "id"
+	},
+	{
+		"value_type": "text",
+		"setting_function": "DB_value",
+		"code": "municipality_office_address",
+		"name": "नगरपालिकाको कार्यालयको ठेगाना",
+		"name_eng": "Municipality Office Address",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "office_address",
+		"in_app_municipality_id_field": "id"
+	},
+	{
+		"value_type": "text",
+		"setting_function": "DB_value",
+		"code": "municipality_email",
+		"name": "नगरपालिकाको ईमेल",
+		"name_eng": "Municipality Email",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "email",
+		"in_app_municipality_id_field": "id"
+	},
+	{
+		"value_type": "text",
+		"setting_function": "DB_value",
+		"code": "municipality_phone",
+		"name": "नगरपालिकाको फोन नम्बर",
+		"name_eng": "Municipality Phone",
+		"in_app_model": "project.Municipality",
+		"in_app_model_field": "phone",
+		"in_app_municipality_id_field": "id"
+	},
+	{
+		"value_type": "enum",
+		"code": "main_header_line_1",
+		"name": "मुख्य हेडर लाइन १",
+		"name_eng": "Main Header Line 1",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "enum",
+		"code": "main_header_line_2",
+		"name": "मुख्य हेडर लाइन २",
+		"name_eng": "Main Header Line 2",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "enum",
+		"code": "main_header_line_3",
+		"name": "मुख्य हेडर लाइन ३",
+		"name_eng": "Main Header Line 3",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "text",
+		"code": "main_header_line_4",
+		"name": "मुख्य हेडर लाइन ४",
+		"name_eng": "Main Header Line 4"
+	},
+	{
+		"value_type": "text",
+		"code": "main_header_line_5",
+		"name": "मुख्य हेडर लाइन ५",
+		"name_eng": "Main Header Line 5"
+	},
+	{
+		"value_type": "enum",
+		"code": "ward_header_line_1",
+		"name": "वार्ड हेडर लाइन १",
+		"name_eng": "Ward Header Line 1",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "enum",
+		"code": "ward_header_line_2",
+		"name": "वार्ड हेडर लाइन २",
+		"name_eng": "Ward Header Line 2",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "enum",
+		"code": "ward_header_line_3",
+		"name": "वार्ड हेडर लाइन ३",
+		"name_eng": "Ward Header Line 3",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "text",
+		"code": "ward_header_line_4",
+		"name": "वार्ड हेडर लाइन ४",
+		"name_eng": "Ward Header Line 4"
+	},
+	{
+		"value_type": "text",
+		"code": "ward_header_line_5",
+		"name": "वार्ड हेडर लाइन ५",
+		"name_eng": "Ward Header Line 5"
+	},
+	{
+		"value_type": "enum",
+		"code": "department_header_line_1",
+		"name": "विभाग हेडर लाइन १",
+		"name_eng": "Department Header Line 1",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "enum",
+		"code": "department_header_line_2",
+		"name": "विभाग हेडर लाइन २",
+		"name_eng": "Department Header Line 2",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "enum",
+		"code": "department_header_line_3",
+		"name": "विभाग हेडर लाइन ३",
+		"name_eng": "Department Header Line 3",
+		"options": [
+			{
+				"code": "municipality_name",
+				"name": "नगरपालिकाको नाम (नेपाली)",
+				"name_eng": "Municipality Name (Nep.)"
+			},
+			{
+				"code": "municipality_office_name",
+				"name": "नगरपालिकाको कार्यालयको नाम",
+				"name_eng": "Municipality Office Name"
+			},
+			{
+				"code": "municipality_sub_name",
+				"name": "नगरपालिकाको उपनाम",
+				"name_eng": "Municipality Sub Name"
+			},
+			{
+				"code": "municipality_office_address",
+				"name": "नगरपालिकाको कार्यालयको ठेगाना",
+				"name_eng": "Municipality Office Address"
+			},
+			{
+				"code": "municipality_email",
+				"name": "नगरपालिकाको ईमेल",
+				"name_eng": "Municipality Email"
+			},
+			{
+				"code": "municipality_phone",
+				"name": "नगरपालिकाको फोन नम्बर",
+				"name_eng": "Municipality Phone"
+			}
+		]
+	},
+	{
+		"value_type": "text",
+		"code": "department_header_line_4",
+		"name": "विभाग हेडर लाइन ४",
+		"name_eng": "Department Header Line 4"
+	},
+	{
+		"value_type": "text",
+		"code": "department_header_line_5",
+		"name": "विभाग हेडर लाइन ५",
+		"name_eng": "Department Header Line 5"
+	}
+]

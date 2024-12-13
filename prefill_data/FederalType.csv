@@ -1,0 +1,8 @@
+﻿id,code,client_id,master_ref_id,name_en,name_np,upper_level_type_id,description,status,created_by,created_on,updated_by,updated_on,deleted_by,deleted_on,is_deleted,deleted_uq_code,client_ward
+1,CON,,,Country,देश,,,t,,,,,,,f,1,
+2,PRO,,,Province,प्रदेश,1,,t,,,,,,,f,1,
+3,DIS,,,District,जिल्ला,2,,t,,,,,,,f,1,
+4,RMN,,,Rural Municipality,गाउँपालिका,3,,t,,,,,,,f,1,
+5,MUN,,,Municipality,नगरपालिका,4,,t,,,,,,,f,1,
+6,SMN,,,Sub Metropolitan City,उप-महानगरपालिका,5,,t,,,,,,,f,1,
+7,MET,,,Metropolitan City,महानगरपालिका,6,,t,,,,,,,f,1,

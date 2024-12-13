@@ -1,0 +1,71 @@
+{
+  "active": 1,
+  "specification": "21",
+  "activity": "act (i)",
+  "item_id": "asdf asdf asdf sdaf ",
+  "title": "asdf sadf asdf",
+  "unit": 1,
+  "unit_value": 100.123,
+  "description": "description ",
+  "labour_component": [
+    {
+      "component_type": "LABOUR",
+      "category_id": 2,
+      "unit_id": 1,
+      "quantity": 0,
+      "rate": 0,
+      "amount": "0.00"
+    },
+    {
+      "component_type": "LABOUR",
+      "category_id": 1,
+      "unit_id": 1,
+      "quantity": 0,
+      "rate": 0,
+      "amount": "0.00"
+    }
+  ],
+  "material_component": [
+    {
+      "component_type": "MATERIAL",
+      "type": "mat 1",
+      "category_id": 1,
+      "unit_id": 1,
+      "quantity": 0,
+      "rate": 0,
+      "amount": "0.00"
+    },
+    {
+      "component_type": "MATERIAL",
+      "type": "mat 2",
+      "category_id": 1,
+      "unit_id": 1,
+      "quantity": 0,
+      "rate": 0,
+      "amount": "0.00"
+    }
+  ],
+  "equipment_component": [
+    {
+      "component_type": "EQUIPMENT",
+      "type": "mat 1",
+      "category_id": 1,
+      "unit_id": 1,
+      "quantity": 0,
+      "rate": 0,
+      "amount": "0.00"
+    },
+    {
+      "component_type": "MATERIAL",
+      "type": "mat 2",
+      "category_id": 1,
+      "unit_id": 1,
+      "quantity": 0,
+      "rate": 0,
+      "amount": "0.00"
+    }
+  ],
+  "cost_component": [
+    {"title": "asdf", "rate": 10.0, "amount": 100}
+  ]
+}

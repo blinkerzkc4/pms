@@ -1,0 +1,113 @@
+<!-- {%load static%} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+            body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+        width: 50vw;
+        overflow: hidden;
+        animation: slide-up 0.5s ease-in-out;
+    }
+
+    @keyframes slide-up {
+        from {
+            transform: translateY(50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .header {
+        background-color: #f2f2f2f2;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    }
+
+    .success-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .message {
+        font-size: 28px;
+        margin-top: 15px;
+        color: black;
+    }
+
+    .content {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .welcome {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .footer {
+        background-color: #f5f5f5;
+        padding: 20px 30px;
+        text-align: center;
+        border-top: 1px solid #ddd;
+    }
+
+    .continue-message {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .explore-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .explore-button:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="message">प्रयोगकर्ता खाता सफलतापूर्वक सिर्जना गरियो</div>
+        </div>
+        <div class="content">
+            <p class="welcome">
+                {{statement}}
+            </p>
+        </div>
+        <div class="footer">
+            <p class="continue-message">Click below to verify your account</p>
+                <a href= {{link}} class="explore-button">Verify</a>
+        </div>
+    </div>
+</body>
+</html>

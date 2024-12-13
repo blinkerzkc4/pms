@@ -1,0 +1,77 @@
+{% extends 'report_base.html' %}
+{% block internal_css %}
+    <style>
+        @page {
+            size: A3 landscape;
+            margin: 5mm -1mm;
+        }
+    </style>
+{% endblock internal_css %}
+{% block body %}
+    <table style="width: 100%;
+                  border: 1px solid #ddd;
+                  text-align: left;
+                  border-collapse: collapse">
+        <tr>
+            <th rowspan="2" class="table_header">S No</th>
+            <th rowspan="2" class="table_header">Specification No</th>
+            <th rowspan="2" class="table_header">Activity No</th>
+            <th rowspan="2" class="table_header">Description of Works</th>
+            <th rowspan="2" class="table_header">Unit</th>
+            <th rowspan="2" class="table_header">No</th>
+            <th colspan="4" class="table_header center">Description of Quantity</th>
+            <th rowspan="2" class="table_header center">Type</th>
+        </tr>
+        <tr>
+            <th class="table_header">Length</th>
+            <th class="table_header">Breadth</th>
+            <th class="table_header">Height</th>
+            <th class="table_header">Total Quantity</th>
+        </tr>
+        {% for row in data %}
+            {% if row.type == "PART" %}
+                <tr>
+                    <td class="table_row center bold" colspan="11">PART {{ row.s_no }}: {{ row.description }}</td>
+                </tr>
+            {% elif row.type == "TOPIC" %}
+                {% with total_quantities=row.total_quantities_dict %}
+                    <tr>
+                        <td class="table_row">{{ row.s_no }}</td>
+                        <td class="table_row">{{ row.norm.specification_no }}</td>
+                        <td class="table_row">{{ row.norm.activity_no }}</td>
+                        <td class="table_row">{{ row.description }}</td>
+                        <td class="table_row">{{ row.unit.name }}</td>
+                        <td class="table_row">{{ total_quantities.total_no|floatformat:-2 }}</td>
+                        <td class="table_row">{{ total_quantities.total_length|floatformat:-2 }}</td>
+                        <td class="table_row">{{ total_quantities.total_breadth|floatformat:-2 }}</td>
+                        <td class="table_row">{{ total_quantities.total_height|floatformat:-2 }}</td>
+                        <td class="table_row">{{ total_quantities.total_quantity|floatformat:-2 }}</td>
+                        <td class="table_row">
+                            {% if row.quantity_type == "DIAMETER" %}
+                                D
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endwith %}
+            {% else %}
+                <tr>
+                    <td class="table_row">{{ row.s_no }}</td>
+                    <td class="table_row"></td>
+                    <td class="table_row"></td>
+                    <td class="table_row">{{ row.description }}</td>
+                    <td class="table_row">{{ row.unit.name }}</td>
+                    <td class="table_row">{{ row.no|floatformat:-2 }}</td>
+                    <td class="table_row">{{ row.length|floatformat:-2 }}</td>
+                    <td class="table_row">{{ row.breadth|floatformat:-2 }}</td>
+                    <td class="table_row">{{ row.height|floatformat:-2 }}</td>
+                    <td class="table_row">{{ row.quantity|floatformat:-2 }}</td>
+                    <td class="table_row">
+                        {% if row.quantity_type == "DIAMETER" %}
+                            D
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+{% endblock body %}

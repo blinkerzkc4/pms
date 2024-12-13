@@ -1,0 +1,19 @@
+[Unit]
+Description=PMS Core Backend Gunicorn Daemon
+Requires=pms_core_backend_gunicorn.socket
+After=network.target
+
+[Service]
+User=pms
+Group=pms
+WorkingDirectory=/home/pms/projects/pms-backend
+ExecStart=/home/pms/projects/pms-backend/venv/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --graceful-timeout=900 --timeout=900 \
+          --bind unix:/run/pms_core_backend_gunicorn.sock \
+          pms_system.wsgi:application
+
+
+[Install]
+WantedBy=multi-user.target

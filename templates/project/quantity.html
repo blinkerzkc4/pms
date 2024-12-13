@@ -1,0 +1,53 @@
+
+{% extends 'report_base.html' %}
+
+{% block body %}
+<table style="width: 100%; border: 1px solid #ddd; text-align: left; border-collapse: collapse;">
+
+        <tr>
+        <th class="table_header">S No</th>
+        <th class="table_header2">
+            Description</th>
+        <th class="table_header">No</th>
+        <th class="table_header">Length (m)</th>
+        <th class="table_header">Bredth (m)</th>
+        <th class="table_header">Height (m)</th>
+        <th class="table_header">Quantity</th>
+        <th class="table_header">Unit</th>
+        <th class="table_header">Remarks</th>
+        </tr>
+
+    {% for row in data %}
+    {% if row.type == "PART"%}
+    <tr style="background: #1f2937; color: #fff;">
+        <td style="border: 1px solid #ddd; text-align: left; padding: 4px 4px 4px 100px;" colspan="11">{{row.description}} {% if row.provisional %} (Provisional){% endif %}
+        </td>
+    </tr>
+    {% elif row.child %}
+    <tr>
+        <td class="table_row">{{ row.sn|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.description }}</td>
+        <td class="table_row"></td>
+        <td class="table_row"></td>
+        <td class="table_row"></td>
+        <td class="table_row"></td>
+        <td class="table_row"></td>
+        <td class="table_row"></td>
+        <td class="table_row"></td>
+    </tr>
+    {% else %}
+    <tr>
+        <td class="table_row">{{ row.sn|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.description}}</td>
+        <td class="table_row">{{ row.no|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.length|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.breadth|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.height|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.quantity|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.unit|default_if_none:""}}</td>
+        <td class="table_row">{{ row.remarks}}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+{% endblock %}

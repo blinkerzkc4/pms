@@ -1,0 +1,63 @@
+{% extends 'report_base.html' %}
+{% load custom_filters %}
+{% block styles %}
+    .amount_row {
+    width: 40%;
+    }
+    .total_row {
+        text-align: center;
+    }
+{% endblock styles %}
+{% block body %}
+    <table style="width: 100%;
+                  border: 1px solid black;
+                  text-align: left;
+                  border-collapse: collapse">
+        <tr>
+            <th class="table_header">S.No.</th>
+            <th class="table_header">Description</th>
+            <th class="table_header">Amount</th>
+            <th class="table_header2">In Words</th>
+            <th class="table_header">Remarks</th>
+        </tr>
+        {% for saoc_data in data.all_soac_data %}
+            <tr>
+                <td class="table_row">{{ forloop.counter }}</td>
+                <td class="table_row">{{ saoc_data.description }}</td>
+                <td class="table_row">{{ saoc_data.amount|floatformat:-2 }}</td>
+                <td class="table_row amount_row">{{ saoc_data.amount|in_words }}</td>
+                <td class="table_row">{{ saoc_data.remarks|default_if_none:"-" }}</td>
+            </tr>
+        {% endfor %}
+        <tr>
+            <td colspan="2" class="table_row total_row">Total</td>
+            <td class="table_row">{{ data.total|floatformat:-2 }}</td>
+            <td class="table_row">{{ data.total|in_words }}</td>
+            <td class="table_row">-</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table_row total_row">Provisional Sum</td>
+            <td class="table_row">{{ data.provisional_sum|floatformat:-2 }}</td>
+            <td class="table_row">{{ data.provisional_sum|in_words }}</td>
+            <td class="table_row">-</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table_row total_row">Total including P.S.</td>
+            <td class="table_row">{{ data.total_with_ps|floatformat:-2 }}</td>
+            <td class="table_row">{{ data.total_with_ps|in_words }}</td>
+            <td class="table_row">-</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table_row total_row">Total VAT @ 13%</td>
+            <td class="table_row">{{ data.total_vat|floatformat:-2 }}</td>
+            <td class="table_row">{{ data.total_vat|in_words }}</td>
+            <td class="table_row">-</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="table_row total_row">Grand Total with VAT</td>
+            <td class="table_row">{{ data.grand_total|floatformat:-2 }}</td>
+            <td class="table_row">{{ data.grand_total|in_words }}</td>
+            <td class="table_row">-</td>
+        </tr>
+    </table>
+{% endblock body %}

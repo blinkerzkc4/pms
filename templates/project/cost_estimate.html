@@ -1,0 +1,62 @@
+{% extends 'report_base.html' %}
+{% load custom_filters %}
+{% block internal_css %}
+    <style>
+    @page {
+    size: A4 landscape;
+    margin: 5mm -1mm;
+    }
+    </style>
+{% endblock internal_css %}
+{% block body %}
+    <table style="width: 100%;
+                  border: 1px solid #ddd;
+                  text-align: left;
+                  border-collapse: collapse">
+        <tr>
+            <th rowspan="2" class="table_header">S No</th>
+            <th rowspan="2" class="table_header">Description of Works</th>
+            <th rowspan="2" class="table_header2">Unit</th>
+            <th colspan="3" class="table_header center">Description of Amount</th>
+        </tr>
+        <tr>
+            <th class="table_header">Quantity</th>
+            <th class="table_header">Rate</th>
+            <th class="table_header">Amount</th>
+        </tr>
+        {% for row in data.topics %}
+            <tr>
+                <td class="table_row">{{ forloop.counter }}</td>
+                <td class="table_row">{{ row.description }}</td>
+                <td class="table_row">{{ row.unit }}</td>
+                <td class="table_row">{{ row.quantity|floatformat:-2 }}</td>
+                <td class="table_row">{{ row.rate|floatformat:-2 }}</td>
+                <td class="table_row">{{ row.amount|floatformat:-2 }}</td>
+            </tr>
+        {% endfor %}
+        <tr>
+            <td class="table_row right bold" colspan="3">Overhead 15%</td>
+            <td class="table_row" colspan="3">{{ data.overhead|floatformat:-2 }}</td>
+        </tr>
+        <tr>
+            <td class="table_row right bold" colspan="3">Subtotal</td>
+            <td class="table_row" colspan="3">{{ data.subtotal|floatformat:-2 }}</td>
+        </tr>
+        <tr>
+            <td class="table_row right bold" colspan="3">Add 1.5% Contingency</td>
+            <td class="table_row" colspan="3">{{ data.contingency|floatformat:-2 }}</td>
+        </tr>
+        <tr>
+            <td class="table_row right bold" colspan="3">VAT</td>
+            <td class="table_row" colspan="3">{{ data.vat|floatformat:-2 }}</td>
+        </tr>
+        <tr>
+            <td class="table_row right bold" colspan="3">Grand Total</td>
+            <td class="table_row" colspan="3">{{ data.grand_total|floatformat:-2 }}</td>
+        </tr>
+        <tr>
+            <td class="table_row right bold">In Words</td>
+            <td class="table_row" colspan="5">{{ data.grand_total|in_words }}</td>
+        </tr>
+    </table>
+{% endblock body %}

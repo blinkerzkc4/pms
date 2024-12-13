@@ -1,0 +1,15 @@
+code,name,name nepali
+deposit_mandate.mandate_type,Type Of Force Account,अमानत कार्यादेश किसिम
+deposit_mandate.order_by,The Person Giving The Order:,आदेश दिने व्यक्ति
+deposit_mandate.order_by_position,Post Of Giving Order,आदेश दिने पआदेश दिने पद
+deposit_mandate.order_date,Date Of Order BS,आदेश दिने मिति बि.स.
+deposit_mandate.order_date_eng,Date Of Order AD,आदेश दिने मिति ई.स.
+deposit_mandate.nominated_employee,Name Of Nominated Employee/Local Representative,मनोनित कर्मचारी/जनप्रतिनिधी नाम
+deposit_mandate.nominated_employee_position,Nominated Staff/Local Representative Posts,मनोनित कर्मचारी/जनप्रतिनिधी पद
+deposit_mandate.invoice_date,Date Of Invoice/Letter BS,चलानी/पत्र मिति बि.स.
+deposit_mandate.invoice_date_eng,Date Of Invoice/Letter AD,चलानी/पत्र मिति ई.स. 
+deposit_mandate.invoice_no,Work Order Invoice No.,कार्यादेश चलानी नं
+deposit_mandate.latter_no,Work Order Letter No.,कार्यादेश पत्र नं.:
+deposit_mandate.work_complete_date,Date Of Completion Of Work BS,काम सम्पन्न गर्नुपर्ने मिति बि.स.
+deposit_mandate.work_complete_date_eng,Date Of Completion Of Work AD,काम सम्पन्न गर्नुपर्ने मिति ई.स. 
+deposit_mandate.opinion,Opinion Details,राय विवरण

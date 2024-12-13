@@ -1,0 +1,75 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{%block title %} {% endblock %}</title>
+    <style>
+        body {
+            font-family: Poppins, ui-serif;
+            margin: 2rem 1rem 1rem 1rem;
+            font-size: 15px
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .company-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .company-info {
+            font-size: 16px;
+        }
+
+        .report-content {
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-size: 8px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+        .report-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .date-section {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    {% block body %}
+    {% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+[
+	{
+		"model": "project_planning.membertype",
+		"pk": 1,
+		"fields": {
+			"created_by": null,
+			"created_date": "2023-11-10T16:43:47.276Z",
+			"updated_date": "2023-12-14T10:31:01.192Z",
+			"status": true,
+			"code": "१",
+			"name": "अध्यक्ष",
+			"name_eng": "Chairman",
+			"detail": null
+		}
+	},
+	{
+		"model": "project_planning.membertype",
+		"pk": 2,
+		"fields": {
+			"created_by": null,
+			"created_date": "2023-11-10T16:44:26.037Z",
+			"updated_date": "2023-12-14T10:31:48.600Z",
+			"status": true,
+			"code": "३",
+			"name": "सचिव",
+			"name_eng": "Secretary",
+			"detail": null
+		}
+	},
+	{
+		"model": "project_planning.membertype",
+		"pk": 3,
+		"fields": {
+			"created_by": null,
+			"created_date": "2023-11-10T16:44:46.580Z",
+			"updated_date": "2023-12-14T10:32:20.925Z",
+			"status": true,
+			"code": "४",
+			"name": "कोषाध्यक्ष",
+			"name_eng": "Treasurer",
+			"detail": null
+		}
+	},
+	{
+		"model": "project_planning.membertype",
+		"pk": 4,
+		"fields": {
+			"created_by": null,
+			"created_date": "2023-11-10T16:45:50.837Z",
+			"updated_date": "2023-12-14T10:32:57.262Z",
+			"status": true,
+			"code": "५",
+			"name": "सदस्य",
+			"name_eng": "Member",
+			"detail": null
+		}
+	},
+	{
+		"model": "project_planning.membertype",
+		"pk": 5,
+		"fields": {
+			"created_by": null,
+			"created_date": "2023-11-10T16:46:24.429Z",
+			"updated_date": "2023-12-14T10:33:05.539Z",
+			"status": true,
+			"code": "६",
+			"name": "अनुगमन समिति सदस्य सचिव",
+			"name_eng": "Monitoring Committee Chairman",
+			"detail": null
+		}
+	},
+	{
+		"model": "project_planning.membertype",
+		"pk": 6,
+		"fields": {
+			"created_by": null,
+			"created_date": "2023-11-10T16:46:43.382Z",
+			"updated_date": "2023-12-14T10:33:11.368Z",
+			"status": true,
+			"code": "७",
+			"name": "आमन्त्रित",
+			"name_eng": "Invited",
+			"detail": null
+		}
+	},
+	{
+		"model": "project_planning.membertype",
+		"pk": 7,
+		"fields": {
+			"created_by": null,
+			"created_date": "2023-12-14T10:30:29.094Z",
+			"updated_date": "2023-12-14T10:31:21.385Z",
+			"status": true,
+			"code": "२",
+			"name": "उपाध्यक्ष",
+			"name_eng": "Vice President",
+			"detail": null
+		}
+	}
+]

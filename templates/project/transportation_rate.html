@@ -1,0 +1,37 @@
+
+{% extends "report_base.html" %}
+
+{% block body %}
+<table style="width: 100%; border: 1px solid #ddd; text-align: left; border-collapse: collapse;">
+
+        <tr>
+        <th class="table_header">S No</th>
+        <th class="table_header2">Item</th>
+        <th class="table_header">Unit</th>
+        <th class="table_header">D1 Km</th>
+        <th class="table_header">D1 Rate</th>
+        <th class="table_header">D2 Km</th>
+        <th class="table_header">D2 Rate</th>
+        <th class="table_header">D3 Km</th>
+        <th class="table_header">D3 Rate</th>
+        <th class="table_header">Total</th>
+        <th class="table_header">Remark</th>
+        </tr>
+
+    {% for row in data.data %}
+    <tr>
+        <td class="table_row">{{ forloop.counter }}</td>
+        <td class="table_row">{{ row.rate }}</td>
+        <td class="table_row">{{ row.unit|default_if_none:"" }}</td>
+        <td class="table_row">{{row.road_1_distance|floatformat:-2 }}</td>
+        <td class="table_row">{{row.road_1_amount|floatformat:-2 }}</td>
+        <td class="table_row">{{row.road_2_distance|floatformat:-2 }}</td>
+        <td class="table_row">{{row.road_2_amount|floatformat:-2 }}</td>
+        <td class="table_row">{{row.road_3_distance|floatformat:-2 }}</td>
+        <td class="table_row">{{row.road_3_amount|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.transportation_rate|floatformat:-2 }}</td>
+        <td class="table_row">{{ row.remarks}}</td>
+    </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

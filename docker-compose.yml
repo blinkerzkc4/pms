@@ -1,0 +1,31 @@
+version: '2.0'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: yojana_db
+      POSTGRES_DB: yojana_db_user
+      POSTGRES_PASSWORD: Yoj@na@321
+    volumes:
+      - pgdata:/var/lib/postgresql/data/
+  web:
+    build: .
+    restart: on-failure
+    env_file:
+      - ./.env
+    command:
+      - /bin/bash
+      - -c
+      - |
+        python manage.py migrate
+        python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
+
+volumes:
+  pgdata:

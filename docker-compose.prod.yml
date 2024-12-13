@@ -1,0 +1,42 @@
+version: '2.0'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - pgdata:/var/lib/postgresql/data/
+    env_file:
+      - ./.env
+  web:
+    build: .
+    restart: on-failure
+    env_file:
+      - ./.env
+    command:
+      - /bin/bash
+      - -c
+      - |
+        python manage.py collectstatic --noinput
+        python manage.py migrate
+        gunicorn ims.wsgi:application --bind 0.0.0.0:8000  --workers 3 --reload
+    volumes:
+      # - .:/code
+      - ./static_cdn/:/code/static_cdn/
+      - ./media/:/code/media/
+    depends_on:
+      - db
+  nginx:
+    image: 'nginx'
+    restart: always
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/server.conf
+      - ./static_cdn/:/static_cdn/
+      - ./media/:/media/
+    ports:
+      - '8888:8777'
+    depends_on:
+      - web
+
+volumes:
+  pgdata:

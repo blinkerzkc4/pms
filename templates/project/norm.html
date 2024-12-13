@@ -1,0 +1,221 @@
+{% extends 'report_base.html' %}
+{% block internal_css %}
+    <style>
+    @page {
+        size: A3 landscape;
+        margin: 5mm -1mm;
+    }
+    .header_table {
+        width: 100%;
+    }
+
+    .header_table td {
+        width: 50%;
+    }
+
+    .header_table td:last-child {
+        text-align: right;
+    }
+
+    .data_table {
+        width: 100%;
+        border: 1px solid black;
+        text-align: left;
+        border-collapse: collapse;
+        margin: 16px 0;
+    }
+
+    .data_table th,
+    .data_table td {
+        border: 1px solid black;
+    }
+
+    .end_calculation {
+        font-weight: bold;
+    }
+
+    .data_table.secondary {
+        width: 30%;
+        margin: 16px auto;
+    }
+
+    .data_table.secondary .table_row {
+        padding: 16px 10px;
+    }
+
+    .page-break {
+        break-before: page;
+    }
+    </style>
+{% endblock internal_css %}
+{% block body %}
+    {% for norm in data %}
+        <div class="avoid {% if not forloop.first %}page-break{% endif %}">
+            <div>
+                {% comment %} <div>
+                    <strong>Item ID:</strong>
+                </div> {% endcomment %}
+                <table class="header_table">
+                    <tr>
+                        <td>
+                            <strong>R.A. No.: {{ forloop.counter }}</strong>
+                        </td>
+                        <td>
+                            <strong>Unit: {{ norm.unit|default_if_none:"" }}</strong>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                    <strong>Description of works:</strong> {{ norm.description }}
+                </div>
+                <div>Analyzed for {{ norm.unit_value|floatformat:-2 }} {{ norm.unit|default_if_none:"" }}</div>
+            </div>
+            <div>
+                <table style="" class="data_table">
+                    <thead>
+                        <tr>
+                            <th style="width: 120px;">Spec. Cl. No.: {{ norm.specification_no }}</th>
+                            <th colspan="5" style="text-align: center;">Labour</th>
+                            <th colspan="5" style="text-align: center;">Materials</th>
+                            <th colspan="5" style="text-align: center;">Equipment</th>
+                        </tr>
+                        <tr>
+                            <th class="table_header">Activity No:</th>
+                            <th class="table_header">Category</th>
+                            <th class="table_header">Unit</th>
+                            <th class="table_header">Quantity</th>
+                            <th class="table_header">Rate</th>
+                            <th class="table_header">Amount</th>
+                            <th class="table_header">Type</th>
+                            <th class="table_header">Unit</th>
+                            <th class="table_header">Quantity</th>
+                            <th class="table_header">Rate</th>
+                            <th class="table_header">Amount</th>
+                            <th class="table_header">Type</th>
+                            <th class="table_header">Unit</th>
+                            <th class="table_header">Quantity</th>
+                            <th class="table_header">Rate</th>
+                            <th class="table_header">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for norm_components in norm.component_by_type %}
+                            <tr>
+                                <td class="table_row">
+                                    {% if forloop.counter == 1 %}{{ norm.activity_no }}{% endif %}
+                                </td>
+                                {% for c in norm_components %}
+                                    {% if c %}
+                                        <td class="table_row">{{ c.category.title }}</td>
+                                        <td class="table_row">{{ c.unit }}</td>
+                                        <td class="table_row">{{ c.quantity|floatformat:-2 }}</td>
+                                        <td class="table_row">{{ c.rate|floatformat:-2 }}</td>
+                                        <td class="table_row">{{ c.amount|floatformat:-2 }}</td>
+                                    {% else %}
+                                        <td class="table_row"></td>
+                                        <td class="table_row"></td>
+                                        <td class="table_row"></td>
+                                        <td class="table_row"></td>
+                                        <td class="table_row"></td>
+                                    {% endif %}
+                                {% endfor %}
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="table_row end_calculation"></td>
+                            <td class="table_row end_calculation"
+                                colspan="4"
+                                style="text-align: right">Total Labour Component</td>
+                            <td class="table_row end_calculation">{{ norm.labour_total|floatformat:-2 }}</td>
+                            <td class="table_row end_calculation"
+                                colspan="4"
+                                style="text-align: right">Total Material Component</td>
+                            <td class="table_row end_calculation">{{ norm.material_total|floatformat:-2 }}</td>
+                            <td class="table_row end_calculation"
+                                colspan="4"
+                                style="text-align: right">Total Equipment</td>
+                            <td class="table_row end_calculation">{{ norm.equipment_total|floatformat:-2 }}</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <table class="data_table secondary">
+                    <tbody>
+                        <tr>
+                            <td class="table_row analysis_results" style="text-align: right">
+                                <strong>Direct Cost</strong>
+                            </td>
+                            <td class="table_row analysis_results">{{ norm.total|floatformat:-2 }}</td>
+                        </tr>
+                        <tr>
+                            <td class="table_row analysis_results" style="text-align: right">
+                                <strong>Rate of {{ norm.unit_value|floatformat:-2 }} {{ norm.unit|default_if_none:"" }}</strong>
+                            </td>
+                            <td class="table_row analysis_results">{{ norm.total|floatformat:-2 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="data_table secondary">
+                    <tbody>
+                        <tr>
+                            <td class="table_row" style="text-align:center;">
+                                <strong>Analysed Rate:</strong> {{ norm.analysed_rate|floatformat:-2 }}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                {% comment %} <div style="display: flex;  flex-direction: column; align-items: center;">
+                    <div class="row">
+                        <div class="half" style=" text-align: right; padding: 4px;">
+                            <span>Direct Cost :</span>
+                        </div>
+                        <div class="half" style="padding: 4px 16px;">
+                            <span>{{ norm.amount }}</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="half" style=" text-align: right; padding: 4px;">
+                            <span>Dewatering cost(7.5%) :</span>
+                        </div>
+                        <div class="half" style="padding: 4px 16px;">
+                            <span>1,353.00</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="half" style=" text-align: right; padding: 4px;">
+                            <span>Contractor's Overheads (15% ) :</span>
+                        </div>
+                        <div class="half" style="padding: 4px 16px;">
+                            <span>2,706</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="half" style=" text-align: right; padding: 4px;">
+                            <span>Rate of {{ norm.unit_value }} {{ norm.unit|default_if_none:"" }} :</span>
+                        </div>
+                        <div class="half" style="padding: 4px 16px;">
+                            <span>22,099</span>
+                        </div>
+                    </div>
+                    <div class="row" style="">
+                        <div class="half" style="display: flex; justify-content: end;">
+                            <div style="width: 200px; text-align: right; padding: 4px 16px; background: #1f2937; color: white">
+                                <span><strong>Rate :</strong></span>
+                            </div>
+                        </div>
+                        <div class="half" style="display: flex; justify-content: start;">
+                            <div style="width: 200px; text-align: left; padding: 4px; background: #1f2937; color: white">
+                                <span>7,967.06</span>
+                                <span>per</span>
+                                <span>m3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> {% endcomment %}
+            </div>
+        </div>
+    {% endfor %}
+    <!-- component start -->
+</div>
+{% endblock body %}

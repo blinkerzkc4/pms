@@ -1,0 +1,31 @@
+{% extends "emails/email_base.html" %}
+{% load inlinecss %}
+{% load absolute_url %}
+{% inlinecss "css/email/styles.css" %}
+{% block header_text %}
+    Digital Signature Verification | {{ app_name }}
+{% endblock header_text %}
+{% block content %}
+    <p class="intro">
+        Hello,
+        {% if user.full_name %}
+            {{ user.full_name }}.
+        {% else %}
+            {{ user.username }}.
+        {% endif %}
+        Looks like you have added a digital signature to your Yojana Account. Please verify your signature by clicking on the button below.
+    </p>
+    <p class="body">
+        Signature:
+        <br />
+        <img src="cid:user_signature" alt="User Signature" />
+        <a href="{% abs_url "verify-digital-signature" uid=user.digital_signature_verification_token %}"
+           class="verify-btn">Click to Verify</a>
+    </p>
+    <p class="closing">
+        Thank You,
+        <br />
+        The {{ app_name }} Team
+    </p>
+{% endblock content %}
+{% endinlinecss %}

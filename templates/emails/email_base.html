@@ -1,0 +1,25 @@
+{% load inlinecss %}
+{% inlinecss "css/email/styles.css" %}
+<table class="main-table">
+    <tr>
+        <td class="header">
+            <img src="cid:email_header" alt="header" />
+            <div class="header-text">
+                {% block header_text %}
+                {% endblock header_text %}
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="content">
+            {% block content %}
+            {% endblock content %}
+        </td>
+    </tr>
+    {% comment %} <tr>
+                <td class="footer">
+                    <img src="{% static 'img/email/footer.png' %}" alt="footer" />
+                </td>
+    </tr> {% endcomment %}
+</table>
+{% endinlinecss %}

@@ -1,0 +1,121 @@
+{% load custom_filters %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-9" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.0" />
+        <title>Document</title>
+        <style>
+        html {
+            font-size: 14px;
+            font-family: Kalimati, sans-serif;
+        }
+
+        span {
+            margin-bottom: 4px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .company-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .company-sub-name {
+            font-size: 18px;
+        }
+
+        .company-info {
+            font-size: 13px;
+        }
+
+        .table_header {
+            border: 1px solid #111;
+            text-align: left;
+            padding: 16px 4px;
+            max-width: 300px;
+        }
+
+        .table_header2 {
+            border: 1px solid #111;
+            text-align: left;
+            padding: 16px 4px;
+            min-width: 80px;
+            max-width: 300px;
+        }
+
+        .table_row {
+            border: 1px solid #111;
+            text-align: left;
+            padding: 4px;
+        }
+
+
+        @page {
+            size: A4;
+            margin: -1mm;
+        }
+
+        {% comment %} Styling Classes {% endcomment %}
+        .top-td {
+            vertical-align: top;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .project-info {
+            margin-bottom: 10px;
+        }
+
+        {% block styles %}
+        {% endblock %}
+        </style>
+        {% block internal_css %}
+        {% endblock internal_css %}
+    </head>
+    <body style="padding: 16px;">
+        {% include "project/malepa_format/common/header.html" %}
+        <div>
+            <table class="project-info"
+                   style="width: 100%;
+                          border-collapse: collapse;
+                          margin-top:20px">
+                <colgroup>
+                    <col style="width: 50%" />
+                    <col style="width: 50%" />
+                </colgroup>
+                <tr>
+                    <td>
+                        <div>कार्यालय वा परियोजनाको नाम:  {{ project.name|default_if_none:"-" }}</div>
+                        <div>कार्यक्रम / योजनाको नाम र कार्यान्वयन हुने स्थल: {{ project.municipality }}</div>
+                        <div>सम्पन्न हुने अनुमानित अवधि: {{ project.projectexecution.estimated_end_date|default_if_none:"Not Estimated" }}</div>
+                    </td>
+                    <td class="right top-td">
+                        <div>आर्थिक वर्ष: {{ project.financial_year|nepali_num_converter }}</div>
+                        <div>बजेट उप शीर्षक नः</div>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                {% block body %}
+                {% endblock body %}
+            </div>
+        </div>
+        {% include "project/malepa_format/common/footer.html" %}
+    </body>
+</html>

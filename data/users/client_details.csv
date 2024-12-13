@@ -1,0 +1,277 @@
+client_id,code,name_en,name_np,Address Maping Code,Address Maping ID,Address Mapping Name English,Address Mapping Name Nepali
+1,sys,System,प्रशासन,,,,
+2,demo,Demo,डेमो,,,,
+3,Surya,Surya Binayak Municipality,सुर्यविनायक नगरपालिका कार्यालय,2593,2593,Suryabinayak Municipality,सुर्यबिनायक नगरपालिका
+4,bhimad,Bhimad Municipality,भिमाद नगरपालिका,2794,2794,Bhimad Municipality,भिमाद नगरपालिका
+6,gramthan,Gramthan Rural Municipality,ग्रामथान गाउँपालिका,2138,2138,Gramthan Rural Municipality,ग्रामथान गाउँपालिका
+7,dharma,Dharmadevi Nagar palika,धर्मदेवी नगरपालिका,2192,2192,Dharma Devi Municipality,धर्म देवि नगरपालीका
+8,shambhu,Shambhunath Municipality,शम्भुनाथ नगरपालिका,2286,2286,Shambhunath Municipality,शम्भुनाथ नगरपालीका
+9,bansgadi,Bansgadhi Municipality,बाँसगढी नगरपालिका,2301,2301,BANSGADHI MUNICIPALITY,बाँसगढी नगरपालिका
+10,gajuri,Gajuri Rural Municipal,गजुरी गाउपालिका,2686,2686,Gajuri Rural Municipality,गजुरी गाउँपालिका
+11,chaubise,Chaubise Rural Municipality,चौविसे गाउँपालिका,2188,2188,Chaubise Rural Municipality,चौबिसे गाउँपालिका
+12,bateshwor,Bateshwor Rural Municipality,बट्टेश्वर गाउँपालिका,2364,2364,Bateswar Rural Municipality,बट्टेश्वर गाउँपालिका
+13,bagmati,Bagmati Municipality,बागमती नगरपालिका,2418,2418,Bagmati Municipality,बागमती नगरपालिका
+14,roshi,Roshi Rural Municipality,रोशी गाउँपालिका,2577,2577,Roshi Rural Municipality,रोशी गाउँँपालिका
+15,basbariya,Basbariya Rural Municipality,बसबरिया गाउँपालिका,2481,3075,Basbariya Rural Municipality,बसबरिया गाउँपालिका
+16,shudd,Shuddhodhan Rural Municipality,शुद्धोधन गाउँपालिका,2493,2493,Suddhodhan Rural Municipality,शुद्धोधन गाउँपालिका
+17,ghodaghodi,Ghodaghodi Municipality,घोडाघोडी नगरपालिका,2678,2678,Ghodaghodi Municipality,घोडाघोडी नगरपालिका
+18,pakhribas,Pakhribas Municipality,पाख्रीबास नगरपालिका,2164,2164,Pakhirbas Municipaltiy,पाख्र्रीबास नगरपालिका
+19,butwal,Butwal Sub-Metropolitan City,बुटवल उप-महानगरपालिका,2317,2317,Butwal Sub-Metropolitan City,बुटवल उपमहानगरपालिका
+20,biratnagar,Biratnagar Metropolitan,विराटनगर महानगरपालिका,2127,2127,Biratnagar Metropolitan City,विराटनगर महानगरपालिका
+21,pokhara,Pokhara Lekhnath Metropolitan City,पोखरा लेखनाथ महानगरपालिका,2955,2955,Pokhara Metropolitan City,पोखरा महानगरपालिका
+22,dharan,Dharan Sub-Metropolitan City,धरान उपमहानगरपालिका,2149,2149,Dharan Sub-Metropolitan City,धरान उप-महानगरपालिका
+23,Ithari,Itahari Sub-Metropolitan City Office,इटहरी उप-महानगरपालिका कार्यालय,2150,2150,Ithari Sub-Metropolitan City,ईटहरी उप-महानगरपालिका
+24,birgunj,Birgunj Metropolitan City,वीरगंज महानगरपालिका,2875,2875,Birgunj MetropolitanCity,वीरगंज महानगरपालिका
+25,Lahan,Lahan Municipality,लहान नगरपालिका,2297,2297,Lahan Municipality,लहान नगरपालीका
+26,Lalitpur,Lalitpur Metropolitan City,ललितपुर महानगरपालिका कार्यालय,2579,2579,Lalitapur Metropolian,ललितपुर महानगरपालिका
+27,hetauda,Hetauda Submetropolitan City,हेटौडा उपमहानगरपालिका,2676,2676,Hetauda Sub-Metropolitain,हेटौडा उप महानगरपालीका
+28,tulsipur,Tulsipur Sub-Metropolitan City,तुलसीपुर उप-महानगरपालिका,2139,2139,Tulshipur SMC,तुल्सीपुर उप-महानगरपालिका
+29,gorakha,Gorkha Municipality,गोरखा नगरपालिका,2749,2749,Ghorakha Municipality,गोरखा नगरपालिका
+30,bharatpur,Bharatpur Metropolitan City,भरतपुर महानगरपालिका,2732,2732,Bharatpur Metropolitian,भरतपुर महानगरपालिका
+31,dhulikhel,Dhulikhel Municipality,धुलिखेल नगरपालिका,2541,2541,Dhulikhel Municipality,धुलिखेल नगरपालिका
+32,Lalit2,kachankawal Rural Municipality,कचनकवल गाउँपालिका,2126,2126,Kanachanakabal Rural Municipality,कचनकबल गाउँपालिका
+33,chaudandi,chaudandigadhi Municipality,चौदण्डीगढी नगरपालिका,2269,2269,Chaudadhigadi Municipality,चौदण्डीगढी नगरपालिका
+34,sainamaina,Saina Maina Municipality,सैनामैना नगरपालिका,2330,2330,Sainamaina Municipality,सैनामैना नगरपालिका
+35,mayadevi,Mayadevi Rural Municipality,मायादेबी गाउँपालिका,2414,2414,Mayadevi Rural Municipality,मायादेवी गाउँपालिका
+36,Tilottama,Tilottama Municipality,तिलोत्तमा नगरपालिका,2366,2366,Tilottama Municipality,तिलोत्तमा नगरपालिका
+37,Kirtipur,Kirtipur Municipality,कीर्तिपुर नगरपालिका,2600,2600,Kirtipur Municipality,कीर्तिपुर नगरपालिका
+38,baijanath,Baijanath Rural Municipality,बैजनाथ गाउपालिका,2177,2177,Baijanath Rural Municipality,बैजनाथ गाउँपालिका
+39,golbazar,Golbazar Municipality,गोलबजार नगरपालिका,2304,2304,Golbazer Municipaltiy,गोलबजार नगरपालीका
+40,bardibas,Bardibas Municipality,बर्दिबास नगरपालिका,2356,2356,Bardibas Municipaltiy,बर्दिबास नगरपालिका
+41,nijgadh,Nijgadh Municipality,निजगढ नगरपालिका,2790,2790,Nijgadha Muncipality,निजगढ नगरपालीका
+42,barju,Barju Rural Municipality,बर्जु गाउँपालिका,2165,2165,Barju Rural Municipaltiy,बर्जु गाउँपालिका
+43,dhanpal,Dhanpalthan Rural Muncipality,धनपालथान गाउँपालिका,2137,2137,Dhanpalthan Rural Municipaity,धनपालथान गाउँपालिका
+44,banganga,Banganga Municipality,वाणगङ्गा नगरपालिका,2413,2413,Banganga Municipality,बाणगंगा नगरपालिका
+45,gandaki,Gandaki Rural Municipality,गण्डकी गाउँपालिका,2757,2757,Gandaki Rural Municipality,गण्डकी गाउँपालीका
+46,katahari,Katahari Rural Municipality,कटहरी गाउँपालिका,2146,2146,Katahari Rural Municipaltiy,कटहरी गाउँपालीका
+47,Sahidlakh,Shahid Lakhan Rural municipality,शहिद लखन गाउँपालिका,2775,2775,Sahid lakhan Rural Municipality,शहिद लखन गाउँपालिका
+48,pratappur,Pratappur Rural Municipal,प्रतापपुर गाउँपालिका,2534,2534,Partappur Rural Municipality,प्रतापपुर गाउँपालिका
+49,Devdaha,Devdaha Municipality,देवदह नगरपालिका,2323,2323,Devdaha Municipality,देवदह नगरपालिका
+50,nagarjun,Nagarjun Municipality,नागार्जुन नगरपालिका कार्यालय,2606,2606,Nagarjun Municipality,नागार्जुन नगरपालिका
+51,bheri,Bheri Municipality,भेरी नगरपालिका,2883,2883,JAYAPRITHVI MUNICIPALITY,जयपृथ्वी नगरपालिका
+52,ratnanagar,Ratnanagar Municipality,रत्ननगर नगरपालिका,2741,2741,Ratnanagar Municipality,रत्रनगर नगरपालिका
+53,rupani,Rupani Rural Municipality,रुपनी गाउँपालिका,2313,2313,Rupani Rural Municipaltiy,रूपनी गाउँपालिका
+54,changu,Changunarayan Municipality,चाँगुनारायण नगरपालिका,2588,2588,Chagunarayan Municipality,चाँगुनारायण नगरपालिका
+55,bandipur,Bandipur Rural Municipality,बन्दीपुर गाउँपालिका,2829,2829,Bandhipur Rural Municipality,बन्दिपुर गाउँपालीका
+56,chame,Chame Rural Municipal,चामे गाउँपालिका,2976,2976,Chame Rural Muncipality,चामे गाउँपालीका
+57,sarawal,Sarawal Rural Municipal,सरावल गाउँपालिका,2539,2539,Sarabal Rural Municipaltiy,सरावल गाउँपालिका
+58,palhi,Palhinandan Rural Municipal,पाल्हीनन्दन गाउँपालिका,2532,2532,palhinnadan Rural Municipality,पाल्हीनन्दन गाउँपालिका
+59,binayitribeni,Binayi Tribeni Rural Municipality,विनयी-त्रिवेणी गाउँपालिका,2538,2538,Binayi Tribeni Rural Municipality,विनयी-त्रिवेणी गाउँपालिका
+60,bhimeshwor,Bhimeshwor Municipality,भिमेश्वर नगरपालिका,2447,2447,Bhimeshwar Municipaltiy,भीमेश्वर नगरपालिका
+61,nepalgunj,Nepalgunj Sub Metropolitan,नेपालगंज उप महानगरपालिका,2170,2170,Nepalgunj SMC,नेपालगंज उप-महानगरपालिका
+62,Siddhartha,Siddharthanagar Municipality,सिद्धार्थनगर नगरपालिका,2365,2365,Siddharthanagar Municipality,सिद्धार्थनगर नगरपालिका
+63,panauti,Panauti Municipality,पनौती नगरपालिका,2543,2543,Panuati Municipality,पनौती नगरपालिका
+64,kamalamai,Kamalamai Municipality,कमलामाई नगरपालिका,2400,2400,Kamalamai Municipality,कमलामाई नगरपालीका
+65,banepa,Banepa Municipality,बनेपा नगरपालिका,2542,2542,Banepa Municipaity,बनेपा नगरपालिका
+66,gokarneshwor,Gokarneshwor Municipality,गोकर्णेश्वर नगरपालिका,2601,2601,Gokanaswor Municipality,गोकर्णेश्वर नगरपालिका
+67,dudhauli,Dudhauli Municipality,दुधौली नगरपालिका,2405,2405,Dudhauli Municipality,दुधौली नगरपालीका
+68,putalibazar,Putalibazar Municipality,पुतलीबजार नगरपालिका,2877,2877,Putalibazzar Municipality,पुतलीबजार नगरपालिका
+69,pachrauta,Pachrauta Municipality,पचरौता नगरपालिका,2815,2815,Pachrauta Municipality,पचरौता नगरपालिका
+70,Kachankawal,Kachankawal Rural Municipality,कचनकवल गाउँपालिका,2126,2126,Kanachanakabal Rural Municipality,कचनकबल गाउँपालिका
+71,belauri,Belauri Municipality,बेलौरी नगरपालिका,2712,2712,Belauri Municipality,बेेलौरी नगरपालिका
+72,Kshireshwornath,Kshireshwornath Municipality,क्षिरेश्वरनाथ नगरपालिका,2333,2333,Chiresanata Rural Municipaltiy,क्षिरेश्वरनाथ नगरपालीका
+73,dullu,Dullu Municipality,दुल्लु नगरपालिका,2832,2832,Dullu Municipality,दुल्लु नगरपालिका
+74,lumbini,Lumbini Cultural Municipality,लुम्बिनी साँस्कृतिक नगरपालिका,2327,2327,Lumbini Saskrit Municipality,लुम्बिनी सांस्कृतिक नगरपालिका
+75,mithila,Mithila Municipality,मिथिला नगरपालिका,2348,2348,Mithila Municipaltiy,मिथिला नगरपालीका
+76,jaleshwar,Jaleshwar Municipality,जलेश्वर नगरपालिका,2353,2353,Jaleshwor Municipaltiy,जलेश्वर नगरपालीका
+77,bardaghat,Bardaghat Municipality,बर्दघाट नगरपालिका,2476,2476,Bardaghat Municipality,बर्दघाट नगरपालिका
+78,madhyabindu,Madhyabindu Municipality,मध्यबिन्दु नगरपालिका,2477,2477,Madyabindu Municipality,मध्यविन्दु नगरपालिका
+79,suwarna,Suwarna Rural Municipality,सुवर्ण गाउँपालिका,2828,2828,Suwarna Muncipality,सुवर्ण गाउँपालिका
+80,kalika,Kalika Municipality,कालिका नगरपालिका,2735,2735,Kalika Municipality,कालिका नगरपालिका
+81,sarumarani,Sarumarani Rural Municipality,सरुमारानी गाउँपालिका,2329,2329,Sarumarani Rural Municipality,सरूमारानी गाउँपालिका
+82,ramgram,Ramgram Municipality,रामग्राम नगरपालिका,2478,2478,Ramgram Municipality,रामग्राम नगरपालिका
+83,sunkoshi,Sunkoshi Rural Municipality,सुनकोशी गाउँपालिका,2436,2436,Sunkoshi Rural Municipaltiy,सुनकोसी गाउँपालिका
+84,devghat,Devghat Rural Municipality,देवघाट गाउँपालिका,2823,2823,Debaghat Rural Municipality,देबघाट गाउँपालीका
+85,tarakeshwor,Tarakeshwor Municipality,तारकेश्वर नगरपालिका,2604,2604,Tarakeshowar Municipality,तारकेश्वर नगरपालिका
+86,siyari,Siyari Rural Municipality,सियारी गाउँपालिका,2492,2492,Siyari Rural Municipality,सियारी गाउँपालिका
+87,lamahi,Lamahi Municipality,लमही नगरपालिका,2151,2151,Lamhi Municipality,लमही नगरपालिका
+88,chaukune,Chaukune Rural Municipality,चौकुने गाउँपालिका,2819,2819,Chukune Rural Municipality,चौकुने गाउँपालिका
+89,chulachuli,Chulachuli Rural Municipality,चुलाचुली गाउँपालिका,2107,2107,Chulachuli Rural Municipaltiy,चुलाचुली गाउँपालिका
+90,tinpatan,Tinpatan Rural Municipality,तीनपाटन गाउपालिका,2425,2425,Tinpatan Rural Municipality,तिनपाटन गाउँपालिका
+91,amargadhi,Amargadhi Municipality,अमरगढी नगरपालिका,2509,2509,Amargadhi Municipality,अमरगढी नगरपालिका
+92,anbukhaireni,Aanbookhaireni Rural Municipality,आँबूखैरेनी गाउँपालिका,2800,2800,Aabukhaireni Rural Municipality,आँबुखैरेनी गाउँपालीका
+93,siraha,Siraha Municipality,सिरहा नगरपालिका,2303,2303,Siraha Municipality,सिरहा नगरपालीका
+94,shankharapur,Shankharapur Municipality,शंखरापुर नगरपालिका,2627,2627,Sanrapur Municipality,शङरापुर नगरपालिका
+95,dhankuta,Dhankuta Municipality,धनकुटा नगरपालिका,2169,2169,Dhankuta Municipality,धनकुटा नगरपालीका
+96,musikot,Musikot Municipality,मुसिकोट नगरपालिका,2545,2545,Musikot Municipality,मुसिकोट नगरपालिका
+97,Simraungadh,Simraungadh Municipality,सिम्रौनगढ नगरपालिका,2795,2795,Simmarngadha Muncipality,सिम्रौनगढ नगरपालिका
+98,kawasoti,Kawasoti Municipality,कावासोती नगरपालिका,2473,2473,Kabasoti Municipality,कावासोती नगरपालिका
+99,kohalpur,Kohalpur Municipality,कोहलपुर नगरपालिका,2172,2172,Kohalpur Municipality,कोहलपुर नगरपालिका
+100,Panchkhal,Panchkhal Municipality,पाँचखाल नगरपालिका,2544,2544,Pachakhal Municipality,पाँचखाल नगरपालिका
+101,bardagoria,Bardagoria Rural Municipal,बर्दगोरिया गाउँपालिका,2690,2690,Bardagoriya Rural Municipality,बर्दगोरिया गाउँपालिका
+102,kailash,Kailash Rural Municipality,कैलाश गाउँपालिका,2688,2688,Kailash Rural Municipality,कैलास गाउँपालिका
+103,sunapati,Sunapati Rural Municipality,सुनापती गाउँपालिका,2459,2459,Sunpati Rural Municipality,सुनापती गाउँपालिका
+104,kolhabi,Kolhabi Municipality,कोल्हवी नगरपालिका,2787,2787,Kohalbi Muncipality,कोहल्वी नगरपालीका
+105,susta,Susta Rural Municipality,सुस्ता गाउँपालिका,2480,2480,Susta Ruralmunicipality,सुस्ता गाउँपालिका
+106,rolpa,Rolpa Municipality,रोल्पा नगरपालिका,2340,2340,ROLPA MUNICIPALITY,रोल्पा नगरपालिका
+107,mithilabihari,Mithila Bihari Municipality,मिथिला बिहारी नगरपालिका,2368,2368,Mithila Bihari Municipality,मिथिला बिहारी नगरपालिका
+108,chandranagar,Chandranagar Rural Municipality,चन्द्रनगर गाउँपालिका,2429,2429,ChandraNagar Rural Municipality,चन्द्रनगर गाउँपालिका
+109,kamal,Kamal Rural Municipality,कमल गाउँपालिका,2119,2119,Kamal Rural Municipality,कमल गाउँपालिका
+110,sukhipur,Sukhipur Municipality,सुखीपुर नगरपालिका,2320,2320,Sukhipur Municipaltiy,सुखीपुर नगरपालिका
+111,bideha,Bideha Municipality,विदेह नगरपालिका,2344,2344,Bideha Municipaltiy,बिदेह नगरपालीका
+112,diktel,Diktel Rupakot Majhuwagadhi Municipality,दिक्तेल रुपाकोट मझुवागढी नगरपालिका,2221,2221,Diktel Rupakot Majhugadhi Rural Municipaltiy,दिक्तेल रुपाकोट मझुवागढी नगरपालिका
+113,gaushala,Gaushala Municipality,गौशाला नगरपालिका,2359,2359,Gaushala Municipality,गौशाला नगरपालीका
+114,ramechhap,Ramechhap Municipality,रामेछाप नगरपालिका,2443,2443,Ramechhap Municipality,रामेछाप नगरपालीका
+115,gaindakot,Gaindakot Municipality,गैंडाकोट नगरपालिका,2474,2474,Gaidakot Municipality,गैडाकोट नगरपालिका
+116,kanchan,Kanchan Rural Municipality,कञ्चन गाउँपालिका,2485,2485,Kanchan Rural Municipality,कन्चन गाउँपालिका
+117,galkot,Galkot Municipality,गल्कोट नगरपालिका,3007,3007,Galkota Municipality,गल्कोटा नगरपाकिला
+118,indrawati,Indrawati Rural Municipality,इन्द्रावती गाउँपालिका,2508,2508,Indrabati Rural Municipality,ईन्द्राबती गाँउपालिका
+119,haripurwa,Haripurwa Municipality,हरिपुर्वा नगरपालिका,2408,2408,Haripurba Municipality,हरिपुर्वा नगरपालिका
+120,rohani,Rohani Rural Municipality,रोहनी गाउँपालिका,2490,2490,Rohini Rural Municipality,रोहिणी गाउँपालिका
+121,panchakanya,Panchakanya Rural Municipality,पञ्चकन्या गाउँपालिका,2659,2659,Pansakanya Rural Municipality,पञ्चकन्या गाउँपालिका
+122,gadhi,Gadhi Rural Municipality,गढी गाउँपालिका,2162,2162,Gadhi Rural Municipaltiy,गढी गाउँपालिका
+123,karjanha,Karjanha Municipality,कर्जन्हा नगरपालिका,2322,2322,Karjanha Municipality,कर्जन्हा नगरपालिका
+124,sunwal,Sunwal Municipality,सुनवल नगरपालिका,2479,2479,Sunabol Municipality,सुनवल नगरपालिका
+125,devtal,Devtal Rural Municipality,देवताल गाउँपालिका,2801,2801,Debtal Rural Muncipality,देवताल गाउँपालीका
+126,letang,Letang Municipality,लेटाङ नगरपालिका,2129,2129,Letang Municipality,लेटाङ नगरपालिका
+127,likhu,Likhu Rural Municipality,लिखु गाउँपालिका,2249,2249,Likhu Rural Municipality,लिखु गाउँपालिका
+128,surunga,Surunga Municipality,सुरुङ्‍गा नगरपालिका,2290,2290,Shurugha Municipaltiy,सुरूङगा नगरपालीका
+129,joshipur,Joshipur Rural Municipality,जोशीपुर गाउँपालिका,2694,2694,Josipur Rural Municipality,जोशीपुर गाउँपालिका
+130,devchuli,Devchuli Municipality,देवचुली नगरपालिका,2475,2475,Devchuli Municipality,देबचुली नगरपालिका
+131,dhangadhimai,Dhangadhimai Municipality,धनगढीमाई नगरपालिका,2300,2300,Dhangadimai Municipality,धनगढीमाई नगरपालीका
+132,prasauni,Prasauni Rural Municipality,प्रसौनी गाउँपालिका,2821,2821,Parsauni Rular Muncipality,प्रसौनी गाउँपालीका
+133,hansapur,Hansapur Municipality,हंसपुर नगरपालिका,2390,2390,Hansapur Rural Municipaltiy,हंसपुर गाउँपालिका
+134,katari,Katari Municipality,कटारी नगरपालिका,2267,2267,Katari Municipality,कटारी नगरपालिका
+135,shuklaphanta,Shuklaphanta Municipality,शुक्ला‌फाँटा नगरपालिका,2709,2709,Shuklaphat Municipality,शुक्ला‌फाँटा नगरपालिका
+136,konjyosom,Konjyosom Rural Municipality,कोन्ज्योसोम गाउँपालिका,2582,2582,Konjyoshoma Rural Municipality,कोन्ज्योसोम गाउँपालिका
+137,sundarbazar,Sundarbazar Municipality,सुन्दरबजार नगरपालिका,2780,2780,Sundarbazar Municipality,सुन्दरबजार नगरपालिका
+138,lamkichuha,Lamkichuha Municipality,लम्किचुहा नगरपालिका,2681,2681,Lamkichuha Municipality,लम्किचुहा नगरपालिका
+139,rampur,Rampur Municipality,रामपुर नगरपालिका,2455,2455,Rampur Municipality,रामपुर नगरपालिका
+140,sundarharaicha,Sundarharaicha Municipality,सुन्दरहरैँचा नगरपालिका,2134,2134,Sundarharicha Muncipality,सुन्दरहरैचा नगरपालिका
+141,bhajani,Bhajani Municipality,भजनी नगरपालिका,2683,2683,Bhajani Municipality,भजनी नगरपालिका
+142,pyuthan,Pyuthan Municipality,प्यूठान नगरपालिका,2314,2314,Pyuthan Municipality,प्यूठान नगरपालिका
+143,ramdhuni,Ramdhuni Municipality,रामधुनी नगरपालिका,2155,2155,Ramdhuni Municipality,रामधुनी नगरपालिका
+144,mirchaiya,Mirchaiya Municipality,मिर्चैया नगरपालिका,2307,2307,Mirchaya Municipality,मिर्चैया नगरपालीका
+145,khairhani,Khairhani Municipality,खैरहनी नगरपालिका,2736,2736,Khairahani Municipality,खैरहनी नगरपालिका
+146,pokhariya,Pokhariya Municipality,पोखरिया नगरपालिका,2889,2889,Pokharia Muncipality,पोखरीया नगरपालीका
+147,malangwa,Malangwa Municipality,मलंगवा नगरपालिका,2399,2399,Malangwa Municipality,मलंगवा नगरपालिका
+148,mahalaxmi,Mahalaxmi Municipality,महालक्ष्मी नगरपालिका,2581,2581,Mahalaxmi Municipality,महालक्ष्मी नगरपालिका
+149,madi,Madi Municipality,माडी नगरपालिका,2738,2738,Madhi Municipaltiy,माडी नगरपालिका
+150,punarbas,Punarbas Municipality,पुनर्वास नगरपालिका,2701,2701,Punarbas Municipality,पुनर्वास नगरपालिका
+151,duhabi,Duhabi Municipality,दुहबी नगरपालिका,2153,2153,Duhabi Municipality,दुहबी नगरपालिका
+152,miklajung,Miklajung Rural Municipality,मिक्लाजुङ गाउँपालिका,2099,2099,Miklagung Rural Municipality,मिक्लाजुङ गाउँपालिका
+153,udayapurgadhi,Udayapurgadhi Rural Municipality,उदयपुरगढी गाउँपालिका,2275,2275,Udayepurgadhi Rural Municipality,उदयपुरगढी गाउँपालिाका
+154,krishnanagar,Krishnanagar Municipality,कृष्णनगर नगरपालिका,2409,2409,Krishnanagar Municipality,कृष्णनगर नगरपालिका
+155,mangalsen,Mangalsen Municipality,मंगलसेन नगरपालिका,2645,2645,Mangalsen Municipality,मंगलसेन नगरपालिका
+156,thakre,Thakre Rural Municipality,थाक्रे गाउँपालिका,2703,2703,Thakre Rural Municipality,थाक्र्रे गाउँपालिका
+157,dccsiraha,dccsiraha,सिराहा जिल्ला समन्वय समिति,,,,
+158,budhanilkantha,Budhanilkantha Municipality,बूढानिलकण्ठ नगरपालिका,2625,2625,Budhanilakantha Municipality,बुढानिलकण्ठ नगरपालिका
+159,phedap,Phedap Rural Municipality,फेदाप गाउँपालिका,2187,2187,Fedapa Rural Municipaltiy,फेदाप गाउँपालिका
+160,hupsekot,Hupsekot Rural Municipality,हुप्सेकोट गाउँपालिका,2540,2540,Hupsekot Rural Municipality,हुप्सेकोट गाउँपालिका
+161,gangajamuna,Gangajamuna Rural Municipality,गंगाजमुना गाउँपालिका,2697,2697,Gangajamuna Rural Municipality,गंगाजमुना गाउँपालिका
+162,sammarimai,Sammarimai Rural Municipality,सम्मरीमाई गाउँपालिका,2491,2491,Sammarimari Rural Municipality,सम्मरीमाई गाउँपालिका
+163,namobuddha,Namobuddha Municipality,नमाेबुद्ध नगरपालिका,2546,2546,Namabuddha Municipality,नमोबुद्ध नगरपालिका
+164,resunga,Resunga Municipality,रेसुङ्गा नगरपालिका,2424,2424,RESUNGA MUNICIPALITY,रेसुङ्गा नगरपालिका
+165,ratuwamai,Ratuwamai Municipality,रतुवामाई नगरपालिका,2132,2132,Ratuwamai Municipality,रतुवामाई नगरपालिका
+166,palungtar,Palungtar Municipality,पालुङटार नगरपालिका,2751,2751,Palungatar Municipality,पालुङटार नगरपालिका
+167,dakshinkali,Dakshinkali Municipality,दक्षिणकाली नगरपालिका,2605,2605,Dakshinkali Municipality,दक्षिणकाली नगरपालिका
+168,dewanganj,Dewanganj Rural Municipality,देवानगञ्ज गाउँपालिका,2158,2158,Debanganja Rural Municipality,देवानगन्ज गाउँपालिका
+169,belbari,Belbari Municipality,बेलबारी नगरपालिका,2128,2128,Belbari Municipality,बेलबारी नगरपालिका
+170,gadhawa,Gadhawa Rural Municipality,गढवा गाउँपालिका,2160,2160,Gadhawa Rural Municipaltiy,गढवा गाउँपालिका
+171,rajapur,Rajapur Municipality,राजापुर नगरपालिका,2752,2752,Rajapur Muncipality,राजपुर नगरपालिका
+172,gaurigunj,Gaurigunj Rural Municipality,गौरीगंज गाउँपालिका,2121,2121,Gauri Gunj Rural Municipality,गौरीगज गाउँपालिका
+173,harinagar,Harinagar Rural Municipality,हरिनगर गाउँपालिका,2171,2171,Harinagar Rural Municipality,हरिनगर गाउँपालिका
+174,balephi,Balephi Rural Municipality,बलेफी गाउँपालिका,2518,2518,Balefi Rural Municipality,बलेफी गाउँपालिका
+175,neelakantha,Neelakantha Municipality,नीलकण्ठ नगरपालिका,2679,2679,Nilkandha Municipality,निलकण्ठ नगरपालिका
+176,gulariya,Gulariya Municipality,गुलरिया नगरपालिका,2289,2289,Guleriya Municipality,गुलेरिया नगरपालिका
+177,bhaktapur,Bhaktapur Municipality,भक्तपुर नगरपालिका,2590,2590,Bhaktapur Municipality,भक्तपुर नगरपालिका
+178,kathmandu,Kathmandu Metropolitan City,काठमाडौँ महानगरपालिका,2595,2595,Kathmandu Metropolian,काठमाण्डौ महानगरपालिका
+179,kushma,Kushma Municipality,कुस्मा नगरपालिका,2983,2983,Kushma Municipality,कुश्मा नगरपालिका
+180,madhyapurthimi,Madhyapur Thimi Municipality,मध्यपुर थिमि नगरपालिका,2592,2592,Madhyapur Thimi Municipality,मध्यपुर थिमी नगरपालिका
+181,kapilvastu,Kapilvastu Municipality,कपिलवस्तु नगरपालिका,2494,2494,Kapilvastu Municipality,कपिलवस्तु नगरपालिका
+182,triyuga,Triyuga Municipality,त्रियुगा नगरपालिका,2271,2271,Triyuga Municipality,त्रियुगा नगरपालिका
+183,dasharathchand,Dasharathchand Municipality,दशरथचन्द नगरपालिका,2519,2519,Dashrathchand Muncipality,दशरथचन्द नगरपालिका
+184,godawari,Godawari Municipality,गोदावरी नगरपालिका,2580,2580,Godhabari Municipality,गोदाबरी नगरपालिका
+185,patharisanishchare,patharisanishchare municipality,पथरी शनिश्चरे नगरपालिका,2131,2131,Pathari Sanischare Municipality,पथरी शनीश्ररे नगरपालिका
+186,urlabari,Urlabari Municipality,उर्लाबारी नगरपालिका,2133,2133,Urlabari Municipaltiy,उर्लावारी नगरपालिका
+187,saptakoshi,Saptakoshi Municipality,सप्तकोशी नगरपालिका,2306,2306,Saptakoshi Municipality,सप्तकोसी नगरपालिका
+188,ChhatharJorpati,Chhathar Jorpati rural municipality,छथर जोरपाटी गाउँपालिका,2186,2186,Chhathar Jorpati Rural Municipality,छथर जोरपाटी गाउँपालिका
+189,Sandhikharka,Sandhikharka Municipality,सन्धिखर्क नगरपालिका,2385,2385,Sandhikharka Municipality,सन्धीखर्क नगरपालिका
+190,ilam,Ilam municipality,इलाम नगरपालिका,2102,2102,Ilam Municipaltiy,ईलाम नगरपालिका
+191,kanchanrupmun,Kanchanrup Municipality,कञ्चनरुप नगरपालिका,2274,2274,Kanchanrup Municipality,कन्चनरूप नगरपालीका
+192,shadananda,Shadananda Municipality,षडानन्द नगरपालिका,2193,2193,Sadhananda Municipality,षडानन्द नगरपालीका
+193,chautarasanga,Chautara Sangachokgadhi Municipality,चौतारा साँगाचोकगढी नगरपालिका,2505,2505,Chautara Sangachowkgadi Municipality,चौतारा साँगाचोकगढी नगरपालिका
+194,dhurkot,Dhurkot Rural Municipality,धुर्कोट गाउँपालिका,2448,2448,DHURKOT RURAL MUNICIPALITY,धुर्कोट गाउँपालिका
+195,gaidahawa,Gaidahawa Rural Municipality,गैडहवा गाउँपालिका,2464,2464,Gaidhawa Rural Municipality,गैडहवा गाउँपालिका
+196,sabaila,Sabaila Municipality,सबेला नगरपालिका,2354,2354,Sabaila Municipality,सबैला नगरपालीका
+197,phatuwabijaypur,Phatuwabijaypur Municipality,फतुवाबिजयपुर नगरपालिका,2747,2747,Phatuwabijyapur Muncipality,फतुवाविजउपुर नगरपालिका
+198,khandadevi,Khandadevi Rural Municipality,खाँडादेवी गाउँपालिका,2449,2449,Khadadevi Rural Municipality,खाडादेवि गाउँपालिका
+199,aurahimundhanusha,Aurahi Rural Municipality,औरही गाउँपालिका,3301,3082,Aurahi Rural Municipality,औरही गाउँपालिका
+200,laxminiya,Laxminiya Rural Municipality,लक्ष्मीनिया गाउँपालिका,2387,2387,Laxminiya Rural Municipaltiy,लक्ष्मीनिया गाउँपालिका
+201,bagmatilalitpur,Bagmati Rural Municipality,वाग्मती गाउँपालिका,2698,2698,Bagmati Rural Municipality,वाग्मती गाउँपालिका
+202,thulungdudhkoshi,Thulung Dudhkoshi Rural Municipality,थुलुङ दुधकोशी गाउँपालिका,2209,2209,Thulung Dudhkoshi Rural Municipality,थुलुङ दुधकोशी गाउँपालिका
+203,balanbihul,Balan Bihul Rural Municipality,बलान बिहुल गाउँपालिका,2393,2393,Balan Bihul Rural MUNICIPALITY,बलान विहुल गाउँपालिका
+204,galchhi,Galchhi Rural Municipality,गल्छी गाउँपालिका,2691,2691,Galchhi Rural Municipality,गल्छी गाउँपालिका
+205,kerabari,Kerabari Rural Municipality,केराबारी गाउँपालिका,2147,2147,kerabari Rural Municipaltiy,केराबारी गाउँपालिका
+206,thaha,Thaha Municipality,थाहा नगरपालिका,2680,2680,Taha Muncipality,थाहा नगरपालीका
+207,bheerkot,Bheerkot Municipality,भीरकोट नगरपालिका,2881,2881,Virakot Municipality,भिरकोट नगरपालिका
+208,gurbhakot,Gurbhakot Municipality,गुर्भाकोट नगरपालिका,2788,2788,Gurbhakot Municipality,गुर्भाकोट नगरपालिका
+209,bhanu,Bhanu Municipality,भानु नगरपालिका,2793,2793,Bhanu Municipality,भानु नगरपालिका
+210,ghyanglekh,Ghyanglekh Rural Municipality,घ्याङलेख गाउँपालिका,2421,2421,Ghyanlekh Rural Municipality,घ्याङलेख गाउँपालिका
+211,panchapuri,Panchapuri Municipality,पञ्चपुरी नगरपालिका,2814,2814,Panshapuri Municipality,पश्रपुरी नगरपालिका
+212,chandrapur,Chandrapur Municipality,चन्द्रपुर नगरपालिका,2715,2715,Chandrapur Muncipality,चन्द्रपुर नगरपालीका
+213,budhigangamorang,"Budhiganga Rural Municipality, Morang","बुढीगंगा गाउँपालिका, मोरङ्ग",2136,2136,Budhiganga Rural Municipaltiy,बुढीगँगा गाउँपालिका
+214,gaurmun,Gaur Municipality,गौर नगरपालिका,2725,2725,Gaur Muncipality,गौर नगरपालीका
+215,bhokraha,Bhokraha Narsingh Rural Municipality,भोक्राहा नरसिंह गाउँपालिका,2168,2168,Bhokraha Narsingh Rural Municipality,भोक्राहा नरसिंह गाउँपालिका
+216,khandbari,Khandbari Municipality,खाँदवारी नगरपालिका,2194,2194,Khadbariu Municipaltiy,खादँबारी नगरपालीका
+217,bhojpur,Bhojpur Municipality,भोजपुर नगरपालिका,2191,2191,Bhojpur Municipality,भोजपुर नगरपालीका
+218,tokha,Tokha Municipality,टोखा नगरपालिका,2603,2603,Tokha Municipality,टोखा नगरपालिका
+219,bishnupursiraha,Bishnupur Rural Municipality,विष्णुपुर गाउँपालिका,2315,2315,Bishnupur Rural Municipality,विष्णुपुर गाउँपालिका
+220,bishnupursaptari,"Bishnupur Rural Municipality, Saptari District","बिष्णुपुर गाउँपालिका, सप्तरी जिल्ला",2321,2321,Bisnupur Rural Municipaltiy,बिष्णुपुर गाउँपालिका
+221,tirahut,Tirahut Rural Municipality,तिरहुत गाउँपालिका,2308,2308,Tirahut Rural Municipality,तिरहुत गाउँपालिका
+222,tinau,Tinau Rural Municipality,तिनाउ गाउँपालिका,2466,2466,Tinau Rural Municipality,तिनाउ गाउँपालिका
+223,tarakhola,Tarakhola Rural Municipality,ताराखोला गाउँपालिका,3022,3022,Tarakhola Rural Municipality,ताराखोला गाउँपालीका
+224,nawarajpur,Nawarajpur Rural Municipality,नवराजपुर गाउँपालिका,2349,2349,Nawaorajpur Rural Municipality,नवराजपुर गाउँपालिका
+225,menchhayayem,Menchhayayem Rural Municipality,मेन्छयायेम गाउँपालिका,2189,2189,Menchhayem Rural Municipality,मेन्छयायेम गाउँपालिका
+226,rajgadh,Rajgadh Rural Municipality,राजगढ़ गाउँपालिका,2316,2316,Rajgadh RURAL MUNICIPALITY,राजगढ गाउँपालिका
+227,rajbiraj,Rajbiraj Municipality,राजविराज नगरपालिका,2270,2270,Rajbiraj Municipality,राजबिराज नगरपालीका
+228,koshi,Koshi Rural Municipality,कोशी गाउँपालिका,2159,2159,Koshi Rural Municipality,कोशी गाउँपालिका
+229,madhavnarayan,Madhavnarayan Municipality,माधव नारायण नगरपालिका,2744,2744,Madhav Naryana Muncipality,माधव नारायण नगरपालिका
+230,myanglung,Myanglung Municipality,म्याङलुङ नगरपालिका,2176,2176,Myanglung Municipality,म्याङलुङ नगरपालीका
+231,agnisaira,Agnisaira Krishnasawaran Rural Municipality,अग्निसाइर कृष्णासवरन गाउँपालिका,2299,2299,Krishnasabran Rural Municipality,कृष्णासबरन गाउँपालिका
+232,laljhadi,Laljhadi Rural Municipality,लालझाडी गाउँपालिका,2717,2717,Laljhadi Rural Municipality,लालझाडी गाउँपालिका
+233,tarakeshwornuwakot,Tarakeshwor Rural Municipality,तारकेश्वर गाउँपालिका,2604,2604,Tarakeshowar Municipality,तारकेश्वर नगरपालिका
+234,janakimunkailali,Janaki Rural Municipality,जानकी गाउँपालिका,2689,2689,Janaki Rural Municipality,जानकी गाउँपालिका
+235,khadak,khadak Municipality Saptari,खडक नगरपालिका सप्तरी,2284,2284,Khadak Municipality,खडक नगरपालीका
+236,bedkot,Bedkot Municipality,बेदकोट नगरपालिका,2704,2704,Bedkot Municipality,बेदकोट नगरपालिका
+237,karaiyamai,Karaiyamai Rural Municipality,करैयामाई गाउँपालिका,2799,2799,Karaiyamai Rural Muncipality,करैयामाई गाउँपालिका
+238,nagrain,Nagrain Rural Municipality,नगराईन नगरपालिका,2341,2341,Nagarain Municipality,नगराइन नगरपालीका
+239,laxmipurpatari,Laxmipur Patari Rural Municipality,लक्ष्मीपुर पतारी गाउँपालिका,2331,2331,Laxmipur Patari Rural Municipality,लक्ष्मीपुर पतारी गाउँपालिका
+240,mahakulung,Mahakulung Rural Municipality,महाकुलुङ गाउँपालिका,2213,2213,Mahakulung Rural Municipality,महाकुलुङ गाउँपालिका
+241,laligurans,Laligurans Municipality,लालिगुराँस नगरपालिका,2179,2179,Laligurasa Municipaltiy,लालीगुरास नगरपालीका
+242,kamala,kamala Municipality,कमला नगरपालिका,2357,2357,Kamala Municipality,कमला नगरपालिका
+243,malika,Malika Rural Municipality,मालिका गाउँपालिका,2721,2721,Malikarjun Rural Municipality,मालिकार्जुन गाउँपालिका
+244,ishma,Isma Rural Municipality,इस्मा गाउँपालिका,2427,2427,ESMA RURAL MUNICIPALITY,इस्मा गाउँपालिका
+245,Patan,Patan Municipality,पाटन नगरपालिका,2520,2520,Patan Municipaltiy,पाटन नगरपालिका
+246,Sanfebagar,Sanfebagar Municipality,साँफेबगर नगरपालिका,2649,2649,Saphebazar Municipality,साँफेबजार नगरपालिका
+247,Marchawari,Marchawari Rural Municipality,मर्चवारी गाउँपालिका,2487,2487,Marchawari Rural Municipality,मर्चवारी गाउँपालिका
+248,khumbupasanglhamu,Khumbu Pasang Lhamu Rural Municipality,खुम्बु पासाङल्हामु गाउँपालिका,2208,2208,Khumbu Pasanglamu Rural Minicipality,खुम्बु पासाङल्हामु गाउँपालिका
+249,musikotgulmi,"Musikot Municipality, Gulmi","मुसिकोट नगरपालिका, गुल्मी",2545,2545,Musikot Municipality,मुसिकोट नगरपालिका
+250,shahidbhumi,Shahidbhumi Rural Municipality,सहिदभूमि गाउँपालिका,2183,2183,Sahidbhumi Rural Municipality,सहिदभूमि गाउँपालिका
+251,bherihospital,Bheri Hospital,भेरी अस्पताल,,,,
+252,janakpurdham,Janakpurdham Sub-Metropolitan City,जनकपुरधाम उपमहानगरपालिका,2328,2328,Janakpurdham Sub-Metropolitan City,जनकपुरधाम उपमहानगरपालिका
+253,ruru,Ruruchhetra Rural Municipality,रुरुक्षेत्र गाउँपालिका,2442,2442,Rurukshetra RURAL MUNICIPALITY,रुरुक्षेत्र गाउँपालिका
+254,beldandi,Beldandi Rural Municipality,बेलडाँडी गाउँपालिका,2714,2714,Beldandi Rural Municipality,बेलडाँडी गाउँपालिका
+255,champadevi,Champadevi Rural Municipality,चम्पादेवी गाउँपालिका,2220,2220,Champadebi Rural Municipality,चम्पादेवी गाउँपालिका
+256,Mahagadhimai,Mahagadhimai Municipality,महागढीमाई नगरपालिका,2792,2792,Mahagadhimai Muncipality,महागढीमाई नगरपालीका
+257,narainapur,Narainapur Rural Municipality,नरैनापुर गाउँपालिका,2173,2173,Narainapur Rural Municipality,नरैनापुर गाउँपालिका
+258,tilathikoiladi,Tilathi Koiladi Rural Municipality,तिलाठी कोईलाडी गाउँपालिका,2311,2311,TILATHI KOIDI RURAL MUNICIPALITY,तिलाठी कोईलाडी गाउँपालिका
+259,phungling,Phungling Municipality,फुङलिङ नगरपालिका,2085,2085,Fungling Municipality,फुङलिङ नगरपालिका
+260,kotahimai,Kotahimai Rural Municipality,कोटहीमाई गाउँपालिका,2486,2486,Kotahimai Rural Muncipal,कोटहीमाई गाउँपालिका
+261,matihani,Matihani Municipality,मटिहानी नगरपालिका,2375,2375,Matihani Municipaltiy,मटिहानी नगरपालिका
+262,ajirkot,Ajirkot Rural Municipality,अजिरकोट गाउँपालिका,2755,2755,Aajirkot Rural Municipality,अजिरकोट गाउँपालीका
+263,siranchowk,Siranchowk Rural Municipality,सिरानचोक गाउँपालिका,2754,2754,Siranchowok Rural Municipality,सिरानचोक गाउँपालीका
+264,bhagwanpur,Bhagwanpur Rural Municipality,भगवानपुर गाउँपालिका,2310,2310,Bhagwanpur Rural Municipaltiy,भगवानपुर गाउँपालिका
+265,pipra,Pipra Rural Municipality,पिपरा गाउँपालिका,2391,2391,Pipara Rural Municipality,पिपरा गाउँपालिका
+266,beni,Beni Municipality,बेनी नगरपालिका,2966,2966,Beni Municipality,बेनी नगरपालिका
+267,bigu,Bigu Rural Municipality,विगु गाउँपालिका,3074,3074,Bigu Rural Municipality,विगु गाउँपालिका
+268,janaknandini,Janaknandini Rural Municipality,जनकनन्दिनी गाउँपालिका,2361,2361,Jankanadine Rural Municipaltiy,जनकनन्दिनी गाउँपालिका
+269,mahalaxmidhankuta,Mahalaxmi Municipality,महालक्ष्मी नगरपालिका,2174,2174,Mahalaxmi Municipality,महालक्ष्मी नगरपालीका
+270,aadarsha,Aadarsha Rural Municipality,आदर्श गाउँपालिका,2670,2670,Aadarsha Rural Municipality,आर्दश गाउँपालिका
+271,nisikhola,Nisikhola Rural Municipality,निसीखोला गाउँपालिका,3024,3024,Nishikhola Rural Municipality,निसीखोला गाउँपालीका
+272,soru,Soru Rural Municipality,सोरु गाउँपालिका,3002,3002,Soru Rural Municipality,सोरू गाउँपालिका
+273,paroha,Paroha Municipality,परोहा नगरपालिका,2750,2750,Paroha Muncipality,परोहा नगरपालिका
+274,mukhiyapatti,mukhiyapattimusaharmiya,मुखियापट्टी मुसहरनिया गाउँपालिका,2373,2373,Mukhiyapati Mushaharmiya Rural Municipality,मुखियापटी मुसहरमिया गाउँपालिका
+275,Bhangaha,Bhangaha Municipality,भँगाहा नगरपालिका,2386,2386,Bhangaha Municipality,भँगाहा नगरपालिका
+276,phalgunanda,phalgunanda rural municipality,फाल्गुनन्द गाउँपालिका,2097,2097,Falgunanda Rural Minicipality,फाल्गुनन्द गाउँपालिका
+277,rishing,rishing rural municipality,ऋषिङ्ग गाउँपालिका,2816,2816,Shisenga Rural Municipality,ऋषिङ गाउँपालीका

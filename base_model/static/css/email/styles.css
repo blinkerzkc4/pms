@@ -1,0 +1,17 @@
+.header {
+	text-align: center;
+}
+
+.header img {
+	width: 200px;
+}
+
+.header .header-text {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content .credentials {
+	padding: 5px 10px;
+	background-color: lightslategray;
+}

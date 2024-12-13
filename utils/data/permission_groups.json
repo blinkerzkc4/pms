@@ -1,0 +1,212 @@
+[
+	{
+		"group_key": "master_data",
+		"group_name": "आधारभुत विवरण",
+		"sub_groups": [
+			"documenttype",
+			"gender",
+			"contactperson",
+			"contactdetail",
+			"address"
+		]
+	},
+	{
+		"group_key": "ebudgeting",
+		"group_name": "eBudgeting",
+		"sub_groups": [
+			"budgetallocationdetail"
+		]
+	},
+	{
+		"group_key": "budget-process-and-management",
+		"group_name": "बजेट प्रकृया तथा व्यस्थापन",
+		"sub_groups": [
+			"source",
+			"incomebudgetrangedetermine",
+			"expensebudgetrangedetermine",
+			"estimatefinancialarrangements",
+			"budgettransfer",
+			"budgetmanagement",
+			"budgetexpensemanagement",
+			"budgetammendment",
+			"approveprocess"
+		]
+	},
+	{
+		"group_key": "accounts-management",
+		"group_name": "खाता व्यवस्थापन",
+		"sub_groups": []
+	},
+	{
+		"group_key": "plan-formulation",
+		"group_name": "योजना तर्जुमा",
+		"sub_groups": [
+			"workproject",
+			"workclass",
+			"targetgroup",
+			"targetgroupcategory",
+			"submodule",
+			"subledger",
+			"subjectarea",
+			"strategicsign",
+			"standinglisttype",
+			"standinglist",
+			"sourcereceipt",
+			"sourcebearerentitytype",
+			"sourcebearerentity",
+			"selectionfeasibility",
+			"roadtype",
+			"roadstatus",
+			"newspaper",
+			"road",
+			"purposeplan",
+			"purchasetype",
+			"projecttype",
+			"program",
+			"projectactivity",
+			"projectlevel",
+			"projectnature",
+			"projectprocess",
+			"projectproposedtype",
+			"projectstartdecision",
+			"projectstatus",
+			"prioritytype",
+			"paymentmethod",
+			"paymentmedium",
+			"organizationtype",
+			"organization",
+			"office",
+			"module",
+			"membertype",
+			"expansetype",
+			"executiveagency",
+			"drainagetype",
+			"currency",
+			"contractortype",
+			"consumercommittee",
+			"constructionmaterialdescription",
+			"collectpayment",
+			"chequeformat",
+			"budgetsubtitle",
+			"budgetsource",
+			"bfi",
+			"banktype",
+			"bankaccount",
+			"accounttitlemanagement",
+			"workclass",
+			"projectworktype",
+			"projectdocument",
+			"budgetassurance"
+		]
+	},
+	{
+		"group_key": "plan-execution",
+		"group_name": "योजना कार्यान्वयन",
+		"sub_groups": [
+			"startpmsprocess",
+			"usercommitteeprojectworkcomplete",
+			"usercommitteemonitoring",
+			"usercommitteedocuments",
+			"tenderpurchasebranch",
+			"startpmsprocess",
+			"projectunitdetail",
+			"projecttender",
+			"projectagreement",
+			"projectbidcollection",
+			"projectdarbhaubid",
+			"projectdeadline",
+			"projectexecution",
+			"projectexecutiondocument",
+			"projectfinishedbailreturn",
+			"projectmobilization",
+			"projectphysicaldescription",
+			"projectreportfinishedandupdate",
+			"projectrevision",
+			"projecttask",
+			"probabilitystudyapprove",
+			"planstartdecision",
+			"paymentexitbill",
+			"openingcontractaccount",
+			"officialprocess",
+			"monitoringcommitteedetail",
+			"measuringbook",
+			"maintenancearrangement",
+			"institutionalcollaborationnominatedstaff",
+			"institutionalcollaborationmandate",
+			"installmentdetail",
+			"installment",
+			"expensetypedetail",
+			"estimationsubmitacceptance",
+			"depositmandate",
+			"consumerformulation",
+			"buildingmaterialdetail",
+			"benefiteddetail",
+			"bailtype",
+			"accountingtopic"
+		]
+	},
+	{
+		"group_key": "human-resources",
+		"group_name": "मानव संसाधन",
+		"sub_groups": [
+			"taxpayer",
+			"servicegroup",
+			"religion",
+			"publicrepresentativeposition",
+			"publicrepresentativedetail",
+			"positionlevel",
+			"position",
+			"nationality",
+			"maritalstatus",
+			"language",
+			"familydetail",
+			"enrollmentdetail",
+			"employee",
+			"employeesector",
+			"employeetype",
+			"enrollmentdetail",
+			"departmentbranch",
+			"department",
+			"currentworkingdetail",
+			"cumulativedetail",
+			"country"
+		]
+	},
+	{
+		"group_key": "report",
+		"group_name": "प्रतिबेदन",
+		"sub_groups": [
+			"templatefieldmapping",
+			"reporttype",
+			"customreporttemplate"
+		]
+	},
+	{
+		"group_key": "new-report",
+		"group_name": "नयाँ प्रतिबेदन",
+		"sub_groups": []
+	},
+	{
+		"group_key": "user-management",
+		"group_name": "user management",
+		"sub_groups": [
+			"userrole",
+			"client"
+		]
+	},
+	{
+		"group_key": "admin-creation",
+		"group_name": "admin creation",
+		"sub_groups": []
+	},
+	{
+		"group_key": "settings",
+		"group_name": "सेटिङहरू",
+		"sub_groups": []
+	},
+	{
+		"group_key": "estimation",
+		"group_name": "Estimation",
+		"sub_groups": []
+	}
+]

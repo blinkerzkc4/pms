@@ -1,0 +1,55 @@
+{% extends 'report_base.html' %}
+{% load custom_filters %}
+{% block styles %}
+    .table_row.topic {
+    text-align: center;
+    padding: 10px 4px;
+    }
+    .table_row.subtotal_header, .table_row.total_header {
+    text-align: right;
+    }
+{% endblock styles %}
+{% block body %}
+    <table style="width: 100%;
+                  border: 1px solid black;
+                  text-align: left;
+                  border-collapse: collapse">
+        <tr>
+            <th class="table_header">S.No.</th>
+            <th class="table_header">Specification No.</th>
+            <th class="table_header">Activity No.</th>
+            <th class="table_header2">Description</th>
+            <th class="table_header">Unit</th>
+            <th class="table_header">Rate in NRs.</th>
+            <th class="table_header">Percent in Total</th>
+        </tr>
+        {% for row in data.processed_summary_of_rates %}
+            {% if row.type == "TOPIC" %}
+                <tr>
+                    <td class="table_row topic" colspan="7">{{ row.description }}</td>
+                </tr>
+            {% elif row.type == "SUBTOTAL" %}
+                <tr>
+                    <td class="table_row subtotal_header" colspan="5">Subtotal</td>
+                    <td class="table_row">{{ row.amount }}</td>
+                    <td class="table_row">{{ row.amount|get_percentage:data.total }}</td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td class="table_row">{{ row.s_no_counter }}</td>
+                    <td class="table_row">{{ row.specification_no }}</td>
+                    <td class="table_row">{{ row.activity_no }}</td>
+                    <td class="table_row">{{ row.description }}</td>
+                    <td class="table_row">{{ row.unit }}</td>
+                    <td class="table_row">{{ row.amount }}</td>
+                    <td class="table_row">{{ row.amount|get_percentage:data.total }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        <tr>
+            <td class="table_row total_header" colspan="5">Total</td>
+            <td class="table_row">{{ data.total }}</td>
+            <td class="table_row">100%</td>
+        </tr>
+    </table>
+{% endblock body %}

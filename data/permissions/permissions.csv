@@ -1,0 +1,406 @@
+Headings,Names,Codes,English Name,Nepali Name
+1,Aadharbhut Bibaran,view_basic_details,View Basic Details,
+1.1,Yojana SHAMBHANDI,view_yojana_shambhandi,Related To Planning ,योजना सम्बन्धि हेर्ने 
+1.1.1,Expense Fatawari,view_expense_fatawari,View Expense fatawari,खर्चको फाँटवारी हेर्ने 
+1.1.1.1,Create,create_expense_fatawari,Create Expense fatawari,खर्चको फाँटवारी थप्ने 
+1.1.1.2,Update,update_expense_fatawari,Update Expense fatawari ,खर्चको फाँटवारी सच्याउने 
+1.1.1.3,Delete,delete_expense_fatawari,Delete Expense fatawari ,खर्चको फाँटवारी मेटाउने 
+1.1.2,Planning Type ,view_planning_type  ,View Planning Type ,योजनाको किसिम हेर्ने 
+1.1.2.1,Create ,create_planning_type  ,Create Planning Type ,योजनाको किसिम थप्ने
+1.1.2.2,Update,update_planning_type  ,Update Planning Type ,योजनाको फाँटवारी सच्याउने 
+1.1.2.3,Delete,delete_planning_type  ,Delete Planning Type ,योजनाको फाँटवारी मेटाउने 
+1.1.3,Planning Purpose,view_planning_purpose,View Planning Purpose,योजनाको उदेश्य हेर्ने 
+1.1.3.1,Create ,create_planning_purpose,Create Planning Purpose,योजनाको उदेश्य थप्ने
+1.1.3.2,Update,update_planning_purpose,Update Planning Purpose,योजनाको उदेश्य सच्याउने
+1.1.3.3,Delete ,delete_planning_purpose,Delete Planning Purpose,योजनाको उदेश्य मेटाउने
+1.1.4,Planning operation process,view_planning _operation _proces,View Planning operation process,योजना  स‌चालन प्रकृया हेर्ने
+1.1.4.1,Create ,create_planning _operation _proces,Create Planning operation process,योजना स‌चालन प्रकृया थप्ने
+1.1.4.2,Update,update_planning _operation _proces,Update Planning operation process,योजना स‌चालन प्रकृया सच्याउने
+1.1.4.3,Delete ,delete_planning _operation _proces,Delete Planning operation process,योजना स‌चालन प्रकृया मेटाउने
+1.1.5,Planning Nature ,view_planning_nature,View Planning Nature,योजनाको प्रकृति हेर्ने
+1.1.5.1,Create ,create_planning_nature,Create Planning Nature,योजनाको प्रकृति थप्ने
+1.1.5.2,Update,update_planning_nature,Update Planning Nature,योजनाको प्रकृति सच्याउने
+1.1.5.3,Delete ,delete_planning_nature,Delete  Planning Nature,योजनाको प्रकृति मेटाउने
+1.1.6,Planning Level,view_planning_leval,View Planning Leval,योजनाको स्तर हेर्ने
+1.1.6.1,Create ,create_planning_leval,Create Planning Leval,योजनाको स्तर थप्ने
+1.1.6.2,Update,update_planning_leval,Update Planning Nature,योजनाको स्तर सच्याउने
+1.1.6.3,Delete ,delete_planning_leval,Delete Planning Leval,योजनाको स्तर मेटाउने
+1.1.7,Planning Activities,view_planning_activities,View Planning Activities,योजना कृयाकलाप हेर्ने
+1.1.7.1,Create ,create_planning_activities,Create Planning Activities,योजना कृयाकलाप थप्ने
+1.1.7.2,Update,update_planning_activities,Update Planning Activities,योजना कृयाकलाप सच्याउने
+1.1.7.3,Delete ,delete_planning_activities,Delete Planning Activities,योजना कृयाकलाप मेटाउने
+1.1.8,Purchases Type,view_purchases_type,View Purchases Type,खरिदको प्रकार हेर्ने
+1.1.8.1,Create ,create_purchases_type,Create Purchases Type,खरिदको प्रकार थप्ने
+1.1.8.2,Update,update_purchases_type,Update Purchases Type,खरिदको प्रकार सच्याउने
+1.1.8.3,Delete ,delete_purchases_type,Delete Purchases Type,खरिदको प्रकार मेटाउने
+1.1.9,Preference Type,view_preference_type,View Preference Type,प्राथमिकताको प्रकार हेर्ने
+1.1.9.1,Create ,create_preference_type,Create Preference Type,प्राथमिकताको प्रकार थप्ने
+1.1.9.2,Update,update_preference_type,Update Preference Type,प्राथमिकताको प्रकार सच्याउने
+1.1.9.3,Delete ,delete_preference_type,Delete Preference Type,प्राथमिकताको प्रकार मेटाउने
+1.1.10,Plan Selection Method,view_plan_selection_method,View Plan Selection Method,योजना छनाैट आधार हेर्ने
+1.1.10.1,Create ,create_plan_selection_method,Create Plan Selection Method,योजना छनाैट आधार थप्ने
+1.1.10.2,Update,update_plan_selection_method,Update Plan Selection Method,योजना छनाैट आधारसच्याउने
+1.1.10.3,Delete ,delete_plan_selection_method,Delete Plan Selection Method,योजना छनाैट आधार मेटाउने
+1.1.11,Stragetic Signal ,view_stragetic_signal,View Stragetic Signal ,रणनैतिक स‌केत हेर्ने
+1.1.11.1,Create ,create_stragetic_signal,CreateStragetic Signal ,रणनैतिक स‌केत थप्ने
+1.1.11.2,Update,update_stragetic_signal,Update Stragetic Signal ,रणनैतिक स‌केत सच्याउने
+1.1.11.3,Delete ,delete_stragetic_signal,Delete Stragetic Signal ,रणनैतिक स‌केत मेटाउने
+1.1.12,Program,view_program,View Program,कार्यक्रम हेर्ने
+1.1.12.1,Create ,create_program,Crete Program,कार्यक्रम थप्ने
+1.1.12.2,Update,update_program,Update Program,कार्यक्रम सच्यउने
+1.1.12.3,Delete ,delete_program,Delete Program,कार्यक्रम मेटाउने
+1.1.13,Target Group,view_target_group,View Target Group,लक्षित समुह हेर्ने
+1.1.13.1,Create ,create_target_group,Create Target Group,लक्षित समुह थप्ने
+1.1.13.2,Update,update_target_group,Update Target Group,लक्षित समुह सच्याउने
+1.1.13.3,Delete ,delete_target_group,Delete Target Group,लक्षित समुह नेटाउने
+1.1.14,Unit Type,view_unit_type,View unit type,ईकाइको प्रकार हेर्ने
+1.1.14.1,Create ,create_unit_type,Create unit type,ईकाइको प्रकार थप्ने
+1.1.14.2,Update,update_unit_type,Update unit type,ईकाइको प्रकार सच्चाउने
+1.1.14.3,Delete ,delete_unit_type,Delete unit type,ईकाइको प्रकार मेटाउने
+1.1.15,Planning Status,view_planning_status,View planning status,योजनाको अबस्था हेर्ने
+1.1.15.1,Create ,create_planning_status,Create planning status,योजनाको अबस्था थप्ने
+1.1.15.2,Update,update_planning_status,Update planning status,योजनाको अबस्था सच्चाउने
+1.1.15.3,Delete ,delete_planning_status,Delete planning status,योजनाको अबस्था मेटाउने
+1.1.16,Contrator Type,view_contrator_type,View contrator type,ठेकदारको प्रकार हेर्ने
+1.1.16.1,Create ,create_contrator_type,Create contrator type,ठेकदारको प्रकार थप्ने
+1.1.16.2,Update,update_contrator_type,Update contrator type,ठेकदारको प्रकार सच्चाउने
+1.1.16.3,Delete ,delete_contrator_type,Delete contrator type,ठेकदारको प्रकार मेटाउने
+1.1.17,Document Type,view_document_type,View document type,कागजातको प्रकार हेेर्ने
+1.1.17.1,Create ,create_document_type,Create document type,कागजातको प्रकार हेर्ने
+1.1.17.2,Update,update_document_type,Update document type,कागजातको प्रकार सच्चाउने
+1.1.17.3,Delete ,delete_document_type,Delete document type,कागजातको प्रकार मेटाउने
+1.2,Sadharan,view_sadharan,View sadharan,साधारण हेर्ने
+1.2.1,Local Leval / Office,view_local_level_office,View Local Leval / Office,कार्यालय स्थानीय तह हेर्ने
+1.2.1.1,Office,view_office,View Office ,कार्यालय हेर्ने
+1.2.1.1.1,Create ,create_office,create office,कार्यालय थप्ने
+1.2.1.1.2,Update,update_office,Update office,कार्यालय स्थाच्याउने
+1.2.1.1.3,Delete ,delete_office,Delete office,कार्यालय मेटाउने
+1.2.1.2,Office type,office_type,View office Type,कार्यालयको प्रकार हेर्ने
+1.2.1.2.1,Create ,create_office_type,Create Office Type,कार्यालयको प्रकाार थप्ने
+1.2.1.2.2,Update,update_office_type,Update Office Type,कार्यालयको प्रकाार सच्याउने
+1.2.1.2.3,Delete ,delete_office_type,Delete Office Type,कार्यालयको प्रकाार मेटाउने
+1.2.2,Listed details,view_listed_details,View Listed details,साुचिकृत बिबरण
+1.2.2.1,Listing type,view_listing_type,View Listing type,सुचिकृतको प्रकार हेर्ने
+1.2.2.1.1,Create ,create_listing_type,create Listing type,सुचिकृतको प्रकार थप्ने
+1.2.2.1.2,Update,update_listing_type,update Listing type,सुचिकृतको प्रकार सच्याउने
+1.2.2.1.3,Delete ,delete_listing_type,delete Listing type,सुचिकृतको प्रकार मेटाउने
+1.2.2.2,Listed details menu,view_listed_details_menu,View Listed details menu,सुचिकृतको बिबरण हेर्ने
+1.2.2.2.1,Create ,create_listed_details_menu,Create Listed details menu,सुचिकृतको बिबरण थप्ने
+1.2.2.2.2,Update,update_listed_details_menu,Update Listed details menu,सुचिकृतको बिबरण सच्याउने
+1.2.2.2.3,Delete ,delete_listed_details_menu,Delete Listed details menu,सुचिकृतको बिबरण मेटाउने
+1.2.3,Road,view_road,Vew Road,सडक हेर्ने
+1.2.3.1,Road condition,view_road_condition,View Road condition,सडकको स्थिति हेर्ने
+1.2.3.1.1,Create ,create_road_condition,Create Road condition,सडकको स्थिति थप्ने
+1.2.3.1.2,Update,upadate__road_condition,Update  Road condition,सडकको स्थिति सच्याउने
+1.2.3.1.3,Delete ,delete__road_condition,Delete Road condition,सडकको स्थिति मेटाउने
+1.2.3.2,Track type,view_track_type,view Track type,सडकको प्रकार  हेर्ने
+1.2.3.2.1,Create,create_track_type,Create Track type,सडकको प्रकार  थप्ने
+1.2.3.2.2,Update,update_track_type,Update Track type,सडकको प्रकार  सच्याउने
+1.2.3.2.3,Delete,delete_track_type,Delete Track type,सडकको प्रकार  मेटाउने
+1.2.3.3,Types of drainage,view_types_of_drainage,ViewTypes of drainage,ढल निकासकाे किसिम हेर्ने
+1.2.3.3.1,Create,create_types_of_drainage,Create Types of drainage,ढल निकासकाे किसिम थप्ने
+1.2.3.3.2,Update,update_types_of_drainage,Update Types of drainage,ढल निकासकाे किसिम सच्याउने
+1.2.3.3.3,Delete,delete_types_of_drainage,Delete Types of drainage,ढल निकासकाे किसिम मेटाउने
+1.2.3.4,Road details,view_types_of_road_details,View Road details,सडकको नामावली विवरण हेर्ने
+1.2.3.4.1,Create,create_types_of_road_details,Create Road details,सडकको नामावली विवरण थप्ने
+1.2.3.4.2,Update,update_types_of_road_details,Update Road details,सडकको नामावली विवरण सच्याउने
+1.2.3.4.3,Delete,delete_types_of_road_details,Delete Road details,सडकको नामावली विवरण मेटाउने
+1.2.4,Others Description,view_others_description,View Others Description,अन्य विवरण हेर्ने
+1.2.4.1,Financial year ,view_types_of_financial year ,View Financial year ,आर्थिक वर्ष हेर्ने
+1.2.4.1.1,Create,create_types_of_financial_year ,Create Financial year ,आर्थिक वर्ष थप्ने
+1.2.4.1.2,Update,update_types_of_financial_year ,Update Financial year ,आर्थिक वर्ष सच्याउने
+1.2.4.1.3,Delete,delete_types_of_financial_year ,Delete Financial year ,आर्थिक वर्ष मेटाउने
+1.2.4.2,Currency name ,view_types_of_currency_name ,View Currency name ,मुद्राको नाम हेर्ने
+1.2.4.2.1,Create,create_types_of_currency_name ,Create Currency name ,मुद्राको नाम थप्ने
+1.2.4.2.2,Update,update_types_of_currency_name ,Update Currency name ,मुद्राको नाम सच्याउने
+1.2.4.2.3,Delete,delete_types_of_currency_name ,Delete Currency name ,मुद्राको नाम मेटाउने
+1.2.4.3,Thematic scope,view_types_of_thematic_scope,View Thematic scope,विषयगत कार्यक्षेत्र हेर्ने
+1.2.4.3.1,Create,create_types_of_thematic_scope,Create Thematic scope,विषयगत कार्यक्षेत्र थप्ने
+1.2.4.3.2,Update,update_types_of_thematic_scope,Update Thematic scope,विषयगत कार्यक्षेत्र सच्याउने
+1.2.4.3.3,Delete,delete_types_of_thematic_scope,Delete Thematic scope,विषयगत कार्यक्षेत्र मेटाउने
+1.2.4.4,Sub-Module,view_types_of_sub-module,View Sub-Module,सहायक मोड्युल हेर्ने
+1.2.4.4.1,Create,create_types_of_sub-module,Create Sub-Module,सहायक मोड्युल थप्ने
+1.2.4.4.2,Update,update_types_of_sub-module,Update Sub-Module,सहायक मोड्युल सच्याउने
+1.2.4.4.3,Delete,delete_types_of_sub-module,Delete Sub-Module,सहायक मोड्युल मेटाउने
+1.2.4.5,Newspaper Details,view_types_of_newspaper_details,View Newspaper Details,पत्र-पत्रिका विवरण हेर्ने
+1.2.4.5.1,Create,create_types_of_newspaper_details,Create Newspaper Details,पत्र-पत्रिका विवरण थप्ने
+1.2.4.5.2,Update,update_types_of_newspaper_details,Update Newspaper Details,पत्र-पत्रिका विवरण सच्याउने
+1.2.4.5.3,Delete,delete_types_of_newspaper_details,Delete Newspaper Details,पत्र-पत्रिका विवरण मेटाउने
+1.2.4.6,Project Operation Decision,view_types_of_project_operation_decision,View Project Operation Decision,आयोजना सञ्चालन निर्णय हेर्ने
+1.2.4.6.1,Create,create_types_of_project_operation_decision,Create Project Operation Decision,आयोजना सञ्चालन निर्णय थप्ने
+1.2.4.6.2,Update,update_types_of_project_operation_decision,Update Project Operation Decision,आयोजना सञ्चालन निर्णय सच्याउने
+1.2.4.6.3,Delete,delete_types_of_project_operation_decision,Delete  Project Operation Decision,आयोजना सञ्चालन निर्णय मेटाउने
+1.2.4.7,Construction Materials Details,view_types_of_construction_materials_details,View Construction Materials Details,निर्माण सामग्रीको विवरण हेर्ने
+1.2.4.7.1,Create,create_types_of_construction_materials_details,Create Construction Materials Details,निर्माण सामग्रीको विवरण थप्ने
+1.2.4.7.2,Update,update_types_of_construction_materials_details,Update Construction Materials Details,निर्माण सामग्रीको विवरण सच्याउने
+1.2.4.7.3,Delete,delete_types_of_construction_materials_details,Delete Construction Materials Details,निर्माण सामग्रीको विवरण मेटाउने
+1.3,Budget Source Management,view_budget_source_management,View Budget Source Management,बजेट तथा स्रोत व्यवस्थापन हेर्ने
+1.3.1,Budget Subtitle,view_types_of_budget_subtitle,View Budget Subtitle ,बजेट उपशीर्षक हेर्ने
+1.3.1.1,Create,create_types_of_budget_subtitle,Create Budget Subtitle ,बजेट उपशीर्षक थप्ने
+1.3.1.2,Update,update_types_of_budget_subtitle,Update Budget Subtitle ,बजेट उपशीर्षक सच्याउने
+1.3.1.3,Delete,delete_types_of_budget_subtitle,Delete Budget Subtitle ,बजेट उपशीर्षक मेटाउने
+1.3.2,Mode of payment,view_mode_of_payment,View Mode Of Payment,भुक्तानी बिधि हेर्ने 
+1.3.2.1,Create,create_mode_of_payment,Create Mode Of Payment,भुक्तानी बिधि थप्ने
+1.3.2.2,Update,update_mode_of_payment,Update Mode Of Payment,भुक्तानी बिधि सच्याउने
+1.3.2.3,Delete,delete_mode_of_payment,Delete Mode Of Payment,भुक्तानी बिधि मेटाउने
+1.3.3,Receipt Type,view_receipt_type,View Receipt Type,प्राप्तिको श्रोत हेर्ने  हेर्ने
+1.3.3.1,Create,create_receipt_type,Create Receipt  Type,प्रप्तिको श्राेत थप्ने
+1.3.3.2,Update,update_receipt_type,Update Receipt  Type,प्रप्तिको श्राेत सच्याउने
+1.3.3.3,Delete,delete_receipt_type,Delete Receipt  Type,प्रप्तिको श्राेत मेटाउने 
+1.3.4,Means Of Payment,view_means_of_payment,View Means Of Payment,भुक्तानी प्रणाली हेर्ने 
+1.3.4.1,Create,create_means_of_payment,Create Means Of Payment ,भुक्तानी प्रणाली थप्ने 
+1.3.4.2,Update,update_means_of_payment,Update Means Of Payment ,भुक्तानी प्रणाली सच्याउने
+1.3.4.3,Delete,delete_means_of_payment,Delete Means Of Payment ,भुक्तानी प्रणाली मेटाउने
+1.3.5,Sub-Ledger,view_sub_ledger,View Sub Ledger,सहायक खाता हेर्ने
+1.3.5.1,Create,create_sub_ledger,Create Sub-Ledger,सहायक खाता थप्ने
+1.3.5.2,Update,update_sub_ledger,Update Sub-Ledger,सहायक खाता सच्याउने
+1.3.5.3,Delete,delete_sub_ledger,Delete Sub-Ledger,सहायक खाता नेटाउने
+1.3.6,Chart Of Account Managment,view_chart_of_account_managment,View Chart Of Account Managment,हेर्ने
+1.3.6.1,Create,create_chart_of_account_management,Create Chart of Account Management,लेखा शीर्षक ब्यबस्थापन
+1.3.6.2,Update,update_chart_of_account_management,Update Chart of Account Management,लेखा शीर्षक ब्यबस्थापन
+1.3.6.3,Delete,delete_chart_of_account_management,Delete Chart of Account Management,लेखा शीर्षक ब्यबस्थापन
+1.3.7,Budget Source ,view_budget_source,View Budget Source,बजेट श्राेत  हेर्ने
+1.3.7.1,Create,create_budget_source,Create Budget Source ,बजेट श्राेत थप्ने
+1.3.7.2,Update,Update_budget_source,Update Budget Source ,बजेट श्राेत सच्याउने
+1.3.7.3,Delete,delete_budget_source,Delete Budget Source ,बजेट श्राेत मेटाउने
+1.3.8,Funding Agency Type,view_funding_agency_type,View Funding Agency Type,श्राेत प्रदान गर्ने निकायकाे प्रकार हेर्ने
+1.3.8.1,Create,create_funding_agency_type,Fundging Agency Type,श्राेत प्रदान गर्ने निकायकाे प्रकार थप्ने
+1.3.8.2,Update,update_funding_agency_type,Fundging Agency Type,श्राेत प्रदान गर्ने निकायकाे प्रकार सच्याउने
+1.3.8.3,Delete,delete_funding_agency_type,Fundging Agency Type,श्राेत प्रदान गर्ने निकायकाे प्रकार मेटाउने
+1.3.9,Funding Agency ,view_funding_agency,View Funding Agency,श्राेत ब्यहाेर्ने निकाय हेर्ने
+1.3.9.1,Create,create_funding_agency,Create Fundging Agency ,श्राेत ब्यहाेर्ने निकाय थप्ने
+1.3.9.2,Update,update_funding_agency,Update Fundging Agency ,श्राेत ब्यहाेर्ने निकाय सच्याउने
+1.3.9.3,Delete,delete_funding_agency,Delete Fundging Agency ,श्राेत ब्यहाेर्ने निकाय मेटाउने
+2,eBudgeting,view_ebudgeting,View eBudgeting,इ -बजेटिङ हेर्ने
+2.1,Program and Budget Import,view_types_of_program_and_budget_import,View Program and Budget Import,कार्यक्रम तथा बजेट आयात (Import) हेर्ने
+2.1.1,Create,create_types_of_program_and_budget_import,Create Program and Budget Import,कार्यक्रम तथा बजेट आयात (Import) थप्ने
+2.1.2,Update,update_types_of_program_and_budget_import,Update Program and Budget Import,कार्यक्रम तथा बजेट आयात (Import) सच्याउने
+2.1.3,Delete,delete_types_of_program_and_budget_import,Delete Program and Budget Import,कार्यक्रम तथा बजेट आयात (Import) मेटाउने
+2.2,eBudgeting,view_types_of_ebudgeting,View eBudgeting,eBudgeting हेर्ने
+2.2.1,Create,create_types_of_ebudgeting,CreateeBudgeting,eBudgeting थप्ने
+2.2.2,Update,update_types_of_ebudgeting,Update eBudgeting,eBudgeting सच्याउने
+2.2.3,Delete,delete_types_of_ebudgeting,Delete eBudgeting,eBudgeting मेटाउने
+3,Budget Process Management,view_budget_process_management,View Budget Process Management,बजेट प्रक्रिया व्यवस्थापन हेर्ने
+3.1,Budget Process,view_budget-process,View Budget Process ,बजेट प्रक्रिया हेर्ने
+3.1.1,Expenditure Budget Limit (Ward),view_expenditure_budget_limit_ward,View Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) हेर्ने 
+3.1.1.1,Create,create_expenditure_budget_limit_ward,Create Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) थप्ने 
+3.1.1.2,Update,update_expenditure_budget_limit_ward,Update Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) सच्याउने 
+3.1.1.3,Delete,delete_expenditure_budget_limit_ward,Delete Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) मेटाउने 
+3.1.2,Income Budget Limit,view_income_budget_limit,View Income Budget Limit,आय बजेट सिमा हेर्ने 
+3.1.2.1,Create,create_income_budget_limit,Create Income Budget Limit,आय बजेट सिमा थप्ने 
+3.1.2.2,Update,update_income_budget_limit,Update Income Budget Limit,आय बजेट सिमा सच्याउने 
+3.1.2.3,Delete,delete_income_budget_limit,Delete Income Budget Limit,आय बजेट सिमा मेटाउने 
+3.1.3,Expenditure Budget Limit (Ward),view_expenditure_budget_limit_ward,View Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) हेर्ने 
+3.1.3.1,Create,create_expenditure_budget_limit_ward,Create Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) थप्ने 
+3.1.3.2,Update,update_expenditure_budget_limit_ward,Update Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) सच्याउने 
+3.1.3.3,Delete,deletedelete_expenditure_budget_limit_ward,Delete Expenditure Budget Limit (Ward),व्यय बजेट सिमा (वडा) मेटाउने 
+3.1.4,Expenditure Budget Estimates,view_expenditure_budget_estimates,View Expenditure Budget Estimates,व्यय बजेट अनुमान हेर्ने 
+3.1.4.1,Create,create_expenditure_budget_estimates,Create Expenditure Budget Estimates,व्यय बजेट अनुमान थप्ने 
+3.1.4.2,Update,update_expenditure_budget_estimates,Update Expenditure Budget Estimates,व्यय बजेट अनुमान सच्याउने 
+3.1.4.3,Delete,delete_expenditure_budget_estimates,Delete Expenditure Budget Estimates,व्यय बजेट अनुमान मेटाउने 
+3.1.5,Estimate Financial Arrangements,view_estimate_financial_arrangments,View Estimate Financial Arrangements,वित्तीय व्यवस्था अनुमान हेर्ने 
+3.1.5.1,Create,create_estimate_financial_arrangments,Create Estimate Financial Arrangements,वित्तीय व्यवस्था अनुमान थप्ने 
+3.1.5.2,Update,update_estimate_financial_arrangments,Update Estimate Financial Arrangements,वित्तीय व्यवस्था अनुमान सच्याउने 
+3.1.5.3,Delete,delete_estimate_financial_arrangments,Delete Estimate Financial Arrangements,वित्तीय व्यवस्था अनुमान मेटाउने 
+3.2,Budget Management,view_budget_managment,View Budget Management,बजेट व्यवस्थापन हेर्ने
+3.2.1,Local Leval / Office,view_local_leval_office,View Local Leval / Office,कार्यालय / स्थानीय तह हेर्ने 
+3.2.2,Details of Budget Revisions,view_details_of_budget_revisions,View Details of Budget Revisions,बजेट संशोधनको विवरण हेर्ने 
+3.2.2.1,Create,create_details_of_budget_revisions,Create Details of Budget Revisions,बजेट संशोधनको विवरण थप्ने 
+3.2.2.2,Update,update_details_of_budget_revisions,Update Details of Budget Revisions,बजेट संशोधनको विवरण सच्याउने 
+3.2.2.3,Delete,delete_details_of_budget_revisions,Details Details of Budget Revisions,बजेट संशोधनको विवरण मेटाउने 
+3.2.3,Budget Transfer,view_budget_transfer,View Budget Transfer,बजेट रकमान्तर हेर्ने 
+3.2.3.1,Create,create_budget_transfer,Create Budget Transfer,बजेट रकमान्तर थप्ने 
+3.2.3.2,Update,update_budget_transfer,Update Budget Transfer,बजेट रकमान्तर सच्याउने 
+3.2.3.3,Delete,delete_budget_transfer,Delete Budget Transfer,बजेट रकमान्तर मेटाउने 
+4,Account Management,view_account_management,View Account Management,खाता ब्यबस्थापन हेर्ने 
+4.1,Banks tatha bittiya sastha,view_bank_tatha_bittya_sastha,Baika tatha bittiya sastha,बै‌क तथा बित्तिय सस्था हेर्ने
+4.1.1,List of Banks and Financinal Institutions,view_list_of_bank_and_financinal_institutions,View List of Banks and Financinal Institutions,बै‌क तथा बित्तिय सस्थाको नामावली हेर्ने
+4.1.1.1,Create,create_list_of_bank_and_financinal_institutions,Create List of Banks and Financinal Institutions,बै‌क तथा बित्तिय सस्थाको नामावली थप्ने
+4.1.1.2,Update,update_list_of_bank_and_financinal_institutions,Update List of Banks and Financinal Institutions,बै‌क तथा बित्तिय सस्थाको नामावली सच्याउने
+4.1.1.3,Delete,delete_list_of_bank_and_financinal_institutions,Delete List of Banks and Financinal Institutions,बै‌क तथा बित्तिय सस्थाको नामावली मेटाउने
+4.1.2,View Types Of Banks and Financial Institutions,view_types_of_bank_and_financinal_institutions,View Types Of Banks and Financial Institutions,बै‌क तथा बित्तिय सस्थाको प्रकार हेर्ने
+4.1.2.1,Create,create_types_of_bank_and_financinal_institutions,create Types Of Banks and Financial Institutions,बै‌क तथा बित्तिय सस्थाको प्रकार हेर्ने
+4.1.2.2,Update,update_types_of_bank_and_financinal_institutions,updateTypes Of Banks and Financial Institutions,बै‌क तथा बित्तिय सस्थाको प्रकार हेर्ने
+4.1.2.3,Delete,delete_types_of_bank_and_financinal_institutions,delete Types Of Banks and Financial Institutions,बै‌क तथा बित्तिय सस्थाको प्रकार हेर्ने
+4.1.3,Banks and Financial Institution Accounts,view_banks_and_financial_institution_ accounts,View Banks and Financial Institution Accounts,बै‌क तथा बित्तिय सस्थाको खाता हेर्ने
+4.1.3.1,Create,create_banks_and_financial_institutio _accounts,Create Banks and Financial Institution Accounts,बै‌क तथा बित्तिय सस्थाको खाता थप्ने
+4.1.3.2,Update,update_banks_and _financial _institution_accounts,Update Banks and Financial Institution Accounts,बै‌क तथा बित्तिय सस्थाको खाता सच्याउने
+4.1.3.3,Delete,delete_banks_and_financial_institution_accounts,Delete Banks and Financial Institution Accounts,बै‌क तथा बित्तिय सस्थाको खाता मेटाउने
+4.2,Executive Agency Details,view_executive_agency_details,View Executive Agency Details,कार्यान्वयन गर्ने निकायको बिबरण हेर्ने
+4.2.1,Create,create_executive_agency_details,Create Executive Agency Details,कार्यान्वयन गर्ने निकायको बिबरण थप्ने 
+4.2.2,Update,update_executive_agency_details,Update Executive Agency Details,कार्यान्वयन गर्ने निकायको बिबरण सच्याउने 
+4.2.3,Delete,delete_executive_agency_details,Delete Executive Agency Details,कार्यान्वयन गर्ने निकायको बिबरण मेटाउने 
+4.3,Description of form and association,view_description_of_form _and_association,View Description of form and association,फर्म तथा स‌घ स‌स्थाको बिबरण हेर्ने
+4.3.1,Institutional Type,view _institutional type,View Institutional Type,स‌स्थासँग सम्बन्धित प्रकार हेर्ने
+4.3.1.1,Create,create_institutional_type,Create Institutional Type,स‌स्थासँग सम्बन्धित प्रकार थप्ने
+4.3.1.2,Update,update_institutional_type,Update Institutional Type,स‌स्थासँग सम्बन्धित प्रकार सच्याउने
+4.3.1.3,Delete,delete_Institutional_type,Delete Institutional Type,स‌स्थासँग सम्बन्धित प्रकार मेटाउने
+4.3.2,Form Organization,view_firm_organization,View Form Organization,फर्म / संस्था हेर्ने 
+4.3.2.1,Create,create_firm_organization,Create Form Organization,फर्म / संस्था थप्ने
+4.3.2.2,Update,update_firm_organization,Update Form Organization,फर्म / संस्था सच्याउने
+4.3.2.3,Delete,delete_firm_organization,Delete Form Organization,फर्म / संस्था मेटाउने
+4.4,Consumer Committee,view_consumer_committee,View Consumer Committee,उपभाेक्ता समिति हेर्ने
+4.4.1,Type of Memembership,view_type_of_membership,View Type of Memembership,सदस्यताको प्रकार हेर्ने
+4.4.1.1,Create,create_type_of_membership,Create Type of Memembership,सदस्यताको प्रकार थप्ने
+4.4.1.2,Update,update_type_of_membership,UpdateType of Memembership,सदस्यताको प्रकार सच्याउने 
+4.4.1.3,Delete,delete_type_of_membership,Delete Type of Memembership,सदस्यताको प्रकारमेटाउने 
+4.4.2,Roster of Consumer Committee,view_roster_of_consumer_committee,View Roster of Consumer Committee,उपभोक्ता समितिको नामावली हेर्ने 
+4.4.2.1,Create,create_roster_of_consumer_committee,Create Roster of Consumer Committee,उपभोक्ता समितिको नामावली थप्ने 
+4.4.2.2,Update,update_roster_of_consumer_committee,Update Roster of Consumer Committee,उपभोक्ता समितिको नामावली सच्याउने 
+4.4.3.3,Delete,delete_roster_of_consumer_committee,Delete Roster of Consumer Committee,उपभोक्ता समितिको नामावली मेटाउन 
+4.4.3,Monitoring /Jachpass Committee,view_monitoring_jachpass_committee,View Monitoring /Jachpass Committee,अनुगमन/जांचपास समिति हेर्ने 
+4.4.3.1,Create,create_monitoring_jachpass_committee,Create Monitoring /Jachpass Committee,अनुगमन/जांचपास समिति थप्ने 
+4.4.3.2,Update,update_monitoring_jachpass_committee,Update Monitoring /Jachpass Committee,अनुगमन/जांचपास समिति सच्याउने 
+4.4.3.3,Delete,delete_monitoring_jachpass_committee,Delete Monitoring /Jachpass Committee,अनुगमन/जांचपास समिति मेटाउने 
+4.4.4,User Committee Member ,view_roster_of_consumer_committee_members ,View User Committee Member ,उपभोक्ता समिति सदस्य हेर्ने 
+4.4.4.1,Create,create_roster_of_consumer_committee_members,Create User Committee Member ,उपभोक्ता समिति सदस्य थप्ने 
+4.4.4.2,Update,update_roster_of_consumer_committee_members,Update User Committee Member ,उपभोक्ता समिति सदस्य सच्याउने 
+4.4.4.3,Delete,delete_roster_of_consumer_committee_members,Delete User Committee Member ,उपभोक्ता समिति सदस्य मेटाउने 
+4.4.5,Monitoring committee Members,view_monitoring_jachpass_committee_members,View Monitoring committee Members,अनुगमन/जांचपास समिति सदस्य हेर्ने 
+4.4.5.1,Create,create_monitoring_jachpass_committee_members,Create Monitoring committee Members,अनुगमन/जांचपास समिति थप्ने 
+4.4.5.2,Update,update_monitoring_jachpass_committee_members,Update Monitoring committee Members,अनुगमन/जांचपास समिति सच्याउने 
+4.4.5.3,Delete,delete_monitoring_jachpass_committee_members,Delete Monitoring committee Members,अनुगमन/जांचपास समिति हेर्ने मेटाउने 
+5,Project Formulations,vew_project_formulations,View Project Formulation,योजना तर्जुमा हेर्ने 
+5.1,Project Type ,view_project_type,View Project Type  ,आयोजनाको प्रकार हेर्ने 
+5.1.1,Create,create_project_type,Create Project Type ,आयोजनाको प्रकार थप्ने 
+5.1.2,Update,update_project_type,Update Project Type ,आयोजनाको प्रकार सच्याउने 
+5.1.3,Delete,delete_project_type,Delete Project Type ,आयोजनाको प्रकार मेटाउने 
+5.2,Work Plan Program Mun Rural Mun ,view_work_plan_program_mun_rural_mun,View Work Plan Program Mun Rural Mun ,काम आयोजना/कार्यक्रम (न.पा./गा.पा.) हेर्ने 
+5.2.1,Create,create_work_plan_program_mun_rural_mun,Create Work Plan Program Mun Rural Mun ,काम आयोजना/कार्यक्रम (न.पा./गा.पा.) थप्ने 
+5.2.2,Update,update_work_plan_program_mun_rural_mun,Update Work Plan Program Mun Rural Mun ,काम आयोजना/कार्यक्रम (न.पा./गा.पा.) सच्याउने 
+5.2.3,Delete,delete_work_plan_program_mun_rural_mun,Delete Work Plan Program Mun Rural Mun ,काम आयोजना/कार्यक्रम (न.पा./गा.पा.) मेटाउने 
+5.3,Ward Level Projects,view_ward_level_projects,View Ward Level Projects,वडा स्तरिय आयोजना हेर्ने 
+5.3.1,Create,create_ward_level_projects,Create Ward Level Projects,वडा स्तरिय आयोजना थप्ने 
+5.3.2,Update,update_ward_level_projects,Update Ward Level Projects,वडा स्तरिय आयोजना सच्याउने 
+5.3.3,Delete,delete_ward_level_projects,Delete Ward Level Projects,वडा स्तरिय आयोजना मेटाउने 
+5.4,Projects Prioritization,view_projects_prioritization,View Projects Prioritization,आयोजना प्राथमिकीकरण हेर्ने 
+5.4.1,Create,create_projects_prioritization,Create Projects Prioritization,आयोजना प्राथमिकीकरण थप्ने 
+5.4.2,Update,update_projects_prioritization,Update Projects Prioritization,आयोजना प्राथमिकीकरण सच्याउने 
+5.4.3,Delete,delete_projects_prioritization,Delete Projects Prioritization,आयोजना प्राथमिकीकरण मेटाउने 
+5.5,Short Listed Projects ,view_short_listed_projects,View Short Listed Projects ,सुचिकृत आयोजना हेर्ने 
+5.5.1,Create,create_short_listed_projects,Created Short Listed Projects ,सुचिकृत आयोजना थप्ने 
+5.5.2,Update,update_short_listed_projects,Updated Short Listed Projects ,सुचिकृत आयोजना सच्याउने 
+5.5.3,Delete,delete_short_listed_projects,Delete Short Listed Projects,सुचिकृत आयोजना मेटाउने 
+5.6,Project&Programme Aprove by,view_project_and_programme_approve_by,View Project&Programme Aprove by,आयोजना/ (स्वीकृत गर्ने) हेर्ने 
+5.6.1,Create,create_project_and_programme_approve_by,Create Project&Programme Aprove by,आयोजना/ (स्वीकृत गर्ने) थप्ने 
+5.6.2,Update,update_project_and_programme_approve_by,Update Project&Programme Aprove by,आयोजना/ (स्वीकृत गर्ने) सच्याउने 
+5.6.3,Delete,delete_project_and_programme_approve_by,Delete Project&Programme Aprove by,आयोजना/ (स्वीकृत गर्ने) मेटाउने 
+6,Plan Execcution,view_plan_execution,View Plan Execution,योजना कार्यान्वयन हेर्ने 
+6.1,Projects Details ,view_projects_details,View Projects Details ,योजनाको विवरण हेर्ने 
+6.1.1,Create,create_projects_details,Create Projects Details ,योजनाको विवरण थप्ने 
+6.1.2,Update,update_projects_details,Update Projects Details ,योजनाको विवरण सच्याउने 
+6.1.3,Delete,delete_projects_details,Delete Projects Details ,योजनाको विवाराव मेटाउने 
+6.2,Contracts,view_contract,View Contract,ठेक्कापट्टा हेर्ने 
+6.2.1,Create,create_contract,Create Contract,ठेक्कापट्टा थप्ने 
+6.2.2,Update,update_contract,Update Contract,ठेक्कापट्टा सच्याउने 
+6.2.3,Delete,delete_contract,Delete Contract,ठेक्कापट्टा मेटाउने 
+6.3,Consumer Committee,view_consumer_committee,View Consumer Committee,उपभोक्ता समिति हेर्ने 
+6.3.1,Create,create_consumer_committee,Create Consumer Committee,उपभोक्ता समिति थप्ने 
+6.3.2,Update,update_consumer_committee,Update Consumer Committee,उपभोक्ता समिति सच्याउने 
+6.3.3,Delete,delete_consumer_committee,Delete Consumer Committee,उपभोक्ता समिति मेटाउने 
+6.4,Force Account ,view_force_account,View Force Account ,अमानत हेर्ने 
+6.4.1,Create,create_force_account,Create Force Account,अमानत थप्ने 
+6.4.2,Update,update_force_account,Update Force Account,अमानत सच्याउने 
+6.4.3,Delete,delete_force_account,Delete Force Account,अमानत मेटाउने 
+6.5,Quotation,view_quotation,View Quotation,कोटेसन हेर्ने 
+6.5.1,Create,create_quotation,Create Quotation,कोटेसन थप्ने 
+6.5.2,Update,update_quotation,Update Quotation,कोटेसन सच्याउने 
+6.5.3,Delete,delete_quotation,Delete Quotation,कोटेसन मेटाउने 
+6.6,Institutional Collaboration,view_institutional_collaboration,View Institutional Collaboration,संस्थागत सहकार्य हेर्ने 
+6.6.1,Create,create_institutional_collaboration,Create Institutional Collaboration,संस्थागत सहकार्य थप्ने 
+6.6.2,Update,update_institutional_collaboration,Update Institutional Collaboration,संस्थागत सहकार्य सच्याउने 
+6.6.3,Delete,delete_institutional_collaboration,Delete Institutional Collaboration,संस्थागत सहकार्य मेटाउने 
+6.7,Ongoing and Completed Details of The Projects,view_ongoing_and_completed_details_of_the_projects,View Ongoing and Completed Details of The Projects,आयोजनाको चालु तथा सम्पन्न विवरण हेर्ने 
+6.7.1,Create,create_ongoing_and_completed_details_of_the_projects,Create Ongoing and Completed Details of The Projects,आयोजनाको चालु तथा सम्पन्न विवरण थप्ने 
+6.7.2,Update,update_ongoing_and_completed_details_of_the_projects,Update Ongoing and Completed Details of The Projects,आयोजनाको चालु तथा सम्पन्न विवरण सच्याउने 
+6.7.3,Delete,delete_ongoing_and_completed_details_of_the_projects,Delete Ongoing and Completed Details of The Projects,आयोजनाको चालु तथा सम्पन्न विवरण
+7,Human Resources,view_human_resources,View Human Resources,मानव संसाधन हेर्ने 
+7.1,Employee Details,view_employee_details,View Employee Details,कर्मचारीको विवरण हेर्ने 
+7.1.1,Create,create_employee_details,Create Employee Details,कर्मचारीको विवरण थप्ने 
+7.1.2,Update,update_employee_details,Update Employee Details,कर्मचारीको विवरण सच्याउने 
+7.1.3,Delete,delete_employee_details,Delete Employee Details,कर्मचारीको विवरण मेटाउने 
+7.2,Department ,view_department,View Department,विभाग हेर्ने 
+7.2.1,Create,create_department,Create Department,विभाग थप्ने 
+7.2.2,Update,update_department,Update Department,विभाग सच्याउने 
+7.2.3,Delete,delete_department,Delete Department,विभाग मेटाउने 
+7.3,Type of Post,view_type_of_post,View Type of Post,पदको प्रकार हर्ने 
+7.3.1,Create,create_type_of_post,Create Type of Post,पदको प्रकार थप्ने 
+7.3.2,Update,update_type_of_post,Update Type of Post,पदको प्रकार सच्याउने 
+7.3.3,Delete,delete_type_of_post,Delete Type of Post,पदको प्रकार मेटाउने 
+7.4,Post Category Description,view_post_category_description,Post View Category Description , पद श्रेणी विवरण हेर्ने 
+7.4.1,Create,create_post_category_description,Create, पद श्रेणी विवरण थप्ने  
+7.4.2,Update,update_post_category_description,Update, पद श्रेणी विवरण सच्याउने 
+7.4.3,Delete,delete_post_category_description,Delete, पद श्रेणी विवरण मेटाउने 
+7.5,Approved Post Description,view_approved_post_description,View Approved Post Description,स्वीकृत पद विवरण हेर्ने 
+7.5.1,Create,create_approved_post_description,Create Approved Post Description,स्वीकृत पद विवरण थप्ने 
+7.5.2,Update,update_approved_post_description,Update Approved Post Description,स्वीकृत पद विवरण सच्याउने 
+7.5.3,Delete,delete_approved_post_description,Delete Approved Post Description,स्वीकृत पद विवरण मेटाउने 
+7.6,Representative Details ,view_representative_details ,View Representative Details ,जनप्रतिनिधिको विवरण हेर्ने 
+7.6.1,Create,create_representative_details ,Create Representative Details ,जनप्रतिनिधिको विवरण थप्ने 
+7.6.2,Update,update_representative_details ,Update Representative Details ,जनप्रतिनिधिको विवरण सच्याउने 
+7.6.3,Delete,delete_representative_details ,Delete Representative Details ,जनप्रतिनिधिको विवरण मेटाउने 
+7.7,Representative Post,view_representative_post,View Representative Post,जनप्रतिनिधिको पद हेर्ने 
+7.7.1,Create,create_representative_post,Create Representative Post,जनप्रतिनिधिको पद
+7.7.2,Update,update_representative_post,Update Representative Post,जनप्रतिनिधिको पद
+7.7.3,Delete,delete_representative_post,Delete Representative Post,जनप्रतिनिधिको पद
+7.8,Employee Type,view_employee_type,View Employee Type,
+7.8.1,Create,create_employee_type,Create Rmployee Type,
+7.8.2,Update,update_employee_type,Update Employee Type,
+7.8.3,Delete,delete_employee_type,Delete Employee Type,
+8,Remark,,,
+,,,,
+9,Reports,view_reports,View Reports,प्रतिवेदन हेर्ने 
+9.1,Contract Cost Report,view_contract_related_cost_report,View Contract Cost Report,ठेक्का सम्बन्धि लागत प्रतिवेदन हेर्ने 
+9.2,Project Bidding Details,view_project_bidding_details,View Project Bidding Details ,आयोजनाको बोलपत्र सम्बन्धी विवरण हेर्ने 
+9.3,List of projects to be completed,view_list_of_project_to_be_completed,View List of Projects To Be Completed,सम्पन्न हुन बाँकी आयोजनाको सुची हेर्ने 
+9.4,List of Projects Based on Operating Procedures,view_list_of_project_based_on_operating_procedures,view List of Projects Based on Operating Procedures,संचालन प्रक्रियाको आधारमा आयोजनाको सुची हेर्ने 
+9.5,Custom Report Template,view_custom_report_template,View Custom Report Template,कस्टम रिपोर्ट टेम्प्लेट हेर्ने 
+9.5.1,Create,create_custom_report_template,Create Custom Report Template,कस्टम रिपोर्ट टेम्प्लेट थप्ने 
+9.5.2,Update,update_custom_report_template,Update Custom Report Template,कस्टम रिपोर्ट टेम्प्लेट सच्याउने 
+9.5.3,Delete,delete_custom_report_template,Delete Custom Report Template,कस्टम रिपोर्ट टेम्प्लेट मेटाउने 
+9.6,Custom Report Fields Mapping,view_custom_report_template_filds_mapping,View Custom Report Fields Mapping,कस्टम रिपोर्ट टेम्प्लेट फिल्ड म्यापिंग हेर्ने 
+9.6.1,Create,create_custom_report_template_filds_mapping,Create Custom Report Fields Mapping,कस्टम रिपोर्ट टेम्प्लेट फिल्ड म्यापिंग थप्ने 
+9.6.2,Update,update_custom_report_template_filds_mapping,Update Custom Report Fields Mapping,कस्टम रिपोर्ट टेम्प्लेट फिल्ड म्यापिंग सच्याउने 
+9.6.3,Delete,delete_custom_report_template_filds_mapping,Delete Custom Report Fields Mapping,कस्टम रिपोर्ट टेम्प्लेट फिल्ड म्यापिंग मेटाउने 
+10,New Reports,view_new_reports, View New Reports,नयाँ प्रतिवेदन हेर्ने 
+10.1,Report as Per Project Level ,view_report_as_per_project_level,View Report as Per Project Level ,योजना स्तरको आधारमा प्रतिवेदन हेर्ने 
+10.2,Report By Plan Type,view_report_as_plan_type,View Report By Plan Type,योजनाको किसिमको आधारमा प्रतिवेदन हेर्ने 
+10.3,Report Based on Thematic Work Area,view_report_based_on_thematic_work_area,View Report Based on Thematic Work Area,विषयगत कार्य श्रेत्रका आधारमा प्रतिवेदन हेर्ने 
+10.4,Report on Contract Basis,view_report_on_contract_basis,View Report on Contract Basis,सम्झौताको आधारमा प्रतिवेदन
+10.5,Plan Payment Details Report,view_plan_payment_details_report,View Plan Payment Details Report,योजना भुक्तानी विवरण प्रतिवेदन हेर्ने 
+10.6,Physical Progress Details of The Project,view_physical_progress_details_of_the_projects,View Physical Progress Details of The Project,भौतिक पुर्वधार योजनाहरूको भौतिक प्रगती विवरण हेर्ने 
+11,User Managment,view_user_management ,View User Managment,प्रगोगकर्ता व्यवस्थापन हेर्ने 
+11.1,User Managment,view_user_management ,View User Managment,प्रगोगकर्ता व्यवस्थापन हेर्ने 
+11.1.1,Create,create_user_management ,Create User Managment,प्रगोगकर्ता व्यवस्थापन थप्ने 
+11.1.2,Update,update_user_management ,Update User Managment,प्रगोगकर्ता व्यवस्थापन सच्याउने 
+11.1.3,Delete,delete_user_management ,Delete User Managment,प्रगोगकर्ता व्यवस्थापन मेटाउने 
+11.1.1,User,view_user,View User ,प्रयोगकर्ता हेर्ने 
+11.1.1.1,Create,create_user,Create user,प्रयोगकर्ता थप्ने 
+11.1.1.2,Update,update_user,Update User,प्रयोगकर्ता सच्याउने 
+11.1.1.3,Delete,delete_user,Delete User,प्रयोगकर्ता मेटाउने 
+11.1.2,Role,view_role,View Role,भूमिका हेर्ने 
+11.1.2.1,Create,create_role,Create Role,भूमिका थप्ने  
+11.1.2.2,Update,update_role,Update Role,भूमिका सच्याउने  
+11.1.2.3,Delete,delete_role,Delete Role,भूमिका मेटाउने 
+11.1.3,Create Role,view_create_role,View Create Role,भूमिका थप्ने हेर्ने 
+11.1.4,User Activity,view_user_activity,View User Activity,प्रयोगकर्ता क्रियाकलाप हेर्ने 
+11.1.5,User Activity Changes,view_user_activity_changes,View User Activity Changes,प्रयोगकर्ताले गरेको परिवर्तनहरु 
+12,Admin Creation,view_admin_creation,View Admin Creation,व्यवस्थापक सिर्जना हेर्ने 
+12.1,Create,create_admin_creation,Create Admin Creation,व्यवस्थापक सिर्जना थप्ने 
+12.1,Update,update_admin_creation,Update Admin Creation,व्यवस्थापक सिर्जना सच्याउने 
+12.1,Delete,delete_admin_creation,Delete Admin Creation,व्यवस्थापक सिर्जना मेटाउने 
+13,Settings,view_settings,View Settings,सेटिंगहरु हेर्ने 
+,,,,
+14,Estimation,view_estimation,View Estimation,अनुमान हेर्ने 
+14.1,Projects,view_projects,View Projects,प्रोजेक्ट हेर्ने 
+14.1.1,Create,create_projects,Create Projects,प्रोजेक्ट थप्ने 
+14.1.2,Update,update_projects,Update Projects,प्रोजेक्ट सच्याउने 
+14.1.3,Delete,delete_projects,Delete Projects,प्रोजेक्ट मेटाउने 
+14.2,District Rate,view_district_rate,View District Rate,जिल्ला दररेट हेर्ने 
+14.2.1,Create,create_district_rate,Create District Rate,जिल्ला दररेट थप्ने 
+14.2.2,Update,update_district_rate,Update District Rate,जिल्ला दररेट सच्याउने 
+14.2.3,Delete,delete_district_rate,Delete District Rate,जिल्ला दररेट मेटाउने 
+14.3,Norms,view_norms,View Norms,नर्म्स हेर्ने 
+14.3.1,Create,create_norms,Create Norms,नर्म्स थप्ने 
+14.3.2,Update,update_norms,Update Norms,नर्म्स सच्याउने 
+14.3.3,Delete,delete_norms,Delete Norms,नर्म्स मेटाउने 

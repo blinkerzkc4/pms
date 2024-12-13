@@ -1,0 +1,20 @@
+[
+  {
+    "code": "ups_monitoring_committee_members_table|safe",
+    "name": "अनुगमन समिति सदस्यहरुको विवरण",
+    "name_eng": "Monitoring Committee Members Table",
+    "report_code": "{{ user_committee_monitoring.monitor_committee|create_table:'member_type.name सदस्य किसिम,member_position सदस्य पद,member_name नाम थर,phone_no सम्पर्क नं.' }}"
+  },
+  {
+    "code": "budget_allocation_detail_table|safe",
+    "name": "आयोजना लागत सम्बन्धि विवरणको टेबल",
+    "name_eng": "आयोजना लागत सम्बन्धि विवरण Table",
+    "report_code": "{{ user_committee_monitoring.monitor_committee|create_table:'member_type.name सदस्य किसिम,member_position सदस्य पद,member_name नाम थर,phone_no सम्पर्क नं.' }}"
+  },
+  {
+    "code": "ups_agreement_contract_table_2|safe",
+    "name": "उपभोक्ता समिति पदाधिकारीको विवरणको टेबल",
+    "name_eng": "उपभोक्ता समिति पदाधिकारीको विवरण Table",
+    "report_code": "{{consumer_formulation.cc.members|create_table:'member_type.name पद,name_and_address पदाधिकारीको नाम र ठेगाना,citizenship_no नागरिकता प्रमाणपत्र नं.,contact_detail.phone_number फोन नम्बर,father_name बाबुको नाम,grand_father_name बजेको नाम'}}"
+  }
+]

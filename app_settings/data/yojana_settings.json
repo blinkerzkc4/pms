@@ -1,0 +1,137 @@
+[
+  {
+    "value_type": "integer",
+    "code": "contingency_percent",
+    "name": "कन्टीनजेन्सी प्रतिशत",
+    "name_eng": "Contingency Percent",
+    "use_in_report": false,
+    "delete_this": true
+  },
+  {
+    "value_type": "float",
+    "code": "contingency_percent",
+    "name": "कन्टीनजेन्सी प्रतिशत",
+    "name_eng": "Contingency Percent",
+    "use_in_report": false
+  },
+  {
+    "value_type": "float",
+    "code": "overhead_percent",
+    "name": "ओभरहेड प्रतिशत",
+    "name_eng": "Overhead Percent",
+    "use_in_report": false
+  },
+  {
+    "value_type": "float",
+    "code": "janashramdan_percent",
+    "name": "जनआश्रमदान प्रतिशत",
+    "name_eng": "Janashramdan Percent",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "reduce_contingency_in_allocation",
+    "name": "कन्टीनजेन्सी विनियोजनमा घटाउने?",
+    "name_eng": "Reduce Contingency in Allocation?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "integer",
+    "code": "overhead_percent",
+    "name": "ओभरहेड प्रतिशत",
+    "name_eng": "Overhead Percent",
+    "use_in_report": false,
+    "delete_this": true
+  },
+  {
+    "value_type": "integer",
+    "code": "janashramdan_percent",
+    "name": "जनआश्रमदान प्रतिशत",
+    "name_eng": "Janashramdan Percent",
+    "use_in_report": false,
+    "delete_this": true
+  },
+  {
+    "value_type": "boolean",
+    "code": "add_janashramdan_in_allocation",
+    "name": "जनआश्रमदान विनियोजनमा जोड्ने?",
+    "name_eng": "Add Janashramdan in Allocation?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "nikasha__show_khud_bhuktani_amount_only",
+    "name": "निकास विवरणमा खुद भुक्तानी रकम मात्र देखाउने?",
+    "name_eng": "Nikasha: Show Khud Bhuktani Amount Only?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "nikasha__show_lagat_estimate_amount_only",
+    "name": "निकास विवरणमा लागत अनुमान रकम मात्र देखाउने?",
+    "name_eng": "Nikasha: Show Lagat Estimate Amount Only?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "turn_off_appropriation_cost_estimate_auto_calculation",
+    "name": "अनुमान लागत खुदै गणना गर्ने बन्द गर्ने?",
+    "name_eng": "Turn off appropriation cost estimate auto calculation?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "always_require_user_committee_member_dob",
+    "name": "उपभोक्ता समितिका सदस्यहरुको जन्म मिति अनिवार्य बनाउने?",
+    "name_eng": "Always require user committee member DOB?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "show_third_quarterly_month",
+    "name": "तेस्रो त्रैमासिक महिना देखाउने?",
+    "name_eng": "Show third quarterly month?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "separate_ward_tempalate_for_report",
+    "name": "वडा अनुसार रिपोर्ट तयार गर्ने?",
+    "name_eng": "Separate ward template for report?",
+    "use_in_report": false
+  },
+  {
+    "value_type": "boolean",
+    "code": "auto_generate_yojana_code",
+    "name": "योजना कोड खुदै बनाउने?",
+    "name_eng": "Auto generate yojana code?"
+  },
+  {
+    "value_type": "enum",
+    "code": "project_detail_calculation",
+    "name": "योजना विवरण गणना प्रक्रिया",
+    "name_eng": "Project Detail Calculation Process",
+    "options": [
+      {
+        "code": "manual",
+        "name_eng": "Manual",
+        "name": "म्यानुअल"
+      },
+      {
+        "code": "appropriation_janshramdan_own_cost",
+        "name_eng": "Appropriation Janashramdan, own cost estimate Calculation",
+        "name": "विनियोजन जनश्रमदान, आफ्नै लागत अनुमान गणना"
+      },
+      {
+        "code": "appropriation",
+        "name_eng": "Appropriation Cost Estimate Calculation",
+        "name": "विनियोजन लागत अनुमान गणना"
+      },
+      {
+        "code": "appropriation_janshramdan",
+        "name_eng": "Appropriation Cost Estimate with janshramdan Calculation",
+        "name": "जनश्रमदान गणनासंग विनियोजन लागत अनुमान गणना"
+      }
+    ]
+  }
+]

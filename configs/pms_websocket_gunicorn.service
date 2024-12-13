@@ -1,0 +1,24 @@
+[Unit]
+Description=PMS Core App Notifications Websocket Daphne
+Requires=pms_websocket_gunicorn.socket
+After=network.target
+
+[Service]
+User=pms
+Group=pms
+WorkingDirectory=/home/pms/projects/pms-backend
+ExecStart=/home/pms/projects/pms-backend/.venv/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --graceful-timeout=900 --timeout=900 \
+          --bind unix:/run/pms_websocket_gunicorn.sock \
+          pms_system.asgi:application \
+          -k uvicorn.workers.UvicornWorker
+
+[Install]
+WantedBy=multi-user.target
+
+ExecStart=/home/pms/projects/pms-backend/.venv/bin/python \
+          -m daphne \
+          -u /tmp/pms_websocket_gunicorn.sock \
+          pms_system.asgi:application

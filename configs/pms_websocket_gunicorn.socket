@@ -1,0 +1,8 @@
+[Unit]
+Description=PMS Core App Notification Sockets
+
+[Socket]
+ListenStream=/run/pms_websocket_gunicorn.sock
+
+[Install]
+WantedBy=sockets.target
